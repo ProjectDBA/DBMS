@@ -70,7 +70,7 @@ p {
     font-size: 20px;
     font-weight: 300;
     color: #000069;
-    border-width: 1px; /*좌상하우*/
+    border-width: 2px; /*좌상하우*/
     border-color: #000069;
 }
 
@@ -80,6 +80,6 @@ p {
     font-size: 20px;
     font-weight: 350;
     color: #000000;
-    border-width: 1px 1px 1px 2.5px; /*좌상하우*/
+    border-width: 2px; /*좌상하우*/
     border-color: #000069;
 }
