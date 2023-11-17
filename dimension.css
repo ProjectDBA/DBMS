@@ -59,6 +59,7 @@
 
 .page {
     display: none;
+    flex-direction: column;
 }
 
 #logo {
