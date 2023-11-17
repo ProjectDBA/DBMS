@@ -29,29 +29,32 @@ p {
     color: #000000;
     font-size: 30px;
     font-weight: 500;
-    
+
 }
 
 .sub-menu{
-    background-color: #AAB9FF;
+    background-color: #DCEBFF;
     font-family: Arial, sans-serif;
-    color: #000069;
+    color: #000000;
+    font-size: 30px;
     border-width: 2;
     border-color: #000069;
 }
 
 .base{
-    background-color: #BECDFF;
+    background-color: #E8F5FF;
+    font-size: 30px;
 }
 
 .contents{
-    background-color: #BECDFF;
+    background-color: #E8F5FF;
+    font-size: 30px;
 }
 
 .perform{
     background-color: #BECDFF;
     font-family: Arial, sans-serif;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 300;
     color: #000000;
     border-width: 2;
@@ -59,9 +62,9 @@ p {
 }
 
 .list{
-    background-color: #A0AFFF;
+    background-color: #DCEBFF	;
     font-family: Arial, sans-serif;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 350;
     color: #000000;
     border-width: 2;
