@@ -1,29 +1,12 @@
 /* style.css*/
 
-/*body{
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-}
-
-h1 {
-    color: #333;
-    font-size: 20px;
-    font-weight: 700;
-}
-
-p {
-    color: #333;
-    font-size: 16px;
-    line-height: 1.5;
-}*/
-
-
 .main-body{
     background-color: #DCEBFF;
     font-family: Arial, sans-serif;
     border-width: 0px;
     border-style:solid; 
     border-color: #000069;
+   
 }
 
 .header {
@@ -32,7 +15,7 @@ p {
     color: #000000;
     font-size: 30px;
     font-weight: 500;
-    border-width: 2px 2px 0px 2px; /*좌상하우*/ 
+    border-width: 2px 2px 0px 2px; 
     border-color: #000069;
     border-style:solid;
 }
@@ -76,9 +59,10 @@ p {
     font-size: 20px;
     font-weight: 300;
     color: #000069;
-    border-width: 2px; /*좌상하우*/
+    border-width: 2px; 
     border-color: #000069;
     border-style:solid;
+    border-radius: 30px;
 }
 
 .list{
@@ -87,7 +71,9 @@ p {
     font-size: 20px;
     font-weight: 350;
     color: #000000;
-    border-width: 2.5px; /*좌상하우*/
+    border-width: 2.5px; 
     border-color: #000069;
     border-style:solid;
+    border-radius: 30px;
 }
+
