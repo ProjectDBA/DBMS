@@ -19,12 +19,12 @@ p {
 
 
 .main-body{
-    background-color: #E8F5FF;
+    background-color: #F4FFFF;
     font-family: Arial, sans-serif;
 }
 
 .header {
-    background-color: #E8F5FF;
+    background-color: #ced9fc;
     font-family: Arial, sans-serif;
     color: #000000;
     font-size: 30px;
@@ -33,40 +33,47 @@ p {
 }
 
 .sub-menu{
-    background-color: #DCEBFF;
+    background-color: #cbd7ff;
     font-family: Arial, sans-serif;
-    color: #000000;
-    font-size: 30px;
-    border-width: 2;
+    border-width: 5;
     border-color: #000069;
 }
 
+.sub-menu-list{
+    background-color: #cbd7ff;
+    font-family: Arial, sans-serif;
+    color: #000069;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+
 .base{
-    background-color: #E8F5FF;
+    background-color: #ced9fc;
     font-size: 30px;
 }
 
 .contents{
-    background-color: #E8F5FF;
+    background-color: #ced9fc;
     font-size: 30px;
 }
 
 .perform{
-    background-color: #BECDFF;
+    background-color: #DCEBFF;
     font-family: Arial, sans-serif;
     font-size: 20px;
     font-weight: 300;
-    color: #000000;
-    border-width: 2;
+    color: #000069;
+    border-width: 5;
     border-color: #000069;
 }
 
 .list{
-    background-color: #DCEBFF	;
+    background-color: #ced9fc;
     font-family: Arial, sans-serif;
     font-size: 20px;
     font-weight: 350;
     color: #000000;
-    border-width: 2;
+    border-width: 5;
     border-color: #000069;
 }
