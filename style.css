@@ -19,19 +19,22 @@ p {
 
 
 .main-body{
-    background-color: #F4FFFF;
+    background-color: #DCEBFF;
     font-family: Arial, sans-serif;
     border-width: 0px;
+    border-style:solid; 
+    border-color: #000069;
 }
 
 .header {
-    background-color: #ced9fc;
+    background-color: #DCEBFF;
     font-family: Arial, sans-serif;
     color: #000000;
     font-size: 30px;
     font-weight: 500;
     border-width: 2px 2px 0px 2px; /*좌상하우*/ 
     border-color: #000069;
+    border-style:solid;
 }
 
 .sub-menu{
@@ -39,6 +42,8 @@ p {
     font-family: Arial, sans-serif;
     border-width: 3.5px;
     border-color: #000069;
+    border-style:solid;
+
 }
 
 .sub-menu-list{
@@ -49,29 +54,31 @@ p {
     font-weight: 600;
 }
 
-
 .base{
     background-color: #ced9fc;
     font-size: 30px;
     border-width: 0px;
     border-color: #000069;
+    border-style: solid;
 }
 
 .contents{
-    background-color: #ced9fc;
+    background-color: #DCEBFF;
     font-size: 30px;
-    border-width: 2px 0px 2px 2px;
+    border-width: 0px 2px 2px 2px;
     border-color: #000069;
+    border-style:solid;
 }
 
 .perform{
-    background-color: #DCEBFF;
+    background-color: #ced9fc;
     font-family: Arial, sans-serif;
     font-size: 20px;
     font-weight: 300;
     color: #000069;
     border-width: 2px; /*좌상하우*/
     border-color: #000069;
+    border-style:solid;
 }
 
 .list{
@@ -82,4 +89,5 @@ p {
     color: #000000;
     border-width: 2.5px; /*좌상하우*/
     border-color: #000069;
+    border-style:solid;
 }
