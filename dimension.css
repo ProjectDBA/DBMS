@@ -1,8 +1,8 @@
 .main-body {
     display:flex;
     flex-direction: column;
-    width: 90vw; /* 100% of viewport width */
-    height: 90vh; /* 100% of viewport height */
+    width: 1500px;
+    height: 900px;
 }
 
 .header {
@@ -20,6 +20,21 @@
     display:flex;
     justify-content: space-around;
     flex-grow: 1;
+    
+
+}
+
+.sub-menu-list:hover {
+    color: black;
+    font-size: 15px;
+    text-decoration-line: none;
+    text-align: center;
+    border: 1px solid black;
+    padding: 0.5em 2em;
+    margin-top: 2em;
+    display: inline-block;
+    transition: background 0.5s ease-in-out,
+                color 0.5s ease-in-out;
 }
 
 .contents {
