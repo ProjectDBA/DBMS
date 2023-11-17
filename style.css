@@ -21,6 +21,7 @@ p {
 .main-body{
     background-color: #F4FFFF;
     font-family: Arial, sans-serif;
+    border-width: 0px;
 }
 
 .header {
@@ -29,13 +30,14 @@ p {
     color: #000000;
     font-size: 30px;
     font-weight: 500;
-
+    border-width: 2px 2px 0px 2px; /*좌상하우*/ 
+    border-color: #000069;
 }
 
 .sub-menu{
     background-color: #cbd7ff;
     font-family: Arial, sans-serif;
-    border-width: 5;
+    border-width: 3.5px;
     border-color: #000069;
 }
 
@@ -51,11 +53,15 @@ p {
 .base{
     background-color: #ced9fc;
     font-size: 30px;
+    border-width: 0px;
+    border-color: #000069;
 }
 
 .contents{
     background-color: #ced9fc;
     font-size: 30px;
+    border-width: 2px;
+    border-color: #000069;
 }
 
 .perform{
@@ -64,7 +70,7 @@ p {
     font-size: 20px;
     font-weight: 300;
     color: #000069;
-    border-width: 5;
+    border-width: 1px; /*좌상하우*/
     border-color: #000069;
 }
 
@@ -74,6 +80,6 @@ p {
     font-size: 20px;
     font-weight: 350;
     color: #000000;
-    border-width: 5;
+    border-width: 1px 1px 1px 2.5px; /*좌상하우*/
     border-color: #000069;
 }
