@@ -33,7 +33,7 @@
 
 .sub-menu-list:hover {
     color: red;
-    text-decoration-line: none;
+    text-decoration-line: underline;
     text-align: center;
     transition: background 0.3s ease-in-out,
                 color 0.3s ease-in-out;
@@ -48,11 +48,13 @@
 .list {
     display:flex;
     flex-grow: 1;
+    margin: 10px;
 }
 
 .perform {
     display:flex;
     flex-grow: 2;
+    margin: 10px;
 }
 
 .page {
