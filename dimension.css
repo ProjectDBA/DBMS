@@ -1,0 +1,40 @@
+.main-body {
+    display:flex;
+    flex-direction: column;
+    width: 90vw; /* 100% of viewport width */
+    height: 90vh; /* 100% of viewport height */
+}
+
+.header {
+    display:flex;
+    flex-grow: 1;
+}
+
+.base {
+    display:flex;
+    flex-direction: column;
+    flex-grow: 9;
+}
+
+.sub-menu {
+    display:flex;
+    justify-content: space-around;
+    flex-grow: 1;
+}
+
+.contents {
+    display:flex;
+    justify-content: space-around;
+    flex-grow: 8;
+}
+
+.list {
+    display:flex;
+    flex-grow: 1;
+}
+
+.perform {
+    display:flex;
+    flex-grow: 2;
+}
+
