@@ -60,3 +60,11 @@
 .page {
     display: none;
 }
+
+#logo {
+    flex-grow: 1;
+}
+
+#input {
+    flex-grow: 3;
+}
