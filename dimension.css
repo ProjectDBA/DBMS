@@ -55,3 +55,6 @@
     flex-grow: 2;
 }
 
+.page {
+    display: none;
+}
