@@ -171,19 +171,42 @@
                         </table>
 
                         <p>Sound :</p>
-
-                        <tr>
-                            <td>Stereo Speaker</td>
-                            <td>Stereo Speaker data</td>
-                        </tr>
-                        <tr>
-                            <td>3.5mm Jack</td>
-                            <td>3.5mm Jack data</td>
-                         </tr>
+                        <table>
+                        <td rowspan="3">Camera</td>
+                            <tr>
+                                <td>Stereo Speaker</td>
+                                <td>Stereo Speaker data</td>
+                            </tr>
+                            <tr>
+                                <td>3.5mm Jack</td>
+                                <td>3.5mm Jack data</td>
+                            </tr>
+                        </table>
                         
-                        <p>Price :</p>
-                        <p>Manufacturer :</p>
                         <p>Display :</p>
+                        <table>
+                        <td rowspan="6">Camera</td>
+                            <tr>
+                                <td>Type</td>
+                                <td>Type data</td>
+                            </tr>
+                            <tr>
+                                <td>Size</td>
+                                <td>Size data</td>
+                            </tr>
+                            <tr>
+                                <td>Resolution</td>
+                                <td>Resolution data</td>
+                            </tr>
+                            <tr>
+                                <td>Protection</td>
+                                <td>Protection data</td>
+                            </tr>
+                            <tr>
+                                <td>Always on Display</td>
+                                <td>Always on Display data</td>
+                            </tr>
+
                         <p>Body :</p>
                         
                         
@@ -194,7 +217,7 @@
             </div>
         </div>
     </div>
-    <script src="javascript.js"></script>
+    <?php include ("javascript.php"); ?>
 </body>
 
 </html>
