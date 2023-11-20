@@ -64,6 +64,9 @@
 
 #mainpage {
     display: flex;
+    flex-grow: 1;
+    border: none;
+    text-align: center;
 }
 
 #logo {
