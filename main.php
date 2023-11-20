@@ -162,8 +162,8 @@
                             </tr>
                         <td rowspan="6">Display</td>
                             <tr>
-                                <td>Type</td>
-                                <td id="DisplayType">Type data</td>
+                                <td class="attri">Type</td>
+                                <td id="DisplayTypeData">Type data</td>
                             </tr>
                             <tr>
                                 <td>Size</td>
