@@ -1,3 +1,5 @@
+<?php include ("idconfig_project.php"); ?>
+
 <!DOCTYPE html>
 <html lang="KO">
 
