@@ -49,7 +49,6 @@
                     </div>
                     <div class="page" id="page1">
                         <h1>Phone Name</h1>
-                        <p>Platform :</p>
                         <table>
                             <tr>
                                 <td rowspan="4">Platform</td>
@@ -76,14 +75,10 @@
                                 <td>GPU</td>
                                 <td>GPU data</td>
                             </tr>
-                        </table>
-                        
-                        <p>Memory :</p>
-                        <table>
                             <td rowspan="4">Memory</td>
                             <tr>
-                                <td>Max Storage</td>
-                                <td>Max Storage data</td>
+                                <td colspan="2">Max Storage</td>
+                                <td colspan="2">Max Storage data</td>
                             </tr>
                             <tr>
                                 <td>Max Ram</td>
@@ -93,10 +88,6 @@
                                 <td>Card Slot</td>
                                 <td>Card Slot data</td>
                             </tr>
-                        </table>
-                        
-                        <p>Battery :</p>
-                        <table>
                             <td rowspan="4">Battery</td>
                             <tr>
                                 <td>Size</td>
@@ -110,10 +101,6 @@
                                 <td>Wire less Charging Speed</td>
                                 <td>Wire less Charging Speed data</td>
                             </tr>
-                        </table>
-
-                        <p>Comms :</p>
-                        <table> 
                             <td rowspan="6">Comms</td>
                             <tr>
                                 <td>Fingerprint</td>
@@ -135,10 +122,6 @@
                                 <td>USB Type</td>
                                 <td>USB Type data</td>
                             </tr>
-                        </table>
-
-                        <p>Camera :</p>
-                        <table>
                             <td rowspan="8">Camera</td>
                             <tr>
                                 <td>Main Single</td>
@@ -168,10 +151,6 @@
                                 <td>Front Multi</td>
                                 <td>Front Multi data</td>
                             </tr>
-                        </table>
-
-                        <p>Sound :</p>
-                        <table>
                         <td rowspan="3">Camera</td>
                             <tr>
                                 <td>Stereo Speaker</td>
@@ -181,14 +160,10 @@
                                 <td>3.5mm Jack</td>
                                 <td>3.5mm Jack data</td>
                             </tr>
-                        </table>
-                        
-                        <p>Display :</p>
-                        <table>
-                        <td rowspan="6">Camera</td>
+                        <td rowspan="6">Display</td>
                             <tr>
                                 <td>Type</td>
-                                <td>Type data</td>
+                                <td id="DisplayType">Type data</td>
                             </tr>
                             <tr>
                                 <td>Size</td>
@@ -217,7 +192,10 @@
             </div>
         </div>
     </div>
-    <?php include ("javascript.php"); ?>
+    <?php
+        include ("javascript.php");
+        include ("js.php");
+    ?>
 </body>
 
 </html>
