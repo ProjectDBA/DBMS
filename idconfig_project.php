@@ -1,5 +1,5 @@
 <?php
-$servername = "localhost:3306";
+$servername = "localhost:3306";//172.30.69.41
 $username = "root";
 $password = "011126";
 $dbname = "world";//나중에 수정 필요
