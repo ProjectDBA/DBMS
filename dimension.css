@@ -46,7 +46,7 @@
 }
 
 .list {
-    display:flex;
+    display:none;
     flex-grow: 1;
     margin: 10px;
 }
@@ -60,6 +60,13 @@
 .page {
     display: none;
     flex-direction: column;
+}
+
+#mainpage {
+    display: flex;
+    flex-grow: 1;
+    border: none;
+    text-align: center;
 }
 
 #logo {
