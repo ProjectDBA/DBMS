@@ -59,12 +59,12 @@
 
 .page {
     display: none;
+    flex-grow: 3;
     flex-direction: column;
 }
 
 #mainpage {
     display: flex;
-    flex-grow: 1;
     border: none;
     text-align: center;
 }

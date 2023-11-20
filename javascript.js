@@ -27,7 +27,7 @@ menu2.addEventListener('click', function() {
     page3.style.display = 'none';
 });
 
-menu3.addEventListener('click', function() {
+menu3.addEventLqistener('click', function() {
     // 페이지 전환
     mainpage.style.display = 'none';
     list.style.display = 'none';
