@@ -1,3 +1,5 @@
+<?php include ("idconfig_project.php"); ?>
+
 <!DOCTYPE html>
 <html lang="KO">
 
@@ -168,12 +170,22 @@
                             </tr>
                         </table>
 
+                        <p>Sound :</p>
+
+                        <tr>
+                            <td>Stereo Speaker</td>
+                            <td>Stereo Speaker data</td>
+                        </tr>
+                        <tr>
+                            <td>3.5mm Jack</td>
+                            <td>3.5mm Jack data</td>
+                         </tr>
                         
                         <p>Price :</p>
                         <p>Manufacturer :</p>
                         <p>Display :</p>
                         <p>Body :</p>
-                        <p>Sound :</p>
+                        
                         
                     </div>
                     <div class="page" id="page2">P2</div>
