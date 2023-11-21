@@ -77,3 +77,14 @@
     border-radius: 30px;
 }
 
+.attri{
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 450;
+}
+
+.relation{
+    font-family: Arial, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
