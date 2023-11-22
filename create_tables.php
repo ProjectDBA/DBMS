@@ -6,6 +6,8 @@ mysqli_select_db($conn, $dbname) or die('DB selection failed');
 // 선택한 값 받아오기
 $selectedValue = isset($_POST['selected']) ? $_POST['selected'] : '';
 
+echo "console.log(", $selectedValue, ");";
+
 $sql = "
 SELECT T.Tel_Type, T.Price, T.GeekbenchPerformance, T.Manufacturer_ID, T.Announced, T.Released, 
 P.OS, P.Chipset, P.CPU, P.GPU, 
