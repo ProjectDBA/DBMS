@@ -57,9 +57,6 @@
             </div>
         </div>
     </div>
-    <?php
-        include "create_table.php";
-    ?>
     <script type='text/javascript' src='javascript.js'></script>
 </body>
 
