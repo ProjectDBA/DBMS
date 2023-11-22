@@ -11,7 +11,6 @@ const page2 = document.getElementById('page2');
 const page3 = document.getElementById('page3');
 
 menu1.addEventListener('click', function() {
-    // ������ ��ȯ
     mainpage.style.display = 'none';
     list.style.display = 'flex';
     page1.style.display = 'flex';
@@ -20,7 +19,6 @@ menu1.addEventListener('click', function() {
 });
 
 menu2.addEventListener('click', function() {
-    // ������ ��ȯ
     mainpage.style.display = 'none';
     list.style.display = 'none';
     page1.style.display = 'none';
@@ -29,7 +27,6 @@ menu2.addEventListener('click', function() {
 });
 
 menu3.addEventListener('click', function() {
-    // ������ ��ȯ
     mainpage.style.display = 'none';
     list.style.display = 'none';
     page1.style.display = 'none';

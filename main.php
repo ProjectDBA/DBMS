@@ -21,7 +21,6 @@
 </head>
 
 <body>
-    <script type='text/javascript' src='javascript.js'></script>
     <div class="main-body">
         <div class="header">
             <div id="logo">
@@ -61,6 +60,7 @@
     <?php
         include "create_table.php";
     ?>
+    <script type='text/javascript' src='javascript.js'></script>
 </body>
 
 </html>
