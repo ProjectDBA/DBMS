@@ -1,22 +1,12 @@
-<script>
-    var list = document.getElementById("list");
+<?php
+include 'idconfig_project.php'; 
 
-    list.addEventListener('click', function handleClick(event){
-        var selected = event.target.innerHTML;
-    });
-
-</script>
-
-<?php include 'idconfig_project.php'; 
-
-// db선택
-$dbname = ''; //db선택 !!!!!!!!!!!!!!!!!
 mysqli_select_db($conn, $dbname) or die('DB selection failed');
 
-$sql = "
-SELECT *
-FROM ? JOIN ? JOIN ?...
-";
+// 선택한 값 받아오기
+$selectedValue = isset($_GET['selected']) ? $_GET['selected'] : '';
+
+$sql = "SELECT * FROM Telephone WHERE Tel_Type = '$selectedValue';";
 //sql문 작성 !!!!!!!!!!!!!!!!!!
 
 $result = $conn->query($sql);
