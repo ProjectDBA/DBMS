@@ -1,16 +1,17 @@
-var list = document.getElementById("list");
+list = document.getElementById("list");
 
-list.addEventListener('click', function handleClick(event) {
+list.addEventListener('click', function(event) {
     var selected = event.target.innerHTML;
+    console.log(selected);
 
     var xhr = new XMLHttpRequest();
     xhr.onreadystatechange = function() {
         if (xhr.readyState == 4 && xhr.status == 200) {
-            console.log('¼­¹ö·ÎºÎÅÍÀÇ ÀÀ´ä:', xhr.responseText);
+            console.log('ï¿½ï¿½ï¿½ï¿½ï¿½Îºï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½:', xhr.responseText);
         }
     };
 
-    // PHP ÆÄÀÏÀÇ °æ·Î¸¦ ÀûÀýÈ÷ ¼öÁ¤
+    // PHP ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Î¸ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
     xhr.open('GET', 'create_tables.php?selected=' + encodeURIComponent(selected), true);
     xhr.send();
 });

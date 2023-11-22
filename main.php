@@ -7,6 +7,7 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./dimension.css">
+
     <title>site</title>
     <style>
         div {
@@ -20,6 +21,7 @@
 </head>
 
 <body>
+    <script type='text/javascript' src="create_table.js"></script>
     <div class="main-body">
         <div class="header">
             <div id="logo">
@@ -207,8 +209,8 @@
         </div>
     </div>
     <?php
-        include ("javascript.php");
-        include ("js.php");
+        include "javascript.php";
+        include "js.php";
     ?>
 </body>
 

@@ -18,5 +18,5 @@
 
 <script>
    var n = "<?php echo $name ?>"
-   document.getElementById("DisplayType").innerHTML = n;
+   document.getElementById("DisplayTypeData").innerHTML = n;
 </script>
