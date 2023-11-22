@@ -1,5 +1,5 @@
 function gettext(event) {
-    var selected = event.target.innerText;
+    var selected = event.innerText;
     console.log(selected);
 
     var xhr = new XMLHttpRequest();
