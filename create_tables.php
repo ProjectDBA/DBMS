@@ -7,7 +7,7 @@ mysqli_select_db($conn, $dbname) or die('DB selection failed');
 $selectedValue = isset($_GET['selected']) ? $_GET['selected'] : '';
 
 $sql = "
-SELECT T.Tel_Tpye, T.Price, T.GeekbenchPerformance, T.Manufacturer_ID, T.Announced, T.Released, 
+SELECT T.Tel_Type, T.Price, T.GeekbenchPerformance, T.Manufacturer_ID, T.Announced, T.Released, 
 P.OS, P.Chipset, P.CPU, P.GPU, 
 M.Max_Storage, M.Max_Ram, M.Card_Slot
 FROM Telephone T
