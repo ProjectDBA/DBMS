@@ -1,7 +1,7 @@
 <?php ?>
 
 <script>
-    // JavaScript ÄÚµå
+    // JavaScript ï¿½Úµï¿½
     const menu1 = document.getElementById('sub-menu1');
     const menu2 = document.getElementById('sub-menu2');
     const menu3 = document.getElementById('sub-menu3');
@@ -13,7 +13,7 @@
     const page3 = document.getElementById('page3');
 
     menu1.addEventListener('click', function() {
-        // ÆäÀÌÁö ÀüÈ¯
+        // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È¯
         mainpage.style.display = 'none';
         list.style.display = 'flex';
         page1.style.display = 'flex';
@@ -22,7 +22,7 @@
     });
 
     menu2.addEventListener('click', function() {
-        // ÆäÀÌÁö ÀüÈ¯
+        // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È¯
         mainpage.style.display = 'none';
         list.style.display = 'none';
         page1.style.display = 'none';
@@ -30,8 +30,8 @@
         page3.style.display = 'none';
     });
 
-    menu3.addEventLqistener('click', function() {
-        // ÆäÀÌÁö ÀüÈ¯
+    menu3.addEventListener('click', function() {
+        // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È¯
         mainpage.style.display = 'none';
         list.style.display = 'none';
         page1.style.display = 'none';
