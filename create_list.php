@@ -7,11 +7,11 @@ $sql = "SELECT Tel_Type From Telephone;";
 
 $result = $conn->query($sql);
 
-echo "<ul id='listt'>";
+echo "<ul>";
 if($result->num_rows > 0){
     //�����Ͱ� �ִ� ��� ����
 	while($row = $result->fetch_assoc()){
-		echo "<li>", $row["Tel_Type"], "</li>";
+		echo "<li onclick='gettext(this);'>", $row["Tel_Type"], "</li>";
 	}
 }else{
     // �����Ͱ� ���� ��� ����
