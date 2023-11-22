@@ -53,6 +53,27 @@
                         <h1>Phone Name</h1>
                         <table>
                             <tr>
+                                <td class="relation" rowspan="4">Telephone</td>
+                                <td class="attri">Price</td>
+                                <td id="TelephonePriceData">Price data</td>
+                            </tr>
+                            <tr>
+                                <td class="attri">Geekbench Performance</td>
+                                <td id="TelephoneGeekbenchPerformanceData">Geekbench Performance data</td>
+                            </tr>
+                            <tr>
+                                <td class="attri">Manufacturer ID</td>
+                                <td id="TelephoneManufacturerIDData">Manufacturer ID data</td>
+                            </tr>
+                            <tr>
+                                <td class="attri">Released</td>
+                                <td id="TelephoneReleasedData">Released data</td>
+                            </tr>
+                            <tr>
+                                <td class="attri">Announced</td>
+                                <td id="TelephoneAnnouncedData">Announced data</td>
+                            </tr>
+                            <tr>
                                 <td class="relation" rowspan="4">Platform</td>
                                 <td class="attri">OS</td>
                                 <td id="PlatformOSData">OS data</td>

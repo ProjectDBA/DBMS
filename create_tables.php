@@ -7,11 +7,19 @@ mysqli_select_db($conn, $dbname) or die('DB selection failed');
 $selectedValue = isset($_GET['selected']) ? $_GET['selected'] : '';
 
 $sql = "
-SELECT *
+SELECT Price,GeekbenchPerformance,Manufacturer_ID,Announced,Released
+FROM Telephone
+WHERE Tel_Type = '$selectedValue';
+";
+
+$sql = "
+SELECT (
 FROM Telephone T
 JOIN Platform P
 WHERE Tel_Type = '$selectedValue';
 ";
+
+
 //sql¹® ÀÛ¼º !!!!!!!!!!!!!!!!!!
 
 $result = $conn->query($sql);
