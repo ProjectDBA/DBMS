@@ -45,7 +45,7 @@
                     <?php include ("create_list.php"); ?>
                 </div>
                 <div class="perform">
-                    <div class="page" id="mainpage">
+                    <div class="page" id="mainpage" style='width:100%'>
                         This is MainPage
                     </div>
                     <div class="page" id="page1">
