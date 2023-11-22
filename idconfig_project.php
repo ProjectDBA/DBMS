@@ -1,8 +1,8 @@
 <?php
-$servername = "localhost:3306";//172.30.69.41
+$servername = "localhost:3306";//172.30.70.17
 $username = "root";
-$password = "011126";
-$dbname = "world";//나중에 수정 필요
+$password = "0000";
+$dbname = "project _ db";//나중에 수정 필요
 
 // Create connection_aborted
 $conn = new mysqli($servername, $username, $password, $dbname);
