@@ -31,53 +31,53 @@ if($result->num_rows > 0){
 			<tr>
 				<td class='relation' rowspan='5'>Telephone</td>
 				<td class='attri'>Price</td>
-				<td id='TelephonePriceData'>", $row["T.Price"], "</td>
+				<td id='TelephonePriceData'>", $row["Price"], "</td>
 			</tr>
 			<tr>
 				<td class='attri'>Geekbench Performance</td>
-				<td id='TelephoneGeekbenchPerformanceData'>", $row["T.GeekbenchPerformance"], "</td>
+				<td id='TelephoneGeekbenchPerformanceData'>", $row["GeekbenchPerformance"], "</td>
 			</tr>
 			<tr>
 				<td class='attri'>Manufacturer ID</td>
-				<td id='TelephoneManufacturerIDData'>", $row["T.Manufacturer_ID"], "</td>
+				<td id='TelephoneManufacturerIDData'>", $row["Manufacturer_ID"], "</td>
 			</tr>
 			<tr>
 				<td class='attri'>Released</td>
-				<td id='TelephoneReleasedData'>", $row["T.Released"], "</td>
+				<td id='TelephoneReleasedData'>", $row["Released"], "</td>
 			</tr>
 			<tr>
 				<td class='attri'>Announced</td>
-				<td id='TelephoneAnnouncedData'>", $row["T.Announced"], "</td>
+				<td id='TelephoneAnnouncedData'>", $row["Announced"], "</td>
 			</tr>
 			<tr>
 				<td class='relation' rowspan='4'>Platform</td>
 				<td class='attri'>OS</td>
-				<td id='PlatformOSData'>", $row["P.OS"], "</td>
+				<td id='PlatformOSData'>", $row["OS"], "</td>
 			</tr>
 			<tr>
 				<td class='attri'>Chipset</td>
-				<td id='PlatformChipsetData'>", $row["P.Chipset"], "</td>
+				<td id='PlatformChipsetData'>", $row["Chipset"], "</td>
 			</tr>
 			<tr>
 				<td class='attri'>CPU</td>
-				<td id='PlatformCPUData'>", $row["P.CPU"], "</td>
+				<td id='PlatformCPUData'>", $row["CPU"], "</td>
 			</tr>
 			<tr>
 				<td class='attri'>GPU</td>
-				<td id='PlatformGPUData'>", $row["P.GPU"], "</td>
+				<td id='PlatformGPUData'>", $row["GPU"], "</td>
 			</tr>
 			<td class='relation' rowspan='4>Memory</td>
 			<tr>
 				<td class='attri'>Max Storage</td>
-				<td id='PlatformMaxStorageData'>", $row["M.Max_Storage"], "</td>
+				<td id='PlatformMaxStorageData'>", $row["Max_Storage"], "</td>
 			</tr>
 			<tr>
 				<td class='attri'>Max Ram</td>
-				<td id='PlatformMaxRamData'>", $row["M.Max_Ram"], "</td>
+				<td id='PlatformMaxRamData'>", $row["Max_Ram"], "</td>
 			</tr>
 			<tr>
 				<td class='attri'>Card Slot</td>
-				<td id='PlatformCardSlotData'>", $row["M.Card_Slot"], "</td>
+				<td id='PlatformCardSlotData'>", $row["Card_Slot"], "</td>
 				</tr>
 			</table>";
 			//여기에 표 작성 !!!!!!!!!!!!!!!!!!!!
