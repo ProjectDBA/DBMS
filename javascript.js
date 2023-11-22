@@ -40,6 +40,7 @@ function gettext(event) {
     var xhr = new XMLHttpRequest();
     xhr.onreadystatechange = function() {
         if (xhr.readyState == 4 && xhr.status == 200) {
+            page1.innerHTML= xhr.responseText;
             console.log('Process:', xhr.responseText);
         }
     };
