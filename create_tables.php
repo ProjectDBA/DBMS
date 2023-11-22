@@ -25,7 +25,7 @@ $result = $conn->query($sql);
 
 if($result->num_rows > 0){
     //데이터가 있는 경우 실행
-	while($row = $result->fetch_assoc()){
+	while ($row = $result->fetch_assoc()) {
 		echo
 		"<h1>", $row["Tel_Type"], "</h1>
 		<table>
@@ -67,8 +67,8 @@ if($result->num_rows > 0){
 				<td class='attri'>GPU</td>
 				<td id='PlatformGPUData'>", $row["GPU"], "</td>
 			</tr>
-			<td class='relation' rowspan='4'>Memory</td>
 			<tr>
+				<td class='relation' rowspan='4'>Memory</td>
 				<td class='attri'>Max Storage</td>
 				<td id='PlatformMaxStorageData'>", $row["Max_Storage"], "</td>
 			</tr>
@@ -79,10 +79,10 @@ if($result->num_rows > 0){
 			<tr>
 				<td class='attri'>Card Slot</td>
 				<td id='PlatformCardSlotData'>", $row["Card_Slot"], "</td>
-				</tr>
-			</table>";
-			//여기에 표 작성 !!!!!!!!!!!!!!!!!!!!
+			</tr>
+		</table>";
 	}
+			//여기에 표 작성 !!!!!!!!!!!!!!!!!!!
 }else{
     // 데이터가 없는 경우 실행
 	echo "0 Results";
