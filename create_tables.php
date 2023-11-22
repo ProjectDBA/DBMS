@@ -15,7 +15,7 @@ JOIN Platform P
 on T.Tel_Type = P.Tel_Type
 JOIN memory M
 on T.Tel_Type = M.Tel_Type
-WHERE Tel_Type = '$selectedValue';
+WHERE T.Tel_Type = '$selectedValue';
 ";
 //sqlπÆ ¿€º∫ !!!!!!!!!!!!!!!!!!
 
