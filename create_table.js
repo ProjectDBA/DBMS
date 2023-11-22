@@ -9,7 +9,7 @@ function gettext(event) {
         }
     };
 
-    // PHP ������ ��θ� ������ ����
-    xhr.open('GET', 'create_tables.php?selected=' + encodeURIComponent(selected), true);
+    // PHP ������ ��θ�? ������ ����
+    xhr.open('POST', 'create_tables.php?selected=' + encodeURIComponent(selected), true);
     xhr.send();
 };
