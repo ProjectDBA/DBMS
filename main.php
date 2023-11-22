@@ -50,7 +50,7 @@
                         This is MainPage
                     </div>
                     <div class="page" id="page1">
-                        
+                        <?php include "create_tables.php"; ?>
                     </div>
                     <div class="page" id="page2">P2</div>
                     <div class="page" id="page3">P3</div>
