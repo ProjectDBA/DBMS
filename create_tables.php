@@ -26,7 +26,8 @@ $result = $conn->query($sql);
 if($result->num_rows > 0){
     //데이터가 있는 경우 실행
 	while($row = $result->fetch_assoc()){
-		echo "<h1>", $row["Tel_Type"], "</h1>
+		echo <html>
+		"<h1>", $row["Tel_Type"], "</h1>
 		<table>
 			<tr>
 				<td class='relation' rowspan='5'>Telephone</td>
@@ -79,7 +80,8 @@ if($result->num_rows > 0){
 				<td class='attri'>Card Slot</td>
 				<td id='PlatformCardSlotData'>", $row["Card_Slot"], "</td>
 				</tr>
-			</table>";
+			</table>"
+			</html>;
 			//여기에 표 작성 !!!!!!!!!!!!!!!!!!!!
 	}
 }else{
