@@ -8,8 +8,7 @@ function gettext(event) {
         }
     };
 
-    // PHP ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Î¸ï¿? ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
-    xhr.open('POST', 'main.php', true);
+    xhr.open('POST', 'create_tables.php', true);
     xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
-    xhr.send('selected=' + encodeURIComponent(selected));;
+    xhr.send('selected=' + encodeURIComponent(selected));
 };
