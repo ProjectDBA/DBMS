@@ -67,7 +67,7 @@ if($result->num_rows > 0){
 				<td class='attri'>GPU</td>
 				<td id='PlatformGPUData'>", $row["GPU"], "</td>
 			</tr>
-			<td class='relation' rowspan='4>Memory</td>
+			<td class='relation' rowspan='4'>Memory</td>
 			<tr>
 				<td class='attri'>Max Storage</td>
 				<td id='PlatformMaxStorageData'>", $row["Max_Storage"], "</td>
