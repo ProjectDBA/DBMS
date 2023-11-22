@@ -41,7 +41,7 @@
             </div>
             <div class="contents">
                 <div class="list" id="list">
-                    
+                    <?php include ("create_list.php"); ?>
                 </div>
                 <div class="perform">
                     <div class="page" id="mainpage">
