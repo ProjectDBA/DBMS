@@ -7,7 +7,7 @@ $sql = "SELECT Tel_Type From Telephone;";
 
 $result = $conn->query($sql);
 
-echo "<ul id='list'>";
+echo "<ul id='listt'>";
 if($result->num_rows > 0){
     //�����Ͱ� �ִ� ��� ����
 	while($row = $result->fetch_assoc()){

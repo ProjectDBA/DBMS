@@ -1,6 +1,6 @@
-list = document.getElementById("list");
+const listt = document.getElementById("listt");
 
-list.addEventListener('click', function(event) {
+listt.addEventListener('click', function(event) {
     var selected = event.target.innerHTML;
     console.log(selected);
 
