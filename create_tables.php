@@ -4,7 +4,7 @@ include 'idconfig_project.php';
 mysqli_select_db($conn, $dbname) or die('DB selection failed');
 
 // 선택한 값 받아오기
-$selectedValue = isset($_GET['selected']) ? $_GET['selected'] : '';
+$selectedValue = isset($_POST['selected']) ? $_POST['selected'] : '';
 
 $sql = "
 SELECT T.Tel_Type, T.Price, T.GeekbenchPerformance, T.Manufacturer_ID, T.Announced, T.Released, 
@@ -24,7 +24,7 @@ $result = $conn->query($sql);
 if($result->num_rows > 0){
     //데이터가 있는 경우 실행
 	while($row = $result->fetch_assoc()){
-		echo "<h1>", $row['T.Tel_Type'], "</h1>
+		echo "<h1>", $row["T.Tel_Type"], "</h1>
 		<table>
 			<tr>
 				<td class='relation' rowspan='5'>Telephone</td>
