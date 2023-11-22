@@ -1,6 +1,5 @@
 function gettext(event) {
     var selected = event.innerText;
-    console.log(selected);
 
     var xhr = new XMLHttpRequest();
     xhr.onreadystatechange = function() {
