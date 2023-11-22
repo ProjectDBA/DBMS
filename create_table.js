@@ -1,7 +1,5 @@
-const listt = document.getElementById("listt");
-
-listt.addEventListener('click', function(event) {
-    var selected = event.target.innerHTML;
+function gettext(event) {
+    var selected = event.innerText;
     console.log(selected);
 
     var xhr = new XMLHttpRequest();
@@ -14,4 +12,4 @@ listt.addEventListener('click', function(event) {
     // PHP ������ ��θ� ������ ����
     xhr.open('GET', 'create_tables.php?selected=' + encodeURIComponent(selected), true);
     xhr.send();
-});
+};
