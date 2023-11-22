@@ -6,7 +6,12 @@ mysqli_select_db($conn, $dbname) or die('DB selection failed');
 // 선택한 값 받아오기
 $selectedValue = isset($_GET['selected']) ? $_GET['selected'] : '';
 
-$sql = "SELECT * FROM Telephone WHERE Tel_Type = '$selectedValue';";
+$sql = "
+SELECT *
+FROM Telephone T
+JOIN Platform P
+WHERE Tel_Type = '$selectedValue';
+";
 //sql문 작성 !!!!!!!!!!!!!!!!!!
 
 $result = $conn->query($sql);
