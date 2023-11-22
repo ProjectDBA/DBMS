@@ -12,6 +12,5 @@
         xhr.open('POST', 'create_tables.php', true);
         xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
         xhr.send('selected=' + encodeURIComponent(selected));
-        <?php include "create_tables.php"; ?>
     };
 </script>

@@ -19,7 +19,7 @@ JOIN memory M
 on T.Tel_Type = M.Tel_Type
 WHERE T.Tel_Type = '$selectedValue';
 ";
-//sql문 작성 !!!!!!!!!!!!!!!!!!
+//sql문 작성 !!!!!!!!!!!!!!!!! !
 
 $result = $conn->query($sql);
 
