@@ -10,8 +10,15 @@ const mainpage = document.getElementById('mainpage');
 const page1 = document.getElementById('page1');
 const page2 = document.getElementById('page2');
 const page3 = document.getElementById('page3');
+const button = document.getElementById('button');
+const inputbox = document.getElementById('inputbox');
 
-menu1.addEventListener('click', function() {
+button.addEventListener('click', function search(){
+    click1();
+    gettext(inputbox);
+});
+
+menu1.addEventListener('click', function click1() {
     mainpage.style.display = 'none';
     list1.style.display = 'flex';
     list2.style.display = 'none';
@@ -20,7 +27,7 @@ menu1.addEventListener('click', function() {
     page3.style.display = 'none';
 });
 
-menu2.addEventListener('click', function() {
+menu2.addEventListener('click', function click2() {
     mainpage.style.display = 'none';
     list1.style.display = 'none';
     list2.style.display = 'none';
@@ -29,7 +36,7 @@ menu2.addEventListener('click', function() {
     page3.style.display = 'none';
 });
 
-menu3.addEventListener('click', function() {
+menu3.addEventListener('click', function click3() {
     mainpage.style.display = 'none';
     list1.style.display = 'none';
     list2.style.display = 'flex';
