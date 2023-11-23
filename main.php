@@ -34,7 +34,7 @@
         </div>
         <div class="base">
             <div class="sub-menu">
-                <a class="sub-menu-list" id="sub-menu1">View Performance</a>
+                <a class="sub-menu-list" id="sub-menu1" onclick="click1();">View Performance</a>
                 <a class="sub-menu-list" id="sub-menu2"
                 style="
                 border-left: 2px solid black;
@@ -52,7 +52,7 @@
                     <div class="page" id="mainpage" style='width:100%'>
                         This is MainPage
                     </div>
-                    <div class="page" id="page1" onclick="click1();">
+                    <div class="page" id="page1">
                         
                     </div>
                     <div class="page" id="page2">P2</div>
