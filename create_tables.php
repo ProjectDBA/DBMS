@@ -12,7 +12,6 @@ FROM Telephone T
 JOIN Manufacturer M
 on T.Manufacturer_ID = M.Manufacturer_Id
 WHERE T.Tel_Type = '$selectedValue';
-<<<<<<< HEAD
 "; //sql¹® ÀÛ¼º !!!!!!!!!!!!!!!!!!
 
 $result = $conn->query($sql);
