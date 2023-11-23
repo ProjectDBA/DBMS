@@ -27,7 +27,7 @@
                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Google_Images_2015_logo.svg/1200px-Google_Images_2015_logo.svg.png" width="200px" height="60px">
             </div>
             <div id="input">
-                <input id="inputbox" type="text" placeholder="text">
+                <input id="inputbox" list='dlist' type="text" placeholder="text">
                 <?php include "searchPname"; ?>
                 <button class="button">Search</button>
             </div>
