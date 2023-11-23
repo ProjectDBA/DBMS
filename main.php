@@ -38,7 +38,7 @@
                 style="
                 border-left: 2px solid black;
                 border-right: 2px solid black;">Compare</a>
-                <a class="sub-menu-list" id="sub-menu3">ALL Phones</a>
+                <a class="sub-menu-list" id="sub-menu3">By Manufacturer</a>
             </div>
             <div class="contents">
                 <div class="list" id="list">
