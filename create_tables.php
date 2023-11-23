@@ -14,11 +14,7 @@ on T.Manufacturer_ID = M.Manufacturer_Id
 WHERE T.Tel_Type = '$selectedValue';
 <<<<<<< HEAD
 "; //sql문 작성 !!!!!!!!!!!!!!!!!!
-=======
-";
-//sql문 작성 !!!!!!!!!!!!!!!!! !
 
->>>>>>> a7149ce5125718d3ec530d0606704daced8693fa
 $result = $conn->query($sql);
 
 if($result->num_rows > 0){
