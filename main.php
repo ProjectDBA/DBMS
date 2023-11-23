@@ -28,6 +28,7 @@
             </div>
             <div id="input">
                 <input id="inputbox" type="text" placeholder="text">
+                <?php include "searchPname"; ?>
                 <button class="button">Search</button>
             </div>
         </div>
