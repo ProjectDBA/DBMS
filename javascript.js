@@ -4,7 +4,8 @@ const menu1 = document.getElementById('sub-menu1');
 const menu2 = document.getElementById('sub-menu2');
 const menu3 = document.getElementById('sub-menu3');
 
-const list = document.getElementById('list');
+const list1 = document.getElementById('list1');
+const list2 = document.getElementById('list2');
 const mainpage = document.getElementById('mainpage');
 const page1 = document.getElementById('page1');
 const page2 = document.getElementById('page2');
@@ -12,7 +13,8 @@ const page3 = document.getElementById('page3');
 
 menu1.addEventListener('click', function() {
     mainpage.style.display = 'none';
-    list.style.display = 'flex';
+    list1.style.display = 'flex';
+    list2.style.display = 'none';
     page1.style.display = 'flex';
     page2.style.display = 'none';
     page3.style.display = 'none';
@@ -20,7 +22,8 @@ menu1.addEventListener('click', function() {
 
 menu2.addEventListener('click', function() {
     mainpage.style.display = 'none';
-    list.style.display = 'none';
+    list1.style.display = 'none';
+    list2.style.display = 'none';
     page1.style.display = 'none';
     page2.style.display = 'flex';
     page3.style.display = 'none';
@@ -28,7 +31,8 @@ menu2.addEventListener('click', function() {
 
 menu3.addEventListener('click', function() {
     mainpage.style.display = 'none';
-    list.style.display = 'none';
+    list1.style.display = 'none';
+    list2.style.display = 'flex';
     page1.style.display = 'none';
     page2.style.display = 'none';
     page3.style.display = 'flex';

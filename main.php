@@ -41,8 +41,11 @@
                 <a class="sub-menu-list" id="sub-menu3">By Manufacturer</a>
             </div>
             <div class="contents">
-                <div class="list" id="list">
+                <div class="list" id="list1">
                     <?php include ("create_list.php"); ?>
+                </div>
+                <div class="list" id="list2">
+                    <?php include ("create_mlist.php"); ?>
                 </div>
                 <div class="perform">
                     <div class="page" id="mainpage" style='width:100%'>
