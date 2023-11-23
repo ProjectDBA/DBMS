@@ -1,5 +1,5 @@
 
-// JavaScript �ڵ�
+// JavaScript �ڵ� //이거 왜안됨;;
 const menu1 = document.getElementById('sub-menu1');
 const menu2 = document.getElementById('sub-menu2');
 const menu3 = document.getElementById('sub-menu3');
