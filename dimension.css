@@ -113,7 +113,7 @@
 
 .listt {
     list-style-type: none;
-    size: 20px;
+    font-size: 20px;
     margin-bottom: 5px;
     border-bottom: 1px solid black;
 }
