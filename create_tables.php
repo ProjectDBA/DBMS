@@ -100,7 +100,7 @@ if($result->num_rows > 0){
 	while ($row = $result->fetch_assoc()) {
 		echo
 			"<tr>
-				<td class='relation' rowspan='4'>Memory</td>
+				<td class='relation' rowspan='3'>Memory</td>
 				<td class='attri'>Max Storage</td>
 				<td id='PlatformMaxStorageData'>", $row["Max_Storage"], "</td>
 			</tr>
@@ -133,7 +133,7 @@ if($result->num_rows > 0){
 	while ($row = $result->fetch_assoc()) {
 		echo
 			"<tr>
-				<td class='relation' rowspan='4'>Battery</td>
+				<td class='relation' rowspan='3'>Battery</td>
 				<td class='attri'>Size</td>
 				<td id='BatterySizeData'>", $row["Size"], "</td>
 			</tr>

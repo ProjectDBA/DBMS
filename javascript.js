@@ -24,7 +24,19 @@ function click1() {
 
 button.addEventListener('click', function search(){
     click1();
-    gettext(inputbox);
+    var selected = inputbox.value;
+
+    var xhr = new XMLHttpRequest();
+    xhr.onreadystatechange = function() {
+        if (xhr.readyState == 4 && xhr.status == 200) {
+            page1.innerHTML= xhr.responseText;
+            console.log('Process:', xhr.responseText);
+        }
+    };
+
+    xhr.open('POST', 'create_tables.php', true);
+    xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+    xhr.send('selected=' + encodeURIComponent(selected));
 });
 
 menu1.addEventListener('click', click1());
