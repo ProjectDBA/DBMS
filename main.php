@@ -28,7 +28,7 @@
             </div>
             <div id="input">
                 <input id="inputbox" list='dlist' type="text" placeholder="text">
-                <?php include "searchPname"; ?>
+                <?php include "searchPname.php"; ?>
                 <button class="button">Search</button>
             </div>
         </div>
