@@ -2,7 +2,7 @@
 
 mysqli_select_db($conn, $dbname) or die('DB selection failed');
 
-$sql = "SELECT Manufacturer_Id From Manufacturer;";
+$sql = "SELECT Manufacturer_Name From Manufacturer;";
 // �޴��� �̸� ��������
 
 $result = $conn->query($sql);
@@ -11,7 +11,7 @@ echo "<ul class='listt'>";
 if($result->num_rows > 0){
     //�����Ͱ� �ִ� ���? ����
 	while($row = $result->fetch_assoc()){
-		echo "<li onclick='gettext(this);'>", $row["Manufacturer_Id"], "</li>";
+		echo "<li onclick='gettext(this);'>", $row["Manufacturer_Name"], "</li>";
 	}
 }else{
     // �����Ͱ� ���� ���? ����
