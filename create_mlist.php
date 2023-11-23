@@ -7,11 +7,11 @@ $sql = "SELECT Manufacturer_Name From Manufacturer;";
 
 $result = $conn->query($sql);
 
-echo "<ul class='listt'>";
+echo "<ul>";
 if($result->num_rows > 0){
     //ï¿½ï¿½ï¿½ï¿½ï¿½Í°ï¿½ ï¿½Ö´ï¿½ ï¿½ï¿½ï¿? ï¿½ï¿½ï¿½ï¿½
 	while($row = $result->fetch_assoc()){
-		echo "<li onclick='gettext(this);'>", $row["Manufacturer_Name"], "</li>";
+		echo "<li class='listt' onclick='gettext(this);'>", $row["Manufacturer_Name"], "</li>";
 	}
 }else{
     // ï¿½ï¿½ï¿½ï¿½ï¿½Í°ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿? ï¿½ï¿½ï¿½ï¿½
