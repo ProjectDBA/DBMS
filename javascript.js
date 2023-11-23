@@ -13,19 +13,21 @@ const page3 = document.getElementById('page3');
 const button = document.getElementById('button');
 const inputbox = document.getElementById('inputbox');
 
-button.addEventListener('click', function search(){
-    click1();
-    gettext(inputbox);
-});
-
-menu1.addEventListener('click', function click1() {
+function click1() {
     mainpage.style.display = 'none';
     list1.style.display = 'flex';
     list2.style.display = 'none';
     page1.style.display = 'flex';
     page2.style.display = 'none';
     page3.style.display = 'none';
+}
+
+button.addEventListener('click', function search(){
+    click1();
+    gettext(inputbox);
 });
+
+menu1.addEventListener('click', click1());
 
 menu2.addEventListener('click', function click2() {
     mainpage.style.display = 'none';
