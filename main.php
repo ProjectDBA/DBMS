@@ -52,7 +52,7 @@
                     <div class="page" id="mainpage" style='width:100%'>
                         This is MainPage
                     </div>
-                    <div class="page" id="page1">
+                    <div class="page" id="page1" onclick="click1();">
                         
                     </div>
                     <div class="page" id="page2">P2</div>

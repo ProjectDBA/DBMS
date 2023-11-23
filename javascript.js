@@ -39,8 +39,6 @@ button.addEventListener('click', function search(){
     xhr.send('selected=' + encodeURIComponent(selected));
 });
 
-menu1.addEventListener('click', click1());
-
 menu2.addEventListener('click', function click2() {
     mainpage.style.display = 'none';
     list1.style.display = 'none';
