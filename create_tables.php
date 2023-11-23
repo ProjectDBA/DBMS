@@ -6,22 +6,25 @@ mysqli_select_db($conn, $dbname) or die('DB selection failed');
 // 선택한 값 받아오기
 $selectedValue = isset($_POST['selected']) ? $_POST['selected'] : '';
 
-echo  $selectedValue;
-
 $sql = "
 SELECT T.Tel_Type, T.Price, T.GeekbenchPerformance, M.Manufacturer_Name, T.Announced, T.Released
 FROM Telephone T
 JOIN Manufacturer M
 on T.Manufacturer_ID = M.Manufacturer_Id
 WHERE T.Tel_Type = '$selectedValue';
+<<<<<<< HEAD
 "; //sql문 작성 !!!!!!!!!!!!!!!!!!
+=======
+";
+//sql문 작성 !!!!!!!!!!!!!!!!! !
+
+>>>>>>> a7149ce5125718d3ec530d0606704daced8693fa
 $result = $conn->query($sql);
 
 if($result->num_rows > 0){
     //데이터가 있는 경우 실행
 	while ($row = $result->fetch_assoc()) {
-		echo
-		"<h1>", $row["Tel_Type"], "</h1>
+		echo "<h2>", $row["Tel_Type"], "</h2>
 		<table>
 			<tr>
 				<td class='relation' rowspan='5'>Telephone</td>

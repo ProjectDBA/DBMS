@@ -21,7 +21,6 @@
 </head>
 
 <body>
-    <script type='text/javascript' src="create_table.js"></script>
     <div class="main-body">
         <div class="header">
             <div id="logo">
@@ -46,11 +45,11 @@
                     <?php include ("create_list.php"); ?>
                 </div>
                 <div class="perform">
-                    <div class="page" id="mainpage">
+                    <div class="page" id="mainpage" style='width:100%'>
                         This is MainPage
                     </div>
                     <div class="page" id="page1">
-                        <?php include "create_tables.php"; ?>
+                        
                     </div>
                     <div class="page" id="page2">P2</div>
                     <div class="page" id="page3">P3</div>
@@ -58,10 +57,7 @@
             </div>
         </div>
     </div>
-    <?php
-        include "javascript.php";
-        include "js.php";
-    ?>
+    <script type='text/javascript' src='javascript.js'></script>
 </body>
 
 </html>
