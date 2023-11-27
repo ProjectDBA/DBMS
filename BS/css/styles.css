@@ -10862,7 +10862,7 @@ header.masthead h1, header.masthead .h1 {
 }
 @media (min-width: 768px) {
   header.masthead {
-    padding-top: 6rem;
+    padding-top: 3rem;
     padding-bottom: 12rem;
   }
   header.masthead h1, header.masthead .h1 {
@@ -10962,6 +10962,31 @@ table, th, td {
 #mainpage {
   display: flex;
   border: none;
+  text-align: center;
+}
+
+.Phonename{
+  display:flex;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  justify-content: space-around;
+  flex-grow: 8;
+}
+
+.Phonetable{
+  justify-content: space-around;
+}
+.attri{
+  height: 100%;
+  width: 25%;
+  text-align: center;
+}
+
+.relation{
+  text-align: center;
+}
+
+.datavalue{
   text-align: center;
 }
 
