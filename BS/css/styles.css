@@ -594,7 +594,7 @@ progress {
   color: #6c757d;
 }
 .blockquote-footer::before {
-  content: "â€”Â ";
+  content: "??”Â?";
 }
 
 .img-fluid {
@@ -10825,8 +10825,8 @@ textarea.form-control-lg {
   }
 }
 .features-icons {
-  padding-top: 7rem;
-  padding-bottom: 7rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 .features-icons .features-icons-item {
   max-width: 20rem;
@@ -10843,9 +10843,10 @@ header.masthead {
   background-color: #343a40;
   background: url("../assets/img/bg-masthead.jpg") no-repeat center center;
   background-size: cover;
-  padding-top: 8rem;
-  padding-bottom: 8rem;
-}
+  height: 200px;
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;}
 header.masthead:before {
   content: "";
   position: absolute;
@@ -10861,7 +10862,7 @@ header.masthead h1, header.masthead .h1 {
 }
 @media (min-width: 768px) {
   header.masthead {
-    padding-top: 12rem;
+    padding-top: 6rem;
     padding-bottom: 12rem;
   }
   header.masthead h1, header.masthead .h1 {
