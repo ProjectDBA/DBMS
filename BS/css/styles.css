@@ -11073,6 +11073,21 @@ table, th, td {
   }
 }
 
+/*phonelist*/
+.phonelist {
+  display:none;
+  margin: 10px;
+  width: 25%;
+  background-color: #ced9fc;
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 350;
+  color: #000000;
+  border-width: 2.5px; 
+  border-color: #000069;
+  border-style:solid;
+  border-radius: 30px;
+}
 
 /* THE END OF THE IMPORTANT STUFF */
 
@@ -11132,3 +11147,4 @@ h3, .h3 {
     font-size: 1.75rem;
   }
 }
+
