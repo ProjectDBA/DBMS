@@ -93,6 +93,7 @@
                                         <td> <h1 class="Phonename">Performance</h1></td>
                                         <td><h1 class="Phonename"> Phone Name</h1></td>
                                     </tr>
+                                    <td class="relation" rowspan="4">Platform</td>
                                     <tr>
                                         <td class="relation" rowspan="4">Platform</td>
                                         <td class="attri">OS</td>
