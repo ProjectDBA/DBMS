@@ -47,22 +47,22 @@
         <section class="features-icons bg-light text-center">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-4" id="sub-menu1">
-                        <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3" onclick="click1();">
+                    <div class="col-lg-4" id="sub-menu1" onclick="click1();">
+                        <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
                             <div class="features-icons-icon d-flex"><i class="bi-window m-auto text-primary"></i></div>
                             <h3>View Performance</h3>
                             <p class="lead mb-0">¾îÂ¼±¸ ¼³¸í</p>
                         </div>
                     </div>
-                    <div class="col-lg-4" id="sub-menu2">
-                        <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3" onclick="click2();">
+                    <div class="col-lg-4" id="sub-menu2" onclick="click2();">
+                        <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
                             <div class="features-icons-icon d-flex"><i class="bi-layers m-auto text-primary"></i></div>
                             <h3>Compare</h3>
                             <p class="lead mb-0">¾îÂ¼±¸ ¼³¸í!</p>
                         </div>
                     </div>
-                    <div class="col-lg-4" id="sub-menu3">
-                        <div class="features-icons-item mx-auto mb-0 mb-lg-3" onclick="click3();">
+                    <div class="col-lg-4" id="sub-menu3" onclick="click3();">
+                        <div class="features-icons-item mx-auto mb-0 mb-lg-3">
                             <div class="features-icons-icon d-flex"><i class="bi-terminal m-auto text-primary"></i></div>
                             <h3>ALL Phones</h3>
                             <p class="lead mb-0">¾îÂ¼±¸ ¼³¸í!!</p>
@@ -322,14 +322,8 @@
                 </div>
             </div>
         </footer>
-        <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <!-- * *                               SB Forms JS                               * *-->
-        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
     </body>
 </html>
