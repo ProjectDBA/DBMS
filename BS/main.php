@@ -76,7 +76,7 @@
                 <div class="row g-0">
                     <div class="contents">
                         <div class="phonelist" id="phonelist">
-                            <?php include "php/create_list"; ?>    
+                            <?php include "php/create_list.php"; ?>    
                         </div>
                         <div class="perform">
                             <div class="page" id="mainpage">
