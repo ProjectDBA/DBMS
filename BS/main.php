@@ -76,7 +76,10 @@
                 <div class="row g-0">
                     <div class="contents">
                         <div class="list" id="list">
-                            
+                            <ol class="listdata" id="listdata">
+                                <li>
+                                <li>
+                            </ol>       
                         </div>
                         <div class="perform">
                             <div class="page" id="mainpage">

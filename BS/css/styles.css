@@ -10986,7 +10986,7 @@ table, th, td {
 .Phonetable:first-child {
   border-top: none;
   background: #428bca;
-  color: #fff;
+  color: black;
 }
 
 .Phonetable tr {
