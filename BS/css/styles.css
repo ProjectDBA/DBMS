@@ -10983,10 +10983,10 @@ table, th, td {
   border-collapse: collapse;
 }
 
-.Phonetable:first-child {
+.Phonetable tr:first-child {
   border-top: none;
   background: #428bca;
-  color: black;
+  color: #428bca;
 }
 
 .Phonetable tr {

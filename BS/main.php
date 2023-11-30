@@ -77,8 +77,8 @@
                     <div class="contents">
                         <div class="list" id="list">
                             <ol class="listdata" id="listdata">
-                                <li>
-                                <li>
+                                <li>Phone list</li>
+                                <li>phone 1</li>
                             </ol>       
                         </div>
                         <div class="perform">
