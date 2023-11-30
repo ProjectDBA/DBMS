@@ -10973,9 +10973,13 @@ table, th, td {
   flex-grow: 8;
 }
 
+/*table*/
 .Phonetable{
   justify-content: space-around;
+  padding: 6px 12px;
+  padding: 2px 16px;
 }
+
 .attri{
   height: 100%;
   width: 25%;
