@@ -11096,7 +11096,6 @@ h3 {
   position: relative;
   text-align: center;
   font-size: 1.5em;
-  color: #cecece;
 }
 h3:before {
   content: "\25C0";
