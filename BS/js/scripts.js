@@ -67,3 +67,4 @@ function gettext(event) {
     xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
     xhr.send('selected=' + encodeURIComponent(selected));
 };
+
