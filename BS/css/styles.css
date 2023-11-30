@@ -11074,11 +11074,9 @@ table, th, td {
 }
 
 /*phonelist*/
-.phonelist {
-  display:none;
-  margin: 10px;
+.unsignedlist {
+  display: block;
   width: 25%;
-  background-color: #ced9fc;
   font-family: Arial, sans-serif;
   font-size: 20px;
   font-weight: 350;
@@ -11087,12 +11085,15 @@ table, th, td {
   border-color: #000069;
   border-style:solid;
   border-radius: 30px;
-}
 
-.phonelist tr:first-child {
-  border-top: none;
-  background: #428bca;
-  color: #fff;
+  margin: auto;
+  border-collapse: collapse;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  background-color: #f5f9fc;
+
+  min-width: 30px;
+  max-width: 100%;
 }
 
 /* THE END OF THE IMPORTANT STUFF */

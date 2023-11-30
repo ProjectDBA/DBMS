@@ -101,7 +101,7 @@
                                             <?php include "php/create_dropdownbox.php"; ?>
                                         </td>
                                     </tr>
-                                    <td class="relation" rowspan="4">Platform</td>
+                                    <td class="relation" rowspan="5">Platform</td>
                                     <tr>
                                         <td class="attri">OS</td>
                                         <td class="datavalue" id="PlatformOSData1">OS data1</td>
