@@ -95,7 +95,7 @@
                                         <td><h1 class="Phonename"> Phone Name1</h1></td>
                                         <td><h1 class="Phonename"> Phone Name2</h1></td>
                                     </tr>
-                                    <td class="relation" rowspan="4">Platform</td>
+                                    <td class="relation" rowspan="5">Platform</td>
                                     <tr>
                                         <td class="attri">OS</td>
                                         <td class="datavalue" id="PlatformOSData1">OS data1</td>
