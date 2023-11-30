@@ -594,7 +594,7 @@ progress {
   color: #6c757d;
 }
 .blockquote-footer::before {
-  content: "??��?";
+  content: "??붋?";
 }
 
 .img-fluid {
@@ -10973,35 +10973,12 @@ table, th, td {
   flex-grow: 8;
 }
 
-/*table*/
-.Phonetable{
-  justify-content: space-around;
-  padding: 6px 12px;
-  padding: 2px 16px;
-}
-
+/*table
 .attri{
-  padding: 0;
-  /*height: 6px*/
   height: 100%;
   width: 25%;
   text-align: center;
-  font-weight: 900;
-  color: #ffffff;
-  background: #ea6153;
-}
-.attri::before{
-  margin-bottom: 3px;
-  content: attr(data-title);
-  min-width: 98px;
-  font-size: 10px;
-  line-height: 10px;
-  font-weight: bold;
-  text-transform: uppercase;
-  color: #969696;
-  display: block;
-}
-
+}*/
 
 .relation{
   text-align: center;
@@ -11011,3 +10988,155 @@ table, th, td {
   text-align: center;
 }
 
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:600,700';
+
+* {font-family: 'Open Sans', sans-serif;}
+
+.Phonetable {
+  margin: auto;
+  min-width: 300px;
+  max-width: 100%;
+  border-collapse: collapse;
+}
+
+.Phonetable:first-child {
+  border-top: none;
+  background: #428bca;
+  color: #fff;
+}
+
+.Phonetable tr {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  background-color: #f5f9fc;
+}
+
+.Phonetable tr:nth-child(odd):not(:first-child) {
+  background-color: #ebf3f9;
+}
+
+.Phonetablee th {
+  display: none;
+}
+
+.Phonetable td {
+  display: block;
+}
+
+.Phonetable td:first-child {
+  margin-top: .5em;
+}
+
+.Phonetable td:last-child {
+  margin-bottom: .5em;
+}
+
+.Phonetable td:before {
+  content: attr(data-th) ": ";
+  font-weight: bold;
+  width: 120px;
+  display: inline-block;
+  color: #000;
+}
+
+.Phonetable th,
+.Phonetable td {
+  text-align: left;
+}
+
+.Phonetable {
+  color: #333;
+  border-radius: .4em;
+  overflow: hidden;
+}
+
+.Phonetable tr {
+  border-color: #bfbfbf;
+}
+
+.Phonetable th,
+.Phonetable td {
+  padding: .5em 1em;
+}
+@media screen and (max-width: 601px) {
+  .Phonetable tr:nth-child(2) {
+    border-top: none;
+  }
+}
+@media screen and (min-width: 600px) {
+  .Phonetable tr:hover:not(:first-child) {
+    background-color: #d8e7f3;
+  }
+  .Phonetable td:before {
+    display: none;
+  }
+  .Phonetable th,
+  .Phonetable td {
+    display: table-cell;
+    padding: .25em .5em;
+  }
+  .Phonetable th:first-child,
+  .Phonetable td:first-child {
+    padding-left: 0;
+  }
+  .Phonetable th:last-child,
+  .Phonetable td:last-child {
+    padding-right: 0;
+  }
+  .Phonetable th,
+  .Phonetable td {
+    padding: 1em !important;
+  }
+}
+
+
+/* THE END OF THE IMPORTANT STUFF */
+
+/* Basic Styling */
+body {
+background: #4B79A1;
+background: -webkit-linear-gradient(to left, #4B79A1 , #283E51);
+background: linear-gradient(to left, #4B79A1 , #283E51);        
+}
+h1 {
+  text-align: center;
+  font-size: 2.4em;
+  color: #f2f2f2;
+}
+.container {
+  display: block;
+  text-align: center;
+}
+h3 {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  font-size: 1.5em;
+  color: #cecece;
+}
+h3:before {
+  content: "\25C0";
+  position: absolute;
+  left: -50px;
+  -webkit-animation: leftRight 2s linear infinite;
+  animation: leftRight 2s linear infinite;
+}
+h3:after {
+  content: "\25b6";
+  position: absolute;
+  right: -50px;
+  -webkit-animation: leftRight 2s linear infinite reverse;
+  animation: leftRight 2s linear infinite reverse;
+}
+@-webkit-keyframes leftRight {
+  0%    { -webkit-transform: translateX(0)}
+  25%   { -webkit-transform: translateX(-10px)}
+  75%   { -webkit-transform: translateX(10px)}
+  100%  { -webkit-transform: translateX(0)}
+}
+@keyframes leftRight {
+  0%    { transform: translateX(0)}
+  25%   { transform: translateX(-10px)}
+  75%   { transform: translateX(10px)}
+  100%  { transform: translateX(0)}
+}
