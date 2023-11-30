@@ -6,7 +6,7 @@ mysqli_select_db($conn, $dbname) or die('DB selection failed');
 $selectedValue = isset($_POST['selected']) ? $_POST['selected'] : '';
 
 $sql = "
-SELECT T.Tel_Type, T.Price, T.GeekbenchPerformance, M.Manufacturer_Name, T.Announced, T.Released
+SELECT T.Tel_Type, T.Picture, T.Price, T.GeekbenchPerformance, M.Manufacturer_Name, T.Announced, T.Released
 FROM Telephone T
 JOIN Manufacturer M
 on T.Manufacturer_ID = M.Manufacturer_Id
@@ -24,7 +24,11 @@ if($result->num_rows > 0){
                 <td> <h2 class='Phonename'>Performance</h2></td>
                 <td> <h2 class='Phonename'> Phone Name</h2></td>
             </tr>
-            <td class='relation' rowspan='6'>Telephone</td>
+            <td class='relation' rowspan='7'>Telephone</td>
+            <tr>
+				<td class='attri'>Image</td>
+				<td class='datavalue' id='Telimg'><img src='", $row["Picture"], "' alt='Image'></td>
+			</tr>
             <tr>
 				<td class='attri'>Price</td>
 				<td class='datavalue' id='TelephonePriceData'>", $row["Price"], "$</td>
