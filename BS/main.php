@@ -76,10 +76,7 @@
                 <div class="row g-0">
                     <div class="contents">
                         <div class="phonelist" id="phonelist">
-                            <ol class="listdata" id="listdata">
-                                <li>Phone list</li>
-                                <li>phone 1</li>
-                            </ol>       
+                            <?php include "create_list"; ?>    
                         </div>
                         <div class="perform">
                             <div class="page" id="mainpage">
