@@ -36,20 +36,18 @@ button.addEventListener('click', function(){
     xhr.send('selected=' + encodeURIComponent(selected));
 });
 
-menu1.addEventListener('click', click1());
-
-menu2.addEventListener('click', function() {
+function click2() {
     mainpage.style.display = 'none';
     list.style.display = 'none';
     page1.style.display = 'none';
     page2.style.display = 'flex';
     page3.style.display = 'none';
-});
+}
 
-menu3.addEventListener('click', function() {
+function click3() {
     mainpage.style.display = 'none';
     list.style.display = 'none';
     page1.style.display = 'none';
     page2.style.display = 'none';
     page3.style.display = 'flex';
-});
+}
