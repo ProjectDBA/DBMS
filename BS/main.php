@@ -76,15 +76,24 @@
                 <div class="row g-0">
                     <div class="contents">
                         <div class="list" id="list">
-                            
+                            <ol class="listdata" id="listdata">
+                                <li>Phone list</li>
+                                <li>phone 1</li>
+                            </ol>       
                         </div>
                         <div class="perform">
                             <div class="page" id="mainpage">
                                 This is MainPage
                             </div>
                             <div class="page" id="page1">
-                                <h1 class="Phonename"> Phone Name</h1>
+                                <h1 class="Phonename"> View Performance </h1>
                                 <table class="Phonetable" id="ViewPerformance">
+                                    <tr>
+                                        <td> </td>
+                                        <td> <h1 class="Phonename">Performance</h1></td>
+                                        <td><h1 class="Phonename"> Phone Name</h1></td>
+                                    </tr>
+                                    <td class="relation" rowspan="4">Platform</td>
                                     <tr>
                                         <td class="relation" rowspan="4">Platform</td>
                                         <td class="attri">OS</td>
