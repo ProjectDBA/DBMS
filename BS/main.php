@@ -93,11 +93,9 @@
                                         <td> </td>
                                         <td> <h1 class="Phonename">Performance</h1></td>
                                         <td>
-                                            <label class="Phonename"> Phone Name1</label>
                                             <?php include "php/create_dropdownbox.php"; ?>
                                         </td>
                                         <td>
-                                            <label class="Phonename"> Phone Name2</label>
                                             <?php include "php/create_dropdownbox.php"; ?>
                                         </td>
                                     </tr>
