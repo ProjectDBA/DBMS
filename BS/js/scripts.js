@@ -38,7 +38,7 @@ button.addEventListener('click', function(){
 
 function click2() {
     mainpage.style.display = 'none';
-    // list.style.display = 'none';
+    // list.style.display = 'none';?
     page1.style.display = 'none';
     page2.style.display = 'flex';
     page3.style.display = 'none';
