@@ -8,8 +8,8 @@ const mainpage = document.getElementById('mainpage');
 const page1 = document.getElementById('page1');
 const page2 = document.getElementById('page2');
 const page3 = document.getElementById('page3');
-const button = document.getElementById('submitButton');
-const inputbox = document.getElementById('emailAddress');
+const button = document.getElementById('button');
+const inputbox = document.getElementById('inputbox');
 
 function click1() {
     mainpage.style.display = 'none';

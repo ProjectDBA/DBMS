@@ -42,12 +42,10 @@
                                 <!-- Email address input-->
                                 <div class="row">
                                     <div class="col">
-                                        <input class="form-control form-control-lg" id="emailAddress" type="email" list='dlist' placeholder="Phone name" data-sb-validations="required,email" />
+                                        <input class="form-control form-control-lg" id="inputbox" type="text" list='dlist' placeholder="Phone name" data-sb-validations="required,email" />
                                         <?php include("php/searchPname.php"); ?>
-                                        <div class="invalid-feedback text-white" data-sb-feedback="emailAddress:required">Email Address is required.</div>
-                                        <div class="invalid-feedback text-white" data-sb-feedback="emailAddress:email">Email Address Email is not valid.</div>
                                     </div>
-                                    <div class="col-auto"><button class="btn btn-primary btn-lg disabled" id="submitButton" type="submit">Serch</button></div>
+                                    <div class="col-auto"><button class="btn btn-primary btn-lg disabled" id="button" type="button">Serch</button></div>
                                 </div>
                                 <!-- Submit success message-->
                                 <!---->
