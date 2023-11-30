@@ -63,7 +63,7 @@ function gettext(event) {
         }
     };
 
-    xhr.open('POST', './php/create_Perform_tables.php', true);
+    xhr.open('POST', './php/create_Perform_table.php', true);
     xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
     xhr.send('selected=' + encodeURIComponent(selected));
 };
