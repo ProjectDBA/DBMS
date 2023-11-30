@@ -594,7 +594,7 @@ progress {
   color: #6c757d;
 }
 .blockquote-footer::before {
-  content: "??”Â?";
+  content: "??ï¿½ï¿½?";
 }
 
 .img-fluid {
@@ -10981,10 +10981,27 @@ table, th, td {
 }
 
 .attri{
+  padding: 0;
+  /*height: 6px*/
   height: 100%;
   width: 25%;
   text-align: center;
+  font-weight: 900;
+  color: #ffffff;
+  background: #ea6153;
 }
+.attri::before{
+  margin-bottom: 3px;
+  content: attr(data-title);
+  min-width: 98px;
+  font-size: 10px;
+  line-height: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #969696;
+  display: block;
+}
+
 
 .relation{
   text-align: center;
