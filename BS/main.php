@@ -32,7 +32,7 @@
                             <form class="form-subscribe" id="contactForm">
                                 <div class="row">
                                     <div class="col">
-                                        <input class="form-control form-control-lg" id="inputbox" type="text" list='dlist' placeholder="Phone name" data-sb-validations="required,email" />
+                                        <input class="form-control form-control-lg" id="inputbox" type="text" list='dlist' placeholder="Phone name" />
                                         <?php include("php/searchPname.php"); ?>
                                     </div>
                                     <div class="col-auto"><button class="btn btn-primary btn-lg abled" id="button" type="button">Serch</button></div>
