@@ -137,15 +137,6 @@ h2, .h2 {
   }
 }
 
-h3, .h3 {
-  font-size: calc(1.3rem + 0.6vw);
-}
-@media (min-width: 1200px) {
-  h3, .h3 {
-    font-size: 1.75rem;
-  }
-}
-
 h4, .h4 {
   font-size: calc(1.275rem + 0.3vw);
 }
@@ -10973,13 +10964,6 @@ table, th, td {
   flex-grow: 8;
 }
 
-/*table
-.attri{
-  height: 100%;
-  width: 25%;
-  text-align: center;
-}*/
-
 .relation{
   text-align: center;
 }
@@ -11139,4 +11123,13 @@ h3:after {
   25%   { transform: translateX(-10px)}
   75%   { transform: translateX(10px)}
   100%  { transform: translateX(0)}
+}
+
+h3, .h3 {
+  font-size: calc(1.3rem + 0.6vw);
+}
+@media (min-width: 1200px) {
+  h3, .h3 {
+    font-size: 1.75rem;
+  }
 }
