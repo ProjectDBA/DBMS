@@ -31,7 +31,7 @@ button.addEventListener('click', function(){
         }
     };
 
-    xhr.open('POST', 'create_tables.php', true);
+    xhr.open('POST', './php/create_Perform_table.php', true);
     xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
     xhr.send('selected=' + encodeURIComponent(selected));
 });
