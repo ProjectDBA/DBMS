@@ -51,3 +51,19 @@ function click3() {
     page2.style.display = 'none';
     page3.style.display = 'flex';
 }
+
+function gettext(event) {
+    var selected = event.innerText;
+
+    var xhr = new XMLHttpRequest();
+    xhr.onreadystatechange = function() {
+        if (xhr.readyState == 4 && xhr.status == 200) {
+            page1.innerHTML= xhr.responseText;
+            console.log('Process:', xhr.responseText);
+        }
+    };
+
+    xhr.open('POST', './php/create_Perform_tables.php', true);
+    xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+    xhr.send('selected=' + encodeURIComponent(selected));
+};
