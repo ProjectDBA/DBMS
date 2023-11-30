@@ -86,7 +86,7 @@
                                 This is MainPage
                             </div>
                             <div class="page" id="page1">
-                                <!-- <?php include "php/create_Perform_table.php" ?> -->
+                                <?php include "php/create_Perform_table.php" ?>
                             </div>
                             <div class="page" id="page2">
                                 <h1>Compare</h1>
