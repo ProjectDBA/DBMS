@@ -3,7 +3,6 @@ include 'idconfig_project.php';
 
 mysqli_select_db($conn, $dbname) or die('DB selection failed');
 
-// 선택한 값 받아오기
 $selectedValue = isset($_POST['selected']) ? $_POST['selected'] : '';
 
 $sql = "
@@ -97,7 +96,6 @@ WHERE T.Tel_Type = '$selectedValue';
 $result = $conn->query($sql);
 
 if($result->num_rows > 0){
-    //데이터가 있는 경우 실행
 	while ($row = $result->fetch_assoc()) {
 		echo
 		"
@@ -115,9 +113,7 @@ if($result->num_rows > 0){
             <td class='datavalue' id='MemorySlotData'>", $row["Card_Slot"], "</td>
         </tr>";
 	}
-	//여기에 표 작성 !!!!!!!!!!!!!!!!!!!
 }else{
-	// 데이터가 없는 경우 실행
 	echo "0 Results";
 }
 
