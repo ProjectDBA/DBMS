@@ -27,7 +27,7 @@ if($result->num_rows > 0){
             <td class='relation' rowspan='6'>Telephone</td>
             <tr>
 				<td class='attri'>Price</td>
-				<td class='datavalue' id='TelephonePriceData'>", $row["Price"], "</td>
+				<td class='datavalue' id='TelephonePriceData'>", $row["Price"], "$</td>
 			</tr>
 			<tr>
 				<td class='attri'>Geekbench Performance</td>
@@ -102,11 +102,11 @@ if($result->num_rows > 0){
         <td class='relation' rowspan='4'>Memory</td>
         <tr>
             <td class='attri'>Max Storage</td>
-            <td class='datavalue' id='MemoryStorageData'>", $row["Max_Storage"], "</td>
+            <td class='datavalue' id='MemoryStorageData'>", $row["Max_Storage"], "GB</td>
         </tr>
         <tr>
             <td class='attri'>Max Ram</td>
-            <td class='datavalue' id='MemoryRamData'>", $row["Max_Ram"], "</td>
+            <td class='datavalue' id='MemoryRamData'>", $row["Max_Ram"], "GB</td>
         </tr>
         <tr>
             <td class='attri'>Card Slot</td>
@@ -133,15 +133,15 @@ if($result->num_rows > 0){
         <td class='relation' rowspan='4'>Battery</td>
         <tr>
             <td class='attri'>Size</td>
-            <td class='datavalue' id='BatterySizeData'>", $row["Size"], "</td>
+            <td class='datavalue' id='BatterySizeData'>", $row["Size"], "mAh</td>
         </tr>
         <tr>
             <td class='attri'>Max Wired Charging Speed</td>
-            <td class='datavalue' id='BatteryWiredData'>", $row["MaxWiredChargingSpeed"], "</td> <!--id = Battery Max Wired Charging Speed Data-->
+            <td class='datavalue' id='BatteryWiredData'>", $row["MaxWiredChargingSpeed"], "W</td> <!--id = Battery Max Wired Charging Speed Data-->
         </tr>
         <tr>
             <td class='attri'>Wire Less Charging Speed</td>
-            <td class='datavalue' id='BatteryWireLessData'>", $row["WirelessChargingSpeed"], "</td> <!--id = Battery Wire Less Charging Speed Data-->
+            <td class='datavalue' id='BatteryWireLessData'>", $row["WirelessChargingSpeed"], "W</td> <!--id = Battery Wire Less Charging Speed Data-->
         </tr>";
 	}
 }else{
@@ -316,19 +316,19 @@ if($result->num_rows > 0){
         <td class='relation' rowspan='7'>Body</td>
         <tr>
             <td class='attri'>Height</td>
-            <td class='datavalue' id='BodyHeightData'>", $row["Height"], "</td>
+            <td class='datavalue' id='BodyHeightData'>", $row["Height"], "mm</td>
         </tr>
         <tr>
             <td class='attri'>Length</td>
-            <td class='datavalue' id='BodyLenghtData'>", $row["Length"], "</td>
+            <td class='datavalue' id='BodyLenghtData'>", $row["Length"], "mm</td>
         </tr>
         <tr>
             <td class='attri'>Width</td>
-            <td class='datavalue' id='BodyWidthData'>", $row["Width"], "</td>
+            <td class='datavalue' id='BodyWidthData'>", $row["Width"], "mm</td>
         </tr>
         <tr>
             <td class='attri'>Weight</td>
-            <td class='datavalue' id='BodyWeightData'>", $row["Weight"], "</td>
+            <td class='datavalue' id='BodyWeightData'>", $row["Weight"], "g</td>
         </tr>
         <tr>
             <td class='attri'>Rear Material</td>
