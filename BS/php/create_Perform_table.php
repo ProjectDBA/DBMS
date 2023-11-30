@@ -263,7 +263,7 @@ if($result->num_rows > 0){
 $sql = "
 SELECT D.Type, D.Size, D.Resolution, D.Protection, D.Always_on_Display
 FROM Telephone T
-JOIN dissplay D
+JOIN display D
 on T.Tel_Type = D.Tel_Type
 WHERE T.Tel_Type = '$selectedValue';
 ";
