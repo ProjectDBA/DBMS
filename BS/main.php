@@ -74,7 +74,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4" id="sub-menu1">
-                        <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3" >
+                        <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3" onclick="click1()">
                             <div class="features-icons-icon d-flex"><i class="bi-window m-auto text-primary"></i></div>
                             <h3>View Performance</h3>
                             <p class="lead mb-0">¾îÂ¼±¸ ¼³¸í</p>
