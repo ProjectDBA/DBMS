@@ -1,46 +1,55 @@
-/*!
-* Start Bootstrap - Landing Page v6.0.6 (https://startbootstrap.com/theme/landing-page)
-* Copyright 2013-2023 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-landing-page/blob/master/LICENSE)
-*/
-// This file is intentionally blank
-// Use this file to add JavaScript to your project
+// JavaScript �ڵ�
+const menu1 = document.getElementById('sub-menu1');
+const menu2 = document.getElementById('sub-menu2');
+const menu3 = document.getElementById('sub-menu3');
 
+const list = document.getElementById('list');
+const mainpage = document.getElementById('mainpage');
+const page1 = document.getElementById('page1');
+const page2 = document.getElementById('page2');
+const page3 = document.getElementById('page3');
+const button = document.getElementById('submitButton');
+const inputbox = document.getElementById('emailAddress');
 
-    // JavaScript �ڵ�
-    const menu1 = document.getElementById('sub-menu1');
-    const menu2 = document.getElementById('sub-menu2');
-    const menu3 = document.getElementById('sub-menu3');
+function click1() {
+    mainpage.style.display = 'none';
+    list.style.display = 'flex';
+    page1.style.display = 'flex';
+    page2.style.display = 'none';
+    page3.style.display = 'none';
+}
 
-    const list = document.getElementById('list');
-    const mainpage = document.getElementById('mainpage');
-    const page1 = document.getElementById('page1');
-    const page2 = document.getElementById('page2');
-    const page3 = document.getElementById('page3');
+button.addEventListener('click', function(){
+    click1();
+    var selected = inputbox.value;
 
-    menu1.addEventListener('click', function() {
-        // ������ ��ȯ
-        mainpage.style.display = 'none';
-        list.style.display = 'flex';
-        page1.style.display = 'flex';
-        page2.style.display = 'none';
-        page3.style.display = 'none';
-    });
+    var xhr = new XMLHttpRequest();
+    xhr.onreadystatechange = function() {
+        if (xhr.readyState == 4 && xhr.status == 200) {
+            page1.innerHTML= xhr.responseText;
+            console.log('Process:', xhr.responseText);
+        }
+    };
 
-    menu2.addEventListener('click', function() {
-        // ������ ��ȯ
-        mainpage.style.display = 'none';
-        list.style.display = 'none';
-        page1.style.display = 'none';
-        page2.style.display = 'flex';
-        page3.style.display = 'none';
-    });
+    xhr.open('POST', 'create_tables.php', true);
+    xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+    xhr.send('selected=' + encodeURIComponent(selected));
+});
 
-    menu3.addEventListener('click', function() {
-        // ������ ��ȯ
-        mainpage.style.display = 'none';
-        list.style.display = 'none';
-        page1.style.display = 'none';
-        page2.style.display = 'none';
-        page3.style.display = 'flex';
-    });
+menu1.addEventListener('click', click1());
+
+menu2.addEventListener('click', function() {
+    mainpage.style.display = 'none';
+    list.style.display = 'none';
+    page1.style.display = 'none';
+    page2.style.display = 'flex';
+    page3.style.display = 'none';
+});
+
+menu3.addEventListener('click', function() {
+    mainpage.style.display = 'none';
+    list.style.display = 'none';
+    page1.style.display = 'none';
+    page2.style.display = 'none';
+    page3.style.display = 'flex';
+});
