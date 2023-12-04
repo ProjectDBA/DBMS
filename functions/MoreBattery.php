@@ -6,14 +6,14 @@ $selectedValue = isset($_POST['selected']) ? $_POST['selected'] : '';
 
 $sql = "
 SELECT T.Tel_Type
-From Telephone T JOIN Body B
+FROM Telephone T JOIN Battery B
 ON T.Tel_Type = B.Tel_Type
-WHERE weight < (
-    SELECT B.weight
-    FROM Telephone T JOIN Body B
+WHERE B.Size > (
+    SELECT B.Size
+    FROM Telephone T JOIN Battery B
     ON T.Tel_Type = B.Tel_Type
     WHERE T.Tel_Type = '$selectedValue')
-ORDER BY B.weight DESC
+ORDER BY B.Size
 LIMIT 5;
 ";
 

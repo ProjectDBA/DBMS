@@ -6,14 +6,15 @@ $selectedValue = isset($_POST['selected']) ? $_POST['selected'] : '';
 
 $sql = "
 SELECT T.Tel_Type
-From Telephone T JOIN Body B
-ON T.Tel_Type = B.Tel_Type
-WHERE weight < (
-    SELECT B.weight
-    FROM Telephone T JOIN Body B
-    ON T.Tel_Type = B.Tel_Type
+FROM Telephone T JOIN Platform P
+ON T.Tel_Type = P.Tel_Type
+WHERE P.Chipset = (
+    SELECT P.Chipset
+    FROM Platform P JOIN Telephone T
+    ON P.Tel_Type = T.Tel_Type
     WHERE T.Tel_Type = '$selectedValue')
-ORDER BY B.weight DESC
+AND T.Tel_Type <> '$selectedValue'
+ORDER BY T.Price DESC
 LIMIT 5;
 ";
 
