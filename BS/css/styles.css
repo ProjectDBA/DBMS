@@ -10982,6 +10982,7 @@ table, th, td {
   max-width: 100%;
   border-collapse: collapse;
   display: inline;
+  border:none;
 }
 
 .Phonetable tr:first-child {
@@ -11081,7 +11082,7 @@ table, th, td {
   margin-bottom: 5px;
   border-bottom: 1px solid black;
 }*/
-
+/*
 @font-face {font-family: 'dejavu_sansbold';font-weight: normal; font-style: normal;
   src: url('dejavusans-bold-webfont.eot?#iefix') format('embedded-opentype'), 
       url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/358203/dejavusans-bold-webfont.woff') format('woff'), 
@@ -11103,7 +11104,7 @@ li:nth-child(1n):before, .dejavu {font-family:dejavu_sansbold,serif;font-weight:
   margin-bottom:0.25em;
   list-style-type: none;
 }
-.unsignedlist li:nth-child(1n):before {position:absolute;left:-1.25em;}
+.unsignedlist li:nth-child(1n):before {position:absolute;left:-1.25em;}*/
 
 /* THE END OF THE IMPORTANT STUFF */
 
@@ -11164,16 +11165,20 @@ h3, .h3 {
   }
 }
 
-div.Compare_all{
+.Compare_all{
+  justify-content: center;
   float: left;
+  border:none;
 }
 .Compare1{
   display: inline;
   margin: 10px;
   width: 50%;
+  border:none;
 }
 .Compare2{
   display: inline;
   margin: 10px;
   width: 30%;
+  border:none;
 }
