@@ -97,11 +97,9 @@
                                         <form action='#' method="post">
                                             <td>
                                                 <?php include "php/create_dropdownbox.php"; ?>
-                                                <button type='submit' value='select'>Select</button>
                                             </td>
                                             <td>
                                                 <?php include "php/create_dropdownbox.php"; ?>
-                                                <button type='submit' value='select'>Select</button>
                                             </td>
                                         </form>
                                     </tr>
