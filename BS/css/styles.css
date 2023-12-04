@@ -11074,30 +11074,29 @@ table, th, td {
 }
 
 /*phonelist*/
-.listt {
-  display: block;
-  width: 100%;
-  font-family: Arial, sans-serif;
-  font-size: 30px;
-  font-weight: 350;
-  color: #000000;
-  border-width: 2.5px; 
-  border-color: #000069;
-  border-style:solid;
-  border-radius: 30px;
-  margin: auto;
-  border-collapse: collapse;
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
-  background-color: #f5f9fc;
 
+@font-face {font-family: 'dejavu_sansbold';font-weight: normal; font-style: normal;
+  src: url('dejavusans-bold-webfont.eot?#iefix') format('embedded-opentype'), 
+      url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/358203/dejavusans-bold-webfont.woff') format('woff'), 
+      url('dejavusans-bold-webfont.ttf')  format('truetype'),
+      url('dejavusans-bold-webfont.svg#svgFontName') format('svg');}
+
+body {font-family:Georgia,"Times New Roman",serif;margin-left:20px;background:white;}
+  
+h1 {font-family:Arial,"Lucida Sans",sans-serif;font-size:2em;width:90%;
+  margin-bottom:30px;margin-left:20px;padding-bottom:10px;border-bottom:4px solid black;}
+ol {margin-left:40px;margin-top:0;padding-top:0;font-size:1.5em;
+  list-style:decimal url(data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7);}
+  
+li:nth-child(1n):before, .dejavu {font-family:dejavu_sansbold,serif;font-weight:normal;}
+
+.unsignedlist li {
   margin-left:35px;
   position:relative;
   margin-bottom:0.25em;
   list-style-type: none;
 }
-
-.listt li:nth-child(1n):before {position:absolute;left:-1.25em;}
+.unsignedlist li:nth-child(1n):before {position:absolute;left:-1.25em;}
 
 /* THE END OF THE IMPORTANT STUFF */
 
