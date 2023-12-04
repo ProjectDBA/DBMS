@@ -246,7 +246,6 @@
                                             <td class="datavalue" id="BodyFrameData1">Frame data1</td>
                                         </tr>
                                     </table>
-
                                 </div>
                                 
                                 <div class = "Compare2" id="Compar2">

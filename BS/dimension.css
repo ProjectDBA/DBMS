@@ -110,3 +110,18 @@
 #button:hover {
     background-color: deepskyblue;
 }
+
+/*compare1 2*/
+.Compare1{
+    display:none;
+    margin: 10px;
+    width: 50%;
+  }
+  
+  .Compare2{
+    display:none;
+    margin: 10px;
+    width: 30%;
+  }
+
+  
