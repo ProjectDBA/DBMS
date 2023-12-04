@@ -15,7 +15,8 @@ WHERE T.Tel_Type = '$selectedValue';
 
 $result = $conn->query($sql);
 
-$row = $result->fetch_assoc();
+if($result->num_rows > 0){
+	while ($row = $result->fetch_assoc()) {
 		echo "<h2 class='Phonename'>", $row["Tel_Type"], "</h2>
 		<table class='Phonetable' id='ViewPerformance'>
             <tr>
@@ -48,6 +49,10 @@ $row = $result->fetch_assoc();
 				<td class='attri'>Announced</td>
 				<td class='datavalue' id='TelephoneAnnouncedData'>", $row["Announced"], "</td>
 			</tr>";
+	}
+}else{
+	echo "0 Results";
+}
 
 $sql = "
 SELECT P.OS, P.Chipset, P.CPU, P.GPU 
