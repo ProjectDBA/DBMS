@@ -19,7 +19,7 @@
         <!-- Navigation-->
         <nav class="navbar navbar-light bg-light static-top">
             <div class="container">
-                <a class="navbar-brand" href="#!">In'Phone'mation</a>
+                <a class="navbar-brand" href="main.php">In'Phone'mation</a>
             </div>
         </nav>
         <!-- Masthead-->
