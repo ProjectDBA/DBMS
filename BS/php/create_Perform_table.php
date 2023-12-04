@@ -15,6 +15,7 @@ WHERE T.Tel_Type = '$selectedValue';
 
 $result = $conn->query($sql);
 
+$row = $result->fetch_assoc();
 		echo "<h2 class='Phonename'>", $row["Tel_Type"], "</h2>
 		<table class='Phonetable' id='ViewPerformance'>
             <tr>
