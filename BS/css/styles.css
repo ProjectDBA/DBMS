@@ -585,7 +585,7 @@ progress {
   color: #6c757d;
 }
 .blockquote-footer::before {
-  content: "??ë¶‹?";
+  content: "??ë¶??";
 }
 
 .img-fluid {
@@ -11074,7 +11074,7 @@ table, th, td {
 }
 
 /*phonelist*/
-.unsignedlist {
+.unsignedlist li{
   display: block;
   width: 100%;
   font-family: Arial, sans-serif;
@@ -11090,7 +11090,14 @@ table, th, td {
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
   background-color: #f5f9fc;
+
+  margin-left:35px;
+  position:relative;
+  margin-bottom:0.25em;
+  list-style-type: none;
 }
+
+.unsignedlist li:nth-child(1n):before {position:absolute;left:-1.25em;}
 
 /* THE END OF THE IMPORTANT STUFF */
 
