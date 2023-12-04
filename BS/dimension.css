@@ -112,14 +112,14 @@
 }
 
 /*compare1 2*/
-.Compare1{
+#Compare1{
     display: inline;
     margin: 10px;
     width: 50%;
     float:left;
   }
   
-  .Compare2{
+#Compare2{
     display: inline;
     margin: 10px;
     width: 30%;
