@@ -87,7 +87,7 @@
                             <div class="page" id="page2">
                                 <h1>Compare</h1>
                                     <div class= "Compare1" id = "Compare1">
-                                        <table class="Phonetable" id="ViewPerformance" float:left;>
+                                        <table class="Phonetable" id="ViewPerformance" >
                                             <tr>
                                                 <td> </td>
                                                 <td> <h1 class="Phonename">Performance</h1></td>
@@ -249,7 +249,7 @@
                                     </div>
                                     
                                     <div class= "Compare2" id = "Compare2">
-                                        <table class="Phonetable" id="ViewPerformance" float:right;>
+                                        <table class="Phonetable" id="ViewPerformance">
                                             <tr>
                                                 <form action='#' method="post">
                                                     <td>
