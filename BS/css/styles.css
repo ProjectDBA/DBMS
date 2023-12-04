@@ -11074,7 +11074,7 @@ table, th, td {
 }
 
 /*phonelist*/
-.unsignedlist li{
+.listt {
   display: block;
   width: 100%;
   font-family: Arial, sans-serif;
@@ -11097,7 +11097,7 @@ table, th, td {
   list-style-type: none;
 }
 
-.unsignedlist li:nth-child(1n):before {position:absolute;left:-1.25em;}
+.listt li:nth-child(1n):before {position:absolute;left:-1.25em;}
 
 /* THE END OF THE IMPORTANT STUFF */
 
