@@ -11164,5 +11164,17 @@ h3, .h3 {
   }
 }
 
+.Compare_all{
+  display: inline;
+  float: left;
+}
 
+.Compare1{
+  margin: 10px;
+  width: 50%;
+}
 
+.Compare2{
+  margin: 10px;
+  width: 30%;
+}
