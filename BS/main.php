@@ -86,7 +86,7 @@
                             </div>
                             <div class="page" id="page2">
                                 <h1>Compare</h1>
-                                    <table class="Phonetable" id="ViewPerformance">
+                                    <table class="Phonetable" id="ViewPerformance" float:left;>
                                         <tr>
                                             <td> </td>
                                             <td> <h1 class="Phonename">Performance</h1></td>
@@ -245,10 +245,8 @@
                                             <td class="datavalue" id="BodyFrameData1">Frame data1</td>
                                         </tr>
                                     </table>
-                                    <table class="Phonetable" id="ViewPerformance">
+                                    <table class="Phonetable" id="ViewPerformance" float:right;>
                                         <tr>
-                                            <td> </td>
-                                            <td> <h1 class="Phonename">Performance</h1></td>
                                             <form action='#' method="post">
                                                 <td>
                                                     <?php include "php/create_dropdownbox.php"; ?>
