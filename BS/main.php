@@ -86,284 +86,286 @@
                             </div>
                             <div class="page" id="page2">
                                 <h1>Compare</h1>
-                                    <div class= "Compare1" id = "Compare1">
-                                        <table class="Phonetable" id="ViewPerformance" >
-                                            <tr>
-                                                <td> </td>
-                                                <td> <h1 class="Phonename">Performance</h1></td>
-                                                <form action='#' method="post">
-                                                    <td>
-                                                        <?php include "php/create_dropdownbox.php"; ?>
-                                                    </td>
-                                                </form>
-                                            </tr>
-                                            <td class="relation" rowspan="5">Platform</td>
-                                            <tr>
-                                                <td class="attri">OS</td>
-                                                <td class="datavalue" id="PlatformOSData1">OS data1</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="attri">Chipset</td>
-                                                <td class="datavalue" id="PlatformChipsetData1">Chipset data1</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="attri">CPU</td>
-                                                <td class="datavalue" id="PlatformCPUData1">CPU data1</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="attri">GPU</td>
-                                                <td class="datavalue" id="PlatformGPUData1">GPU data1</td>
-                                            </tr>
-                                            <td class="relation" rowspan="4">Memory</td>
-                                            <tr>
-                                                <td class="attri">Max Storage</td>
-                                                <td class="datavalue" id="MemoryStorageData1">Max Storage data1</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="attri">Max Ram</td>
-                                                <td class="datavalue" id="MemoryRamData1">Max Ram data1</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="attri">Card Slot</td>
-                                                <td class="datavalue" id="MemorySlotData1">Card Slot data1</td>
-                                            </tr>
-                                            <td class="relation" rowspan="4">Battery</td>
-                                            <tr>
-                                                <td class="attri">Size</td>
-                                                <td class="datavalue" id="BatterySizeData1">Size data1</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="attri">Max Wired Charging Speed</td>
-                                                <td class="datavalue" id="BatteryWiredData1">Max Wired Charging Speed data1</td><!--id = Battery Max Wired Charging Speed Data-->
-                                            </tr>
-                                            <tr>
-                                                <td class="attri">Wire Less Charging Speed</td>
-                                                <td class="datavalue" id="BatteryWireLessData1">Wire Less Charging Speed data1</td> <!--id = Battery Wire Less Charging Speed Data-->
-                                            </tr>
-                                            <td class="relation" rowspan="6">Comms</td>
-                                            <tr>
-                                                <td class="attri">Fingerprint</td>
-                                                <td class="datavalue" id="CommsFingerprintData1">Fingerprint data1</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="attri">Face ID</td>
-                                                <td class="datavalue" id="CommsFaceIDData1">Face ID data1</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="attri">UltraWideband</td>
-                                                <td class="datavalue" id="CommsWidebandData1">UltraWideband data1</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="attri">Network Max Band</td>
-                                                <td class="datavalue" id="CommsNetworkData1">Network Max Band data1</td><!--id = Network Max Band Data-->
-                                            </tr>
-                                            <tr>
-                                                <td class="attri">USB Type</td>
-                                                <td class="datavalue" id="CommsUSBData1">USB Type data1</td><!--Comms USB Type Data-->
-                                            </tr>
-                                            <td class="relation" rowspan="8">Camera</td>
-                                            <tr>
-                                                <td class="attri">Main Single</td>
-                                                <td class="datavalue" id="CameraMSingleData1">Main Single data1</td><!--id="Camera Main Single Data"-->
-                                            </tr>
-                                            <tr>
-                                                <td class="attri">Main Multi</td>
-                                                <td class="datavalue" id="CameraMMultiData1">Main Multi data1</td><!--id="Camera Main Multi Data"-->
-                                            </tr>
-                                            <tr>
-                                                <td class="attri">Main Triple</td>
-                                                <td class="datavalue" id="CameraMTripleData1">Main Triple data1</td><!--id = "Camera Main Triple Data"-->
-                                            </tr>
-                                            <tr>
-                                                <td class="attri">Main Quard</td>
-                                                <td class="datavalue" id="CameraMQuardData1">Main Quard data1</td><!--id = "Camera Main Quard Data"-->
-                                            </tr>
-                                            <tr>
-                                                <td class="attri">Main Video</td>
-                                                <td class="datavalue" id="CameraMVideoData1">Main Video data1</td><!--id = "Camera Main Video Data"-->
-                                            </tr>
-                                            <tr>
-                                                <td class="attri">Front Single</td>
-                                                <td class="datavalue" id="CameraFSingleData1">Front Single data1</td><!--id="Camera Front Single Data"-->
-                                            </tr>
-                                            <tr>
-                                                <td class="attri">Front Multi</td>
-                                                <td class="datavalue" id="CameraFMultiData1">Front Multi data1</td><!--id="Camera  Front Multi Data"-->
-                                            </tr>
-                                            <td class="relation" rowspan="3"> Sound </td>
-                                            <tr>
-                                                <td class="attri">Stereo Speaker</td>
-                                                <td class="datavalue" id="SoundStereoData1">Stereo Speaker data1</td><!--id="Sound Stereo Speaker Data"-->
-                                            </tr>
-                                            <tr>
-                                                <td class="attri">3.5mm Jack</td>
-                                                <td class="datavalue" id="Sound3_5JackData1">3.5mm Jack data1</td><!--id="Sound 3.5 Jack Data"-->
-                                            </tr>
-                                            <td class="relation" rowspan="6">Display</td>
-                                            <tr>
-                                                <td class="attri">Type</td>
-                                                <td class="datavalue" id="DisplayTypeData1">Type data1</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="attri">Size</td>
-                                                <td class="datavalue" id="DisplaySizeData1">Size data1</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="attri">Resolution</td>
-                                                <td class="datavalue" id="DisplayResolutionData1">Resolution data1</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="attri">Protection</td>
-                                                <td class="datavalue" id="DisplayProtectionData1">Protection data1</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="attri">Always on Display</td>
-                                                <td class="datavalue" id="DisplayAODData1">Always on Display data1</td><!--id="Displa Always On Display Data"-->
-                                            </tr>
-                                            <td class="relation" rowspan="7">Body</td>
-                                            <tr>
-                                                <td class="attri">Height</td>
-                                                <td class="datavalue" id="BodyHeightData1">Height data1</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="attri">Lenght</td>
-                                                <td class="datavalue" id="BodyLenghtData1">Lenght data1</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="attri">Width</td>
-                                                <td class="datavalue" id="BodyWidthData1">Width data1</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="attri">Weight</td>
-                                                <td class="datavalue" id="BodyWeightData1">Weight data1</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="attri">Rear Material</td>
-                                                <td class="datavalue" id="BodyMaterialData1">Rear Material data1</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="attri">Frame</td>
-                                                <td class="datavalue" id="BodyFrameData1">Frame data1</td>
-                                            </tr>
-                                        </table>
+                                    <div class= "Compare_all" id = "Compare_all">
+                                        <div class= "Compare1" id = "Compare1">
+                                            <table class="Phonetable" id="ViewPerformance" >
+                                                <tr>
+                                                    <td> </td>
+                                                    <td> <h1 class="Phonename">Performance</h1></td>
+                                                    <form action='#' method="post">
+                                                        <td>
+                                                            <?php include "php/create_dropdownbox.php"; ?>
+                                                        </td>
+                                                    </form>
+                                                </tr>
+                                                <td class="relation" rowspan="5">Platform</td>
+                                                <tr>
+                                                    <td class="attri">OS</td>
+                                                    <td class="datavalue" id="PlatformOSData1">OS data1</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="attri">Chipset</td>
+                                                    <td class="datavalue" id="PlatformChipsetData1">Chipset data1</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="attri">CPU</td>
+                                                    <td class="datavalue" id="PlatformCPUData1">CPU data1</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="attri">GPU</td>
+                                                    <td class="datavalue" id="PlatformGPUData1">GPU data1</td>
+                                                </tr>
+                                                <td class="relation" rowspan="4">Memory</td>
+                                                <tr>
+                                                    <td class="attri">Max Storage</td>
+                                                    <td class="datavalue" id="MemoryStorageData1">Max Storage data1</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="attri">Max Ram</td>
+                                                    <td class="datavalue" id="MemoryRamData1">Max Ram data1</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="attri">Card Slot</td>
+                                                    <td class="datavalue" id="MemorySlotData1">Card Slot data1</td>
+                                                </tr>
+                                                <td class="relation" rowspan="4">Battery</td>
+                                                <tr>
+                                                    <td class="attri">Size</td>
+                                                    <td class="datavalue" id="BatterySizeData1">Size data1</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="attri">Max Wired Charging Speed</td>
+                                                    <td class="datavalue" id="BatteryWiredData1">Max Wired Charging Speed data1</td><!--id = Battery Max Wired Charging Speed Data-->
+                                                </tr>
+                                                <tr>
+                                                    <td class="attri">Wire Less Charging Speed</td>
+                                                    <td class="datavalue" id="BatteryWireLessData1">Wire Less Charging Speed data1</td> <!--id = Battery Wire Less Charging Speed Data-->
+                                                </tr>
+                                                <td class="relation" rowspan="6">Comms</td>
+                                                <tr>
+                                                    <td class="attri">Fingerprint</td>
+                                                    <td class="datavalue" id="CommsFingerprintData1">Fingerprint data1</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="attri">Face ID</td>
+                                                    <td class="datavalue" id="CommsFaceIDData1">Face ID data1</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="attri">UltraWideband</td>
+                                                    <td class="datavalue" id="CommsWidebandData1">UltraWideband data1</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="attri">Network Max Band</td>
+                                                    <td class="datavalue" id="CommsNetworkData1">Network Max Band data1</td><!--id = Network Max Band Data-->
+                                                </tr>
+                                                <tr>
+                                                    <td class="attri">USB Type</td>
+                                                    <td class="datavalue" id="CommsUSBData1">USB Type data1</td><!--Comms USB Type Data-->
+                                                </tr>
+                                                <td class="relation" rowspan="8">Camera</td>
+                                                <tr>
+                                                    <td class="attri">Main Single</td>
+                                                    <td class="datavalue" id="CameraMSingleData1">Main Single data1</td><!--id="Camera Main Single Data"-->
+                                                </tr>
+                                                <tr>
+                                                    <td class="attri">Main Multi</td>
+                                                    <td class="datavalue" id="CameraMMultiData1">Main Multi data1</td><!--id="Camera Main Multi Data"-->
+                                                </tr>
+                                                <tr>
+                                                    <td class="attri">Main Triple</td>
+                                                    <td class="datavalue" id="CameraMTripleData1">Main Triple data1</td><!--id = "Camera Main Triple Data"-->
+                                                </tr>
+                                                <tr>
+                                                    <td class="attri">Main Quard</td>
+                                                    <td class="datavalue" id="CameraMQuardData1">Main Quard data1</td><!--id = "Camera Main Quard Data"-->
+                                                </tr>
+                                                <tr>
+                                                    <td class="attri">Main Video</td>
+                                                    <td class="datavalue" id="CameraMVideoData1">Main Video data1</td><!--id = "Camera Main Video Data"-->
+                                                </tr>
+                                                <tr>
+                                                    <td class="attri">Front Single</td>
+                                                    <td class="datavalue" id="CameraFSingleData1">Front Single data1</td><!--id="Camera Front Single Data"-->
+                                                </tr>
+                                                <tr>
+                                                    <td class="attri">Front Multi</td>
+                                                    <td class="datavalue" id="CameraFMultiData1">Front Multi data1</td><!--id="Camera  Front Multi Data"-->
+                                                </tr>
+                                                <td class="relation" rowspan="3"> Sound </td>
+                                                <tr>
+                                                    <td class="attri">Stereo Speaker</td>
+                                                    <td class="datavalue" id="SoundStereoData1">Stereo Speaker data1</td><!--id="Sound Stereo Speaker Data"-->
+                                                </tr>
+                                                <tr>
+                                                    <td class="attri">3.5mm Jack</td>
+                                                    <td class="datavalue" id="Sound3_5JackData1">3.5mm Jack data1</td><!--id="Sound 3.5 Jack Data"-->
+                                                </tr>
+                                                <td class="relation" rowspan="6">Display</td>
+                                                <tr>
+                                                    <td class="attri">Type</td>
+                                                    <td class="datavalue" id="DisplayTypeData1">Type data1</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="attri">Size</td>
+                                                    <td class="datavalue" id="DisplaySizeData1">Size data1</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="attri">Resolution</td>
+                                                    <td class="datavalue" id="DisplayResolutionData1">Resolution data1</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="attri">Protection</td>
+                                                    <td class="datavalue" id="DisplayProtectionData1">Protection data1</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="attri">Always on Display</td>
+                                                    <td class="datavalue" id="DisplayAODData1">Always on Display data1</td><!--id="Displa Always On Display Data"-->
+                                                </tr>
+                                                <td class="relation" rowspan="7">Body</td>
+                                                <tr>
+                                                    <td class="attri">Height</td>
+                                                    <td class="datavalue" id="BodyHeightData1">Height data1</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="attri">Lenght</td>
+                                                    <td class="datavalue" id="BodyLenghtData1">Lenght data1</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="attri">Width</td>
+                                                    <td class="datavalue" id="BodyWidthData1">Width data1</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="attri">Weight</td>
+                                                    <td class="datavalue" id="BodyWeightData1">Weight data1</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="attri">Rear Material</td>
+                                                    <td class="datavalue" id="BodyMaterialData1">Rear Material data1</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="attri">Frame</td>
+                                                    <td class="datavalue" id="BodyFrameData1">Frame data1</td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                        
+                                        <div class= "Compare2" id = "Compare2">
+                                            <table class="Phonetable" id="ViewPerformance">
+                                                <tr>
+                                                    <form action='#' method="post">
+                                                        <td>
+                                                            <?php include "php/create_dropdownbox.php"; ?>
+                                                        </td>
+                                                    </form>
+                                                </tr>
+                                                <tr>
+                                                    <td class="datavalue" id="PlatformOSData2">OS data2</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="datavalue" id="PlatformChipsetData2">Chipset data2</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="datavalue" id="PlatformCPUData2">CPU data2</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="datavalue" id="PlatformGPUData2">GPU data2</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="datavalue" id="MemoryStorageData2">Max Storage data2</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="datavalue" id="MemoryRamData2">Max Ram data2</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="datavalue" id="MemorySlotData2">Card Slot data2</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="datavalue" id="BatterySizeData2">Size data2</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="datavalue" id="BatteryWiredData2">Max Wired Charging Speed data2</td> <!--id = Battery Max Wired Charging Speed Data-->
+                                                </tr>
+                                                <tr>
+                                                    <td class="datavalue" id="BatteryWireLessData2">Wire Less Charging Speed data2</td> <!--id = Battery Wire Less Charging Speed Data-->
+                                                </tr>
+                                                <tr>
+                                                    <td class="datavalue" id="CommsFingerprintData2">Fingerprint data2</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="datavalue" id="CommsFaceIDData2">Face ID data2</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="datavalue" id="CommsWidebandData2">UltraWideband data2</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="datavalue" id="CommsNetworkData2">Network Max Band data2</td> <!--id = Network Max Band Data-->
+                                                </tr>
+                                                <tr>
+                                                    <td class="datavalue" id="CommsUSBData2">USB Type data2</td> <!--Comms USB Type Data-->
+                                                </tr>
+                                                <tr>
+                                                    <td class="datavalue" id="CameraMSingleData2">Main Single data2</td> <!--id="Camera Main Single Data"-->
+                                                </tr>
+                                                <tr>
+                                                    <td class="datavalue" id="CameraMMultiData2">Main Multi data2</td> <!--id="Camera Main Multi Data"-->
+                                                </tr>
+                                                <tr>
+                                                    <td class="datavalue" id="CameraMTripleData2">Main Triple data2</td> <!--id = "Camera Main Triple Data"-->
+                                                </tr>
+                                                <tr>
+                                                    <td class="datavalue" id="CameraMQuardData2">Main Quard data2</td> <!--id = "Camera Main Quard Data"-->
+                                                </tr>
+                                                <tr>
+                                                    <td class="datavalue" id="CameraMVideoData2">Main Video data2</td> <!--id = "Camera Main Video Data"-->
+                                                </tr>
+                                                <tr>
+                                                    <td class="datavalue" id="CameraFSingleData2">Front Single data2</td> <!--id="Camera Front Single Data"-->
+                                                </tr>
+                                                <tr>
+                                                    <td class="datavalue" id="CameraFMultiData2">Front Multi data2</td> <!--id="Camera  Front Multi Data"-->
+                                                </tr>
+                                                <tr>
+                                                    <td class="datavalue" id="SoundStereoData2">Stereo Speaker data2</td> <!--id="Sound Stereo Speaker Data"-->
+                                                </tr>
+                                                <tr>
+                                                    <td class="datavalue" id="Sound3_5JackData2">3.5mm Jack data2</td> <!--id="Sound 3.5 Jack Data"-->
+                                                </tr>
+                                                <tr>
+                                                    <td class="datavalue" id="DisplayTypeData2">Type data2</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="datavalue" id="DisplaySizeData2">Size data2</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="datavalue" id="DisplayResolutionData2">Resolution data2</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="datavalue" id="DisplayProtectionData2">Protection data2</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="datavalue" id="DisplayAODData2">Always on Display data2</td> <!--id="Displa Always On Display Data"-->
+                                                </tr>
+                                                <tr>
+                                                    <td class="datavalue" id="BodyHeightData2">Height data2</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="datavalue" id="BodyLenghtData2">Lenght data2</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="datavalue" id="BodyWidthData2">Width data2</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="datavalue" id="BodyWeightData2">Weight data2</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="datavalue" id="BodyMaterialData2">Rear Material data2</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="datavalue" id="BodyFrameData2">Frame data2</td>
+                                                </tr>
+                                            </table>
+                                        </div> 
                                     </div>
-                                    
-                                    <div class= "Compare2" id = "Compare2">
-                                        <table class="Phonetable" id="ViewPerformance">
-                                            <tr>
-                                                <form action='#' method="post">
-                                                    <td>
-                                                        <?php include "php/create_dropdownbox.php"; ?>
-                                                    </td>
-                                                </form>
-                                            </tr>
-                                            <tr>
-                                                <td class="datavalue" id="PlatformOSData2">OS data2</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="datavalue" id="PlatformChipsetData2">Chipset data2</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="datavalue" id="PlatformCPUData2">CPU data2</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="datavalue" id="PlatformGPUData2">GPU data2</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="datavalue" id="MemoryStorageData2">Max Storage data2</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="datavalue" id="MemoryRamData2">Max Ram data2</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="datavalue" id="MemorySlotData2">Card Slot data2</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="datavalue" id="BatterySizeData2">Size data2</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="datavalue" id="BatteryWiredData2">Max Wired Charging Speed data2</td> <!--id = Battery Max Wired Charging Speed Data-->
-                                            </tr>
-                                            <tr>
-                                                <td class="datavalue" id="BatteryWireLessData2">Wire Less Charging Speed data2</td> <!--id = Battery Wire Less Charging Speed Data-->
-                                            </tr>
-                                            <tr>
-                                                <td class="datavalue" id="CommsFingerprintData2">Fingerprint data2</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="datavalue" id="CommsFaceIDData2">Face ID data2</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="datavalue" id="CommsWidebandData2">UltraWideband data2</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="datavalue" id="CommsNetworkData2">Network Max Band data2</td> <!--id = Network Max Band Data-->
-                                            </tr>
-                                            <tr>
-                                                <td class="datavalue" id="CommsUSBData2">USB Type data2</td> <!--Comms USB Type Data-->
-                                            </tr>
-                                            <tr>
-                                                <td class="datavalue" id="CameraMSingleData2">Main Single data2</td> <!--id="Camera Main Single Data"-->
-                                            </tr>
-                                            <tr>
-                                                <td class="datavalue" id="CameraMMultiData2">Main Multi data2</td> <!--id="Camera Main Multi Data"-->
-                                            </tr>
-                                            <tr>
-                                                <td class="datavalue" id="CameraMTripleData2">Main Triple data2</td> <!--id = "Camera Main Triple Data"-->
-                                            </tr>
-                                            <tr>
-                                                <td class="datavalue" id="CameraMQuardData2">Main Quard data2</td> <!--id = "Camera Main Quard Data"-->
-                                            </tr>
-                                            <tr>
-                                                <td class="datavalue" id="CameraMVideoData2">Main Video data2</td> <!--id = "Camera Main Video Data"-->
-                                            </tr>
-                                            <tr>
-                                                <td class="datavalue" id="CameraFSingleData2">Front Single data2</td> <!--id="Camera Front Single Data"-->
-                                            </tr>
-                                            <tr>
-                                                <td class="datavalue" id="CameraFMultiData2">Front Multi data2</td> <!--id="Camera  Front Multi Data"-->
-                                            </tr>
-                                            <tr>
-                                                <td class="datavalue" id="SoundStereoData2">Stereo Speaker data2</td> <!--id="Sound Stereo Speaker Data"-->
-                                            </tr>
-                                            <tr>
-                                                <td class="datavalue" id="Sound3_5JackData2">3.5mm Jack data2</td> <!--id="Sound 3.5 Jack Data"-->
-                                            </tr>
-                                            <tr>
-                                                <td class="datavalue" id="DisplayTypeData2">Type data2</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="datavalue" id="DisplaySizeData2">Size data2</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="datavalue" id="DisplayResolutionData2">Resolution data2</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="datavalue" id="DisplayProtectionData2">Protection data2</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="datavalue" id="DisplayAODData2">Always on Display data2</td> <!--id="Displa Always On Display Data"-->
-                                            </tr>
-                                            <tr>
-                                                <td class="datavalue" id="BodyHeightData2">Height data2</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="datavalue" id="BodyLenghtData2">Lenght data2</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="datavalue" id="BodyWidthData2">Width data2</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="datavalue" id="BodyWeightData2">Weight data2</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="datavalue" id="BodyMaterialData2">Rear Material data2</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="datavalue" id="BodyFrameData2">Frame data2</td>
-                                            </tr>
-                                        </table>
-                                    </div> 
                             </div>
                             <div class="page" id="page3">
                                 <h1>P3</h1>
