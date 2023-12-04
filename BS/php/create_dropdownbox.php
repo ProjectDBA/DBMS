@@ -20,4 +20,3 @@ echo "<button class='btn btn-primary btn-lg abled' type='submit' value='select'>
 
 $conn->close();
 ?>
-
