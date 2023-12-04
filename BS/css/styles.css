@@ -10958,8 +10958,6 @@ table, th, td {
 
 .Phonename{
   display:flex;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
   justify-content: space-around;
   flex-grow: 8;
 }
@@ -10970,6 +10968,7 @@ table, th, td {
 
 .datavalue{
   text-align: center;
+  font-size: 20px;
 }
 
 @import 'https://fonts.googleapis.com/css?family=Open+Sans:600,700';
@@ -11168,12 +11167,13 @@ h3, .h3 {
 .Compare_all{
   justify-content: center;
   float: left;
-  border:none;
+  border: none;
+  display: flex;
 }
 .Compare1{
   display: inline;
   margin: 10px;
-  width: 50%;
+  width: 60%;
   border:none;
 }
 .Compare2{
