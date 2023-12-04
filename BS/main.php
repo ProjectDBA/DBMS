@@ -35,7 +35,9 @@
                                         <input class="form-control form-control-lg" id="inputbox" type="text" list='dlist' placeholder="Phone name" />
                                         <?php include("php/searchPname.php"); ?>
                                     </div>
-                                    <div class="col-auto"><button class="btn btn-primary btn-lg abled" id="button" type="button">Serch</button></div>
+                                    <div class="col-auto">
+                                        <button class="btn btn-primary btn-lg abled" id="button" type="button">Serch</button>
+                                    </div>
                                 </div>
                             </form>
                         </div>
@@ -92,12 +94,16 @@
                                     <tr>
                                         <td> </td>
                                         <td> <h1 class="Phonename">Performance</h1></td>
-                                        <td>
-                                            <?php include "php/create_dropdownbox.php"; ?>
-                                        </td>
-                                        <td>
-                                            <?php include "php/create_dropdownbox.php"; ?>
-                                        </td>
+                                        <form action='#' method="post">
+                                            <td>
+                                                <?php include "php/create_dropdownbox.php"; ?>
+                                                <button type='submit' value='select'>Select</button>
+                                            </td>
+                                            <td>
+                                                <?php include "php/create_dropdownbox.php"; ?>
+                                                <button type='submit' value='select'>Select</button>
+                                            </td>
+                                        </form>
                                     </tr>
                                     <td class="relation" rowspan="5">Platform</td>
                                     <tr>
