@@ -11090,7 +11090,7 @@ table, th, td {
 
 body {font-family:Georgia,"Times New Roman",serif;margin-left:20px;background:white;}
   
-h1 {font-family:Arial,"Lucida Sans",sans-serif;font-size:2em;width:90%;
+h6 {font-family:Arial,"Lucida Sans",sans-serif;font-size:2em;width:90%;
   margin-bottom:30px;margin-left:20px;padding-bottom:10px;border-bottom:4px solid black;}
 ol {margin-left:40px;margin-top:0;padding-top:0;font-size:1.5em;
   list-style:decimal url(data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7);}
@@ -11165,14 +11165,15 @@ h3, .h3 {
 }
 
 div.Compare_all{
-  display: inline;
   float: left;
 }
 .Compare1{
+  display: inline;
   margin: 10px;
   width: 50%;
 }
 .Compare2{
+  display: inline;
   margin: 10px;
   width: 30%;
 }
