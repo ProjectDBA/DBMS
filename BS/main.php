@@ -86,7 +86,6 @@
                             </div>
                             <div class="page" id="page2">
                                 <h1>Compare</h1>
-                                <div class = "Compare1" id="Compare1">
                                     <table class="Phonetable" id="ViewPerformance">
                                         <tr>
                                             <td> </td>
@@ -246,9 +245,6 @@
                                             <td class="datavalue" id="BodyFrameData1">Frame data1</td>
                                         </tr>
                                     </table>
-                                </div>
-                                
-                                <div class = "Compare2" id="Compar2">
                                     <table class="Phonetable" id="ViewPerformance">
                                         <tr>
                                             <td> </td>
@@ -365,7 +361,6 @@
                                             <td class="datavalue" id="BodyFrameData2">Frame data2</td>
                                         </tr>
                                     </table>
-                                </div>
                             </div>
                             <div class="page" id="page3">
                                 <h1>P3</h1>

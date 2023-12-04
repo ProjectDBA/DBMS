@@ -10981,6 +10981,7 @@ table, th, td {
   min-width: 300px;
   max-width: 100%;
   border-collapse: collapse;
+  display: inline;
 }
 
 .Phonetable tr:first-child {
