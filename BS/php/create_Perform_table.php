@@ -340,7 +340,7 @@ if($result->num_rows > 0){
         </tr>
         <tr>
             <td class='attri'>Frame</td>
-            <td class='datavalue' id='BodyFrameData'>", $row["Frame"], "a</td>
+            <td class='datavalue' id='BodyFrameData'>", $row["Frame"], "</td>
         </tr>";
 	}
 }else{
