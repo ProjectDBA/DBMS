@@ -11078,17 +11078,18 @@ table, th, td {
 }
 
 /*phonelist*/
+.unsignedlist{
+  background: #adb5bd; 
+  border-width: 2px;
+  border-style: solid;
+  border-color: #e9ecef;
+}
 
 .listt li {
   list-style-type: circle;
   font-size: 20px;
   margin-bottom: 5px;
-  border-width: 2px;
-  border-style: solid;
-  border-color: #e9ecef;
-  background: #adb5bd;
   font-family:Arial,"Lucida Sans",sans-serif;
-
   padding: 10px; /* 추가: 내용과 테두리 간의 간격을 조절하기 위해 padding을 추가 */
 }
 
@@ -11099,7 +11100,7 @@ table, th, td {
   color: #fff;
   font-family:Arial,"Lucida Sans",sans-serif;
   font-size:30px;
-  width:90%;
+  /*width:90%;*/
   margin-bottom:30px;
   margin-left:20px;
   padding-bottom:10px;
