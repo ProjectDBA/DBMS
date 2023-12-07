@@ -54,41 +54,7 @@ if($result->num_rows > 0){
 			</tr>";
 	}
 }else{
-	echo "<h2 class='Phonename'></h2>
-		<table class='Phonetable' id='ViewPerformance'>
-            <tr>
-                <td> </td>
-                <td> <h2 class='Phonename'>Performance</h2></td>
-                <form action='#' method='post'>
-                <td>", include 'create_dropdownbox.php';
-    echo"       </td>
-                </form>
-            </tr>
-            <td class='relation' rowspan='7'>Telephone</td>
-            <tr>
-				<td class='attri'>Image</td>
-				<td class='datavalue' id='Telimg'><img src='' alt='Image'></td>
-			</tr>
-            <tr>
-				<td class='attri'>Price</td>
-				<td class='datavalue' id='TelephonePriceData'></td>
-			</tr>
-			<tr>
-				<td class='attri'>Geekbench Performance</td>
-				<td class='datavalue' id='TelephoneGeekbenchPerformanceData'></td>
-			</tr>
-			<tr>
-				<td class='attri'>Manufacturer Name</td>
-				<td class='datavalue' id='TelephoneManufacturerNameData'></td>
-			</tr>
-			<tr>
-				<td class='attri'>Released</td>
-				<td class='datavalue' id='TelephoneReleasedData'></td>
-			</tr>
-			<tr>
-				<td class='attri'>Announced</td>
-				<td class='datavalue' id='TelephoneAnnouncedData'></td>
-			</tr>";
+    echo "result0";
 }
 
 $sql = "
