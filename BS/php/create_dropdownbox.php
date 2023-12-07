@@ -8,8 +8,8 @@ $resultl = $conn->query($sqll);
 
 echo "<select name='pname' class='pdropbox'>";
 if($resultl->num_rows > 0){
-	while($row = $resultl->fetch_assoc()){
-		echo "<option value='", $row["Tel_Type"], "'>", $row["Tel_Type"], "</option>";
+	while($rowd = $resultl->fetch_assoc()){
+		echo "<option value='", $rowd["Tel_Type"], "'>", $rowd["Tel_Type"], "</option>";
 	}
 }else{
 	echo "0 Results";
