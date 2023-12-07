@@ -39,6 +39,8 @@ button.addEventListener('click', function(){
 });
 
 function form(a){
+    var comp1 = document.getElementById('Compare1');
+    var comp2 = document.getElementById('Compare2');
     click2();
 
     if(a == 1){
@@ -48,7 +50,7 @@ function form(a){
         var xhr = new XMLHttpRequest();
         xhr.onreadystatechange = function() {
             if (xhr.readyState == 4 && xhr.status == 200) {
-                page1.innerHTML= xhr.responseText;
+                comp1.innerHTML= xhr.responseText;
                 console.log('Process:', xhr.responseText);
             }
         };
@@ -63,7 +65,7 @@ function form(a){
         var xhr = new XMLHttpRequest();
         xhr.onreadystatechange = function() {
             if (xhr.readyState == 4 && xhr.status == 200) {
-                page1.innerHTML= xhr.responseText;
+                comp2.innerHTML= xhr.responseText;
                 console.log('Process:', xhr.responseText);
             }
         };
