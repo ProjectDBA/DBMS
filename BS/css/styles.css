@@ -11078,14 +11078,11 @@ table, th, td {
 }
 
 /*phonelist*/
-.unsignedlist{
+.unsignedlist ul{
   background: #adb5bd; 
   border-width: 2px;
   border-style: solid;
   border-color: #e9ecef;
-}
-
-.listt li {
   list-style-type: circle;
   font-size: 20px;
   margin-bottom: 5px;
@@ -11093,18 +11090,40 @@ table, th, td {
   padding: 10px; /* 추가: 내용과 테두리 간의 간격을 조절하기 위해 padding을 추가 */
 }
 
-.listt li:first-child {
+.unsignedlist ul:first-child{
   list-style-type: none;
   border-top: none;
   background: #428bca;
   color: #fff;
   font-family:Arial,"Lucida Sans",sans-serif;
   font-size:30px;
-  /*width:90%;*/
+  width:90%;
   margin-bottom:30px;
   margin-left:20px;
   padding-bottom:10px;
 }
+
+/*
+.listt li {
+  list-style-type: circle;
+  font-size: 20px;
+  margin-bottom: 5px;
+  font-family:Arial,"Lucida Sans",sans-serif;
+  padding: 10px; 
+}*/
+
+/*.listt li:first-child {
+  list-style-type: none;
+  border-top: none;
+  background: #428bca;
+  color: #fff;
+  font-family:Arial,"Lucida Sans",sans-serif;
+  font-size:30px;
+  width:90%;
+  margin-bottom:30px;
+  margin-left:20px;
+  padding-bottom:10px;
+}*/
 
 /*.listt {
   list-style-type: none;
