@@ -17,12 +17,12 @@ $result = $conn->query($sql);
 
 if($result->num_rows > 0){
 	while ($row = $result->fetch_assoc()) {
-		echo "<h2 class='Phonename'>", $row["Tel_Type"], "</h2>
+		echo "
 		<table class='Phonetable' id='ViewPerformance'>
             <tr>
                 <td> </td>
                 <td> <h2 class='Phonename'>Performance</h2></td>
-                <td> <h2 class='Phonename'> Phone Name</h2></td>
+                <td> <h2 class='Phonename'>", $row["Tel_Type"], "</h2></td>
             </tr>
             <td class='relation' rowspan='7'>Telephone</td>
             <tr>
