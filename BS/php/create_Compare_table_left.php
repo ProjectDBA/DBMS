@@ -20,15 +20,16 @@ if($result->num_rows > 0){
 		echo "
 		<table class='Phonetable' id='ViewPerformance'>
             <tr>
-                <td> </td>
-                <td> <h2 class='Phonename'>Performance</h2></td>
+                <td></td>
+                <td>
+                    <h2 class='Phonename'>Performance</h2>
+                </td>
                 <td>
                     <form id='form1'>
                         ", include 'create_dropdownbox1.php';
         echo"
                     </form>
                 </td>
-                
             </tr>
             <td class='relation' rowspan='7'>Telephone</td>
             <tr>
