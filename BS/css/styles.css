@@ -11122,38 +11122,6 @@ table, th, td {
 }
 
 
-/*.listt {
-  list-style-type: none;
-  font-size: 20px;
-  margin-bottom: 5px;
-  border-bottom: 1px solid black;
-}*/
-/*
-@font-face {font-family: 'dejavu_sansbold';font-weight: normal; font-style: normal;
-  src: url('dejavusans-bold-webfont.eot?#iefix') format('embedded-opentype'), 
-      url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/358203/dejavusans-bold-webfont.woff') format('woff'), 
-      url('dejavusans-bold-webfont.ttf')  format('truetype'),
-      url('dejavusans-bold-webfont.svg#svgFontName') format('svg');}
-
-body {font-family:Georgia,"Times New Roman",serif;margin-left:20px;background:white;}
-  
-h6 {font-family:Arial,"Lucida Sans",sans-serif;font-size:2em;width:90%;
-  margin-bottom:30px;margin-left:20px;padding-bottom:10px;border-bottom:4px solid black;}
-ol {margin-left:40px;margin-top:0;padding-top:0;font-size:1.5em;
-  list-style:decimal url(data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7);}
-  
-li:nth-child(1n):before, .dejavu {font-family:dejavu_sansbold,serif;font-weight:normal;}
-
-.unsignedlist li {
-  margin-left:35px;
-  position:relative;
-  margin-bottom:0.25em;
-  list-style-type: none;
-}
-.unsignedlist li:nth-child(1n):before {position:absolute;left:-1.25em;}*/
-
-/* THE END OF THE IMPORTANT STUFF */
-
 /* Basic Styling */
 body {
 background: #4B79A1;
@@ -11226,4 +11194,9 @@ h3, .h3 {
   display: inline;
   margin: 10px;
   border:none;
+}
+
+.combtn{
+  width: 150px;
+  height: 40px;
 }
