@@ -33,7 +33,7 @@ if($result->num_rows > 0){
             <tr>
 				<td class='datavalue' id='TelephonePriceData'>", $row["Price"], "$</td>
 			</tr>
-			<tr
+			<tr>
 				<td class='datavalue' id='TelephoneGeekbenchPerformanceData'>", $row["GeekbenchPerformance"], "</td>
 			</tr>
 			<tr>
