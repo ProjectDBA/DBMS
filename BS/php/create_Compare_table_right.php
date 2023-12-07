@@ -29,27 +29,21 @@ if($result->num_rows > 0){
                 
             </tr>
             <tr>
-				<td class='attri'>Image</td>
 				<td class='datavalue' id='Telimg'><img src='", $row["Picture"], "' alt='Image'></td>
 			</tr>
             <tr>
-				<td class='attri'>Price</td>
 				<td class='datavalue' id='TelephonePriceData'>", $row["Price"], "$</td>
 			</tr>
-			<tr>
-				<td class='attri'>Geekbench Performance</td>
+			<tr
 				<td class='datavalue' id='TelephoneGeekbenchPerformanceData'>", $row["GeekbenchPerformance"], "</td>
 			</tr>
 			<tr>
-				<td class='attri'>Manufacturer Name</td>
 				<td class='datavalue' id='TelephoneManufacturerNameData'>", $row["Manufacturer_Name"], "</td>
 			</tr>
 			<tr>
-				<td class='attri'>Released</td>
 				<td class='datavalue' id='TelephoneReleasedData'>", $row["Released"], "</td>
 			</tr>
 			<tr>
-				<td class='attri'>Announced</td>
 				<td class='datavalue' id='TelephoneAnnouncedData'>", $row["Announced"], "</td>
 			</tr>";
 	}
@@ -72,19 +66,15 @@ if($result->num_rows > 0){
 		echo
         "
         <tr>
-            <td class='attri'>OS</td>
             <td class='datavalue' id='PlatformOSData'>", $row["OS"], "</td>
         </tr>
         <tr>
-            <td class='attri'>Chipset</td>
             <td class='datavalue' id='PlatformChipsetData'>", $row["Chipset"], "</td>
         </tr>
         <tr>
-            <td class='attri'>CPU</td>
             <td class='datavalue' id='PlatformCPUData'>", $row["CPU"], "</td>
         </tr>
         <tr>
-            <td class='attri'>GPU</td>
             <td class='datavalue' id='PlatformGPUData'>", $row["GPU"], "</td>
         </tr>";
 	}
@@ -106,15 +96,12 @@ if($result->num_rows > 0){
 		echo
 		"
         <tr>
-            <td class='attri'>Max Storage</td>
             <td class='datavalue' id='MemoryStorageData'>", $row["Max_Storage"], "GB</td>
         </tr>
         <tr>
-            <td class='attri'>Max Ram</td>
             <td class='datavalue' id='MemoryRamData'>", $row["Max_Ram"], "GB</td>
         </tr>
         <tr>
-            <td class='attri'>Card Slot</td>
             <td class='datavalue' id='MemorySlotData'>", $row["Card_Slot"], "</td>
         </tr>";
 	}
@@ -136,15 +123,12 @@ if($result->num_rows > 0){
 		echo
         "
         <tr>
-            <td class='attri'>Size</td>
             <td class='datavalue' id='BatterySizeData'>", $row["Size"], "mAh</td>
         </tr>
         <tr>
-            <td class='attri'>Max Wired Charging Speed</td>
             <td class='datavalue' id='BatteryWiredData'>", $row["MaxWiredChargingSpeed"], "W</td> <!--id = Battery Max Wired Charging Speed Data-->
         </tr>
         <tr>
-            <td class='attri'>Wire Less Charging Speed</td>
             <td class='datavalue' id='BatteryWireLessData'>", $row["WirelessChargingSpeed"], "W</td> <!--id = Battery Wire Less Charging Speed Data-->
         </tr>";
 	}
@@ -166,23 +150,18 @@ if($result->num_rows > 0){
 		echo
         "
         <tr>
-            <td class='attri'>Fingerprint</td>
             <td class='datavalue' id='CommsFingerprintData'>", $row["Fingerprint"], "</td>
         </tr>
         <tr>
-            <td class='attri'>Face ID</td>
             <td class='datavalue' id='CommsFaceIDData'>", $row["Face_ID"], "</td>
         </tr>
         <tr>
-            <td class='attri'>UltraWideband</td>
             <td class='datavalue' id='CommsWidebandData'>", $row["UltraWideband"], "</td>
         </tr>
         <tr>
-            <td class='attri'>Network Max Band</td>
             <td class='datavalue' id='CommsNetworkData'>", $row["Network_Max_Band"], "</td> <!--id = Network Max Band Data-->
         </tr>
         <tr>
-            <td class='attri'>USB Type</td>
             <td class='datavalue' id='CommsUSBData'>", $row["USB_Type"], "</td> <!--Comms USB Type Data-->
         </tr>";
 	}
@@ -204,31 +183,24 @@ if($result->num_rows > 0){
 		echo
         "
         <tr>
-            <td class='attri'>Main Single</td>
             <td class='datavalue' id='CameraMSingleData'>", $row["M_Single"], "</td> <!--id='Camera Main Single Data'-->
         </tr>
         <tr>
-            <td class='attri'>Main Multi</td>
             <td class='datavalue' id='CameraMMultiData'>", $row["M_Multi"], "</td> <!--id='Camera Main Multi Data'-->
         </tr>
         <tr>
-            <td class='attri'>Main Triple</td>
             <td class='datavalue' id='CameraMTripleData'>", $row["M_Triple"], "</td> <!--id='Camera Main Triple Data'-->
         </tr>
         <tr>
-            <td class='attri'>Main Quard</td>
             <td class='datavalue' id='CameraMQuardData'>", $row["M_Quard"], "</td> <!--id='Camera Main Quard Data'-->
         </tr>
         <tr>
-            <td class='attri'>Main Video</td>
             <td class='datavalue' id='CameraMVideoData'>", $row["M_Video"], "</td> <!--id='Camera Main Video Data'-->
         </tr>
         <tr>
-            <td class='attri'>Front Single</td>
             <td class='datavalue' id='CameraFSingleData'>", $row["F_Single"], "</td> <!--id='Camera Front Single Data'-->
         </tr>
         <tr>
-            <td class='attri'>Front Multi</td>
             <td class='datavalue' id='CameraFMultiData'>", $row["F_Multi"], "</td> <!--id='Camera  Front Multi Data'-->
         </tr>";
 	}
@@ -250,11 +222,9 @@ if($result->num_rows > 0){
 		echo
         "
         <tr>
-            <td class='attri'>Stereo Speaker</td>
             <td class='datavalue' id='SoundStereoData'>", $row["StereoSpeaker"], "</td> <!--id='Sound Stereo Speaker Data'-->
         </tr>
         <tr>
-            <td class='attri'>3.5mm Jack</td>
             <td class='datavalue' id='Sound3_5JackData'>", $row["3_5mm_Jack"], "</td> <!--id='Sound 3.5 Jack Data'-->
         </tr>";
 	}
@@ -276,23 +246,18 @@ if($result->num_rows > 0){
 		echo
         "
         <tr>
-            <td class='attri'>Type</td>
             <td class='datavalue' id='DisplayTypeData'>", $row["Type"], "</td>
         </tr>
         <tr>
-            <td class='attri'>Size</td>
             <td class='datavalue' id='DisplaySizeData'>", $row["Size"], "</td>
         </tr>
         <tr>
-            <td class='attri'>Resolution</td>
             <td class='datavalue' id='DisplayResolutionData'>", $row["Resolution"], "</td>
         </tr>
         <tr>
-            <td class='attri'>Protection</td>
             <td class='datavalue' id='DisplayProtectionData'>", $row["Protection"], "</td>
         </tr>
         <tr>
-            <td class='attri'>Always on Display</td>
             <td class='datavalue' id='DisplayAODData'>", $row["Always_on_Display"], "</td> <!--id='Displa Always On Display Data'-->
         </tr>";
 	}
@@ -314,27 +279,21 @@ if($result->num_rows > 0){
 		echo
         "
         <tr>
-            <td class='attri'>Height</td>
             <td class='datavalue' id='BodyHeightData'>", $row["Height"], "mm</td>
         </tr>
         <tr>
-            <td class='attri'>Length</td>
             <td class='datavalue' id='BodyLenghtData'>", $row["Length"], "mm</td>
         </tr>
         <tr>
-            <td class='attri'>Width</td>
             <td class='datavalue' id='BodyWidthData'>", $row["Width"], "mm</td>
         </tr>
         <tr>
-            <td class='attri'>Weight</td>
             <td class='datavalue' id='BodyWeightData'>", $row["Weight"], "g</td>
         </tr>
         <tr>
-            <td class='attri'>Rear Material</td>
             <td class='datavalue' id='BodyMaterialData'>", $row["Rear_Material"], "</td>
         </tr>
         <tr>
-            <td class='attri'>Frame</td>
             <td class='datavalue' id='BodyFrameData'>", $row["Frame"], "</td>
         </tr>";
 	}
