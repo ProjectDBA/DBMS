@@ -16,6 +16,6 @@ if($resultl->num_rows > 0){
 }
 
 echo "</select>";
-echo "<button class='btn btn-primary abled combtn' type='button' onclick='form(1)' id ='combutton'>Select</button>";
+echo "<button class='btn btn-primary abled combtn' type='button' onclick='form(1);' id ='combutton'>Select</button>";
 
 ?>
