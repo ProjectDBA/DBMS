@@ -6,7 +6,7 @@ $sqll = "SELECT Tel_Type From Telephone;";
 
 $resultl = $conn->query($sqll);
 
-echo "<select name='pname' class='pdropbox'>";
+echo "<select name='p1name' class='pdropbox'>";
 if($resultl->num_rows > 0){
 	while($rowl = $resultl->fetch_assoc()){
 		echo "<option value='", $rowl["Tel_Type"], "'>", $rowl["Tel_Type"], "</option>";
@@ -16,6 +16,6 @@ if($resultl->num_rows > 0){
 }
 
 echo "</select>";
-echo "<button class='btn btn-primary abled combtn' type='button' onclick='form()' id ='combutton'>Select</button>222";
+echo "<button class='btn btn-primary abled combtn' type='button' onclick='form(1)' id ='combutton'>Select</button>";
 
 ?>

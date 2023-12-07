@@ -38,6 +38,42 @@ button.addEventListener('click', function(){
     xhr.send('selected=' + encodeURIComponent(selected));
 });
 
+function form(a){
+    click2();
+
+    if(a == 1){
+        var form = document.getElementById('form1');
+        var selected = form.elements["p1name"].value;
+
+        var xhr = new XMLHttpRequest();
+        xhr.onreadystatechange = function() {
+            if (xhr.readyState == 4 && xhr.status == 200) {
+                page1.innerHTML= xhr.responseText;
+                console.log('Process:', xhr.responseText);
+            }
+        };
+    
+        xhr.open('POST', './php/create_Compare_table_left.php', true);
+        xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+        xhr.send('selected=' + encodeURIComponent(selected));
+    }else if(a == 2){
+        var form = document.getElementById('form2');
+        var selected = form.elements["p2name"].value;
+
+        var xhr = new XMLHttpRequest();
+        xhr.onreadystatechange = function() {
+            if (xhr.readyState == 4 && xhr.status == 200) {
+                page1.innerHTML= xhr.responseText;
+                console.log('Process:', xhr.responseText);
+            }
+        };
+    
+        xhr.open('POST', './php/create_Compare_table_right.php', true);
+        xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+        xhr.send('selected=' + encodeURIComponent(selected));
+    }
+}
+
 combutton.addEventListener('click', function(){
     click2();
     var selected = comselect.value;

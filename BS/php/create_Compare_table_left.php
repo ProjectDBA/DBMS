@@ -23,8 +23,8 @@ if($result->num_rows > 0){
                 <td> </td>
                 <td> <h2 class='Phonename'>Performance</h2></td>
                 <td>
-                    <form>
-                        ", include 'create_dropdownbox.php';
+                    <form id='form1'>
+                        ", include 'create_dropdownbox1.php';
         echo"
                     </form>
                 </td>
