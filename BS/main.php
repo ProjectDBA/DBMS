@@ -88,7 +88,7 @@
                                 <h1>Compare</h1>
                                     <div class= "Compare_all" id = "Compare_all">
                                         <div class= "Compare1" id = "Compare1">
-                                            <?php include "php/create_Compare_table_left copy.php" ?>
+                                            <?php include "php/create_Compare_table_left.php" ?>
                                         </div>
                                         
                                         <div class= "Compare2" id = "Compare2">

@@ -3,7 +3,7 @@ include 'idconfig_project.php';
 
 mysqli_select_db($conn, $dbname) or die('DB selection failed');
 
-$selectedValue = isset($_POST['selected']) ? $_POST['selected'] : '';
+$selectedValue = isset($_POST['selected']) ? $_POST['selected'] : '- Select -';
 
 $sql = "
 SELECT T.Tel_Type, T.Picture, T.Price, T.GeekbenchPerformance, M.Manufacturer_Name, T.Announced, T.Released
@@ -22,11 +22,13 @@ if($result->num_rows > 0){
             <tr>
                 <td> </td>
                 <td> <h2 class='Phonename'>Performance</h2></td>
-                <form action='#' method='post'>
-                    <td>
-                        <?php include 'php/create_dropdownbox.php'; ?>
-                    </td>
-                </form>
+                <td>
+                    <form>
+                        ", include 'create_dropdownbox.php';
+        echo"
+                    </form>
+                </td>
+                
             </tr>
             <td class='relation' rowspan='7'>Telephone</td>
             <tr>
@@ -55,42 +57,7 @@ if($result->num_rows > 0){
 			</tr>";
 	}
 }else{
-	echo "<h2 class='Phonename'></h2>
-		<table class='Phonetable' id='ViewPerformance'>
-            <tr>
-                <td> </td>
-                <td> <h2 class='Phonename'>Performance</h2></td>
-                <form action='#' method='post'>
-                    <td>
-                        <?php include 'php/create_dropdownbox.php'; ?>
-                    </td>
-                </form>
-            </tr>
-            <td class='relation' rowspan='7'>Telephone</td>
-            <tr>
-				<td class='attri'>Image</td>
-				<td class='datavalue' id='Telimg'><img src='' alt='Image'></td>
-			</tr>
-            <tr>
-				<td class='attri'>Price</td>
-				<td class='datavalue' id='TelephonePriceData'></td>
-			</tr>
-			<tr>
-				<td class='attri'>Geekbench Performance</td>
-				<td class='datavalue' id='TelephoneGeekbenchPerformanceData'></td>
-			</tr>
-			<tr>
-				<td class='attri'>Manufacturer Name</td>
-				<td class='datavalue' id='TelephoneManufacturerNameData'></td>
-			</tr>
-			<tr>
-				<td class='attri'>Released</td>
-				<td class='datavalue' id='TelephoneReleasedData'></td>
-			</tr>
-			<tr>
-				<td class='attri'>Announced</td>
-				<td class='datavalue' id='TelephoneAnnouncedData'></td>
-			</tr>";
+    echo "0 Results";
 }
 
 $sql = "
@@ -126,25 +93,7 @@ if($result->num_rows > 0){
         </tr>";
 	}
 }else{
-	echo
-        "
-        <td class='relation' rowspan='5'>Platform</td>
-        <tr>
-            <td class='attri'>OS</td>
-            <td class='datavalue' id='PlatformOSData'></td>
-        </tr>
-        <tr>
-            <td class='attri'>Chipset</td>
-            <td class='datavalue' id='PlatformChipsetData'></td>
-        </tr>
-        <tr>
-            <td class='attri'>CPU</td>
-            <td class='datavalue' id='PlatformCPUData'></td>
-        </tr>
-        <tr>
-            <td class='attri'>GPU</td>
-            <td class='datavalue' id='PlatformGPUData'></td>
-        </tr>";
+	echo "0 Results";
 }
 
 $sql = "
@@ -175,21 +124,7 @@ if($result->num_rows > 0){
         </tr>";
 	}
 }else{
-	echo
-		"
-        <td class='relation' rowspan='4'>Memory</td>
-        <tr>
-            <td class='attri'>Max Storage</td>
-            <td class='datavalue' id='MemoryStorageData'></td>
-        </tr>
-        <tr>
-            <td class='attri'>Max Ram</td>
-            <td class='datavalue' id='MemoryRamData'></td>
-        </tr>
-        <tr>
-            <td class='attri'>Card Slot</td>
-            <td class='datavalue' id='MemorySlotData'></td>
-        </tr>";
+	echo "0 Results";
 }
 
 $sql = "
@@ -220,21 +155,7 @@ if($result->num_rows > 0){
         </tr>";
 	}
 }else{
-	echo
-        "
-        <td class='relation' rowspan='4'>Battery</td>
-        <tr>
-            <td class='attri'>Size</td>
-            <td class='datavalue' id='BatterySizeData'></td>
-        </tr>
-        <tr>
-            <td class='attri'>Max Wired Charging Speed</td>
-            <td class='datavalue' id='BatteryWiredData'></td> <!--id = Battery Max Wired Charging Speed Data-->
-        </tr>
-        <tr>
-            <td class='attri'>Wire Less Charging Speed</td>
-            <td class='datavalue' id='BatteryWireLessData'></td> <!--id = Battery Wire Less Charging Speed Data-->
-        </tr>";
+	echo "0 Results";
 }
 
 $sql = "
@@ -273,29 +194,7 @@ if($result->num_rows > 0){
         </tr>";
 	}
 }else{
-	echo
-        "
-        <td class='relation' rowspan='6'>Comms</td>
-        <tr>
-            <td class='attri'>Fingerprint</td>
-            <td class='datavalue' id='CommsFingerprintData'></td>
-        </tr>
-        <tr>
-            <td class='attri'>Face ID</td>
-            <td class='datavalue' id='CommsFaceIDData'></td>
-        </tr>
-        <tr>
-            <td class='attri'>UltraWideband</td>
-            <td class='datavalue' id='CommsWidebandData'></td>
-        </tr>
-        <tr>
-            <td class='attri'>Network Max Band</td>
-            <td class='datavalue' id='CommsNetworkData'></td> <!--id = Network Max Band Data-->
-        </tr>
-        <tr>
-            <td class='attri'>USB Type</td>
-            <td class='datavalue' id='CommsUSBData'></td> <!--Comms USB Type Data-->
-        </tr>";
+	echo "0 Results";
 }
 
 $sql = "
@@ -342,37 +241,7 @@ if($result->num_rows > 0){
         </tr>";
 	}
 }else{
-	echo
-        "
-        <td class='relation' rowspan='8'>Camera</td>
-        <tr>
-            <td class='attri'>Main Single</td>
-            <td class='datavalue' id='CameraMSingleData'></td> <!--id='Camera Main Single Data'-->
-        </tr>
-        <tr>
-            <td class='attri'>Main Multi</td>
-            <td class='datavalue' id='CameraMMultiData'></td> <!--id='Camera Main Multi Data'-->
-        </tr>
-        <tr>
-            <td class='attri'>Main Triple</td>
-            <td class='datavalue' id='CameraMTripleData'></td> <!--id='Camera Main Triple Data'-->
-        </tr>
-        <tr>
-            <td class='attri'>Main Quard</td>
-            <td class='datavalue' id='CameraMQuardData'></td> <!--id='Camera Main Quard Data'-->
-        </tr>
-        <tr>
-            <td class='attri'>Main Video</td>
-            <td class='datavalue' id='CameraMVideoData'></td> <!--id='Camera Main Video Data'-->
-        </tr>
-        <tr>
-            <td class='attri'>Front Single</td>
-            <td class='datavalue' id='CameraFSingleData'></td> <!--id='Camera Front Single Data'-->
-        </tr>
-        <tr>
-            <td class='attri'>Front Multi</td>
-            <td class='datavalue' id='CameraFMultiData'></td> <!--id='Camera  Front Multi Data'-->
-        </tr>";
+	echo "0 Results";
 }
 
 $sql = "
@@ -399,17 +268,7 @@ if($result->num_rows > 0){
         </tr>";
 	}
 }else{
-	echo
-        "
-        <td class='relation' rowspan='3'>Sound</td>
-        <tr>
-            <td class='attri'>Stereo Speaker</td>
-            <td class='datavalue' id='SoundStereoData'></td> <!--id='Sound Stereo Speaker Data'-->
-        </tr>
-        <tr>
-            <td class='attri'>3.5mm Jack</td>
-            <td class='datavalue' id='Sound3_5JackData'></td> <!--id='Sound 3.5 Jack Data'-->
-        </tr>";
+	echo "0 Results";
 }
 
 $sql = "
@@ -487,7 +346,7 @@ if($result->num_rows > 0){
         </tr>
         <tr>
             <td class='attri'>Frame</td>
-            <td class='datavalue' id='BodyFrameData'>", $row["Frame"], "a</td>
+            <td class='datavalue' id='BodyFrameData'>", $row["Frame"], "</td>
         </tr>";
 	}
 }else{
