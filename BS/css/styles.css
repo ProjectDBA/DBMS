@@ -11160,61 +11160,6 @@ h3, .h3 {
 }
 
 /*phonelist*/
-/*.unsignedlist ul {
-  border-width: 2px;
-  border-style: solid;
-  border-color: #e9ecef;
-  list-style-type: circle;
-  font-size: 20px;
-  font-family: Arial, "Lucida Sans", sans-serif;
-  padding: 10px;
-  margin-bottom: 5px;
-}
-
-.unsignedlist ul:first-child {
-  list-style-type: none;
-  border-top: none;
-  background: #428bca;
-  color: #fff;
-  font-size: 30px;
-  width: 90%;
-  margin-bottom: 30px;
-  margin-left: 20px;
-  padding-bottom: 10px;
-}
-
-.listt li {
-  list-style-type: circle;
-  font-size: 20px;
-  font-family: Arial, "Lucida Sans", sans-serif;
-  padding: 10px;
-  margin-bottom: 5px;
-}
-
-.listt li:first-child {
-  list-style-type: none;
-  border-top: none;
-  background: #428bca;
-  color: #fff;
-  font-size: 30px;
-  width: 90%;
-  margin-bottom: 30px;
-  margin-left: 20px;
-  padding-bottom: 10px;
-}*/
-
-/*.listt {
-  list-style-type: none; /* 목록 기호 제거
-  padding: 5px; /* 내부 간격 제거 
-  list-style-type: circle;
-  font-family: Arial, "Lucida Sans", sans-serif;
-  margin-bottom: 5px;
-  background-color: #ddd; /* 각 아이템 배경색 설정 
-  margin: 5px 0; /* 아이템 간격 설정 
-  padding: 10px; /* 내부 간격 설정 
-  border-radius: 5px; /* 테두리 모서리 둥글게 설정 
-}*/
-
 .unsignedlist{
   border-width: 2px;
   border-style: solid;
@@ -11224,6 +11169,7 @@ h3, .h3 {
   font-family: Arial, "Lucida Sans", sans-serif;
   padding: 10px;
   margin-bottom: 5px;
+  border-radius: 15px;
 }
 
 .unsignedlist li{
@@ -11232,18 +11178,18 @@ h3, .h3 {
   font-family: Arial, "Lucida Sans", sans-serif;
   padding: 10px;
   margin-bottom: 5px;
+  color: #fff;
 }
 
 .unsignedlist li:first-child{
   list-style-type: none;
   border-top: none;
-  background: #428bca;
   font-size: 30px;
   width: 90%;
   margin-bottom: 30px;
   margin-left: 20px;
   padding-bottom: 10px;
-  background: #428bca;
   color: #fff;
   font-size: 30px;
+  font-weight: bold;
 }
