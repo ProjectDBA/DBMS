@@ -57,7 +57,7 @@ if($result->num_rows > 0){
 			</tr>";
 	}
 }else{
-    echo "result 0", $conn->error;
+    echo "0 Results";
 }
 
 $sql = "
@@ -93,25 +93,7 @@ if($result->num_rows > 0){
         </tr>";
 	}
 }else{
-	echo
-        "
-        <td class='relation' rowspan='5'>Platform</td>
-        <tr>
-            <td class='attri'>OS</td>
-            <td class='datavalue' id='PlatformOSData'></td>
-        </tr>
-        <tr>
-            <td class='attri'>Chipset</td>
-            <td class='datavalue' id='PlatformChipsetData'></td>
-        </tr>
-        <tr>
-            <td class='attri'>CPU</td>
-            <td class='datavalue' id='PlatformCPUData'></td>
-        </tr>
-        <tr>
-            <td class='attri'>GPU</td>
-            <td class='datavalue' id='PlatformGPUData'></td>
-        </tr>";
+	echo "0 Results";
 }
 
 $sql = "
@@ -142,21 +124,7 @@ if($result->num_rows > 0){
         </tr>";
 	}
 }else{
-	echo
-		"
-        <td class='relation' rowspan='4'>Memory</td>
-        <tr>
-            <td class='attri'>Max Storage</td>
-            <td class='datavalue' id='MemoryStorageData'></td>
-        </tr>
-        <tr>
-            <td class='attri'>Max Ram</td>
-            <td class='datavalue' id='MemoryRamData'></td>
-        </tr>
-        <tr>
-            <td class='attri'>Card Slot</td>
-            <td class='datavalue' id='MemorySlotData'></td>
-        </tr>";
+	echo "0 Results";
 }
 
 $sql = "
@@ -187,21 +155,7 @@ if($result->num_rows > 0){
         </tr>";
 	}
 }else{
-	echo
-        "
-        <td class='relation' rowspan='4'>Battery</td>
-        <tr>
-            <td class='attri'>Size</td>
-            <td class='datavalue' id='BatterySizeData'></td>
-        </tr>
-        <tr>
-            <td class='attri'>Max Wired Charging Speed</td>
-            <td class='datavalue' id='BatteryWiredData'></td> <!--id = Battery Max Wired Charging Speed Data-->
-        </tr>
-        <tr>
-            <td class='attri'>Wire Less Charging Speed</td>
-            <td class='datavalue' id='BatteryWireLessData'></td> <!--id = Battery Wire Less Charging Speed Data-->
-        </tr>";
+	echo "0 Results";
 }
 
 $sql = "
@@ -240,29 +194,7 @@ if($result->num_rows > 0){
         </tr>";
 	}
 }else{
-	echo
-        "
-        <td class='relation' rowspan='6'>Comms</td>
-        <tr>
-            <td class='attri'>Fingerprint</td>
-            <td class='datavalue' id='CommsFingerprintData'></td>
-        </tr>
-        <tr>
-            <td class='attri'>Face ID</td>
-            <td class='datavalue' id='CommsFaceIDData'></td>
-        </tr>
-        <tr>
-            <td class='attri'>UltraWideband</td>
-            <td class='datavalue' id='CommsWidebandData'></td>
-        </tr>
-        <tr>
-            <td class='attri'>Network Max Band</td>
-            <td class='datavalue' id='CommsNetworkData'></td> <!--id = Network Max Band Data-->
-        </tr>
-        <tr>
-            <td class='attri'>USB Type</td>
-            <td class='datavalue' id='CommsUSBData'></td> <!--Comms USB Type Data-->
-        </tr>";
+	echo "0 Results";
 }
 
 $sql = "
@@ -309,37 +241,7 @@ if($result->num_rows > 0){
         </tr>";
 	}
 }else{
-	echo
-        "
-        <td class='relation' rowspan='8'>Camera</td>
-        <tr>
-            <td class='attri'>Main Single</td>
-            <td class='datavalue' id='CameraMSingleData'></td> <!--id='Camera Main Single Data'-->
-        </tr>
-        <tr>
-            <td class='attri'>Main Multi</td>
-            <td class='datavalue' id='CameraMMultiData'></td> <!--id='Camera Main Multi Data'-->
-        </tr>
-        <tr>
-            <td class='attri'>Main Triple</td>
-            <td class='datavalue' id='CameraMTripleData'></td> <!--id='Camera Main Triple Data'-->
-        </tr>
-        <tr>
-            <td class='attri'>Main Quard</td>
-            <td class='datavalue' id='CameraMQuardData'></td> <!--id='Camera Main Quard Data'-->
-        </tr>
-        <tr>
-            <td class='attri'>Main Video</td>
-            <td class='datavalue' id='CameraMVideoData'></td> <!--id='Camera Main Video Data'-->
-        </tr>
-        <tr>
-            <td class='attri'>Front Single</td>
-            <td class='datavalue' id='CameraFSingleData'></td> <!--id='Camera Front Single Data'-->
-        </tr>
-        <tr>
-            <td class='attri'>Front Multi</td>
-            <td class='datavalue' id='CameraFMultiData'></td> <!--id='Camera  Front Multi Data'-->
-        </tr>";
+	echo "0 Results";
 }
 
 $sql = "
@@ -366,17 +268,7 @@ if($result->num_rows > 0){
         </tr>";
 	}
 }else{
-	echo
-        "
-        <td class='relation' rowspan='3'>Sound</td>
-        <tr>
-            <td class='attri'>Stereo Speaker</td>
-            <td class='datavalue' id='SoundStereoData'></td> <!--id='Sound Stereo Speaker Data'-->
-        </tr>
-        <tr>
-            <td class='attri'>3.5mm Jack</td>
-            <td class='datavalue' id='Sound3_5JackData'></td> <!--id='Sound 3.5 Jack Data'-->
-        </tr>";
+	echo "0 Results";
 }
 
 $sql = "
