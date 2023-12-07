@@ -11073,6 +11073,9 @@ table, th, td {
     padding: 1em !important;
   }
 }
+.Phonename{
+  color: var(--bs-white);
+}
 
 /*phonelist*/
 
