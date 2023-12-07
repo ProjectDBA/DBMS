@@ -11197,11 +11197,8 @@ h3, .h3 {
 }
 
 .combtn{
-  --bs-btn-padding-y: 0.75rem;
-  --bs-btn-padding-x: 1rem;
-  --bs-btn-font-size: 1.25rem;
+  --bs-btn-padding-y: 3.5px;
+  --bs-btn-padding-x: 3.5px;
+  --bs-btn-font-size: 16px;
   --bs-btn-border-radius: 0.5rem;
-
-  padding-right: 0.9375rem;
-  padding-left: 0.9375rem;
 }
