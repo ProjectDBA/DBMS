@@ -38,7 +38,7 @@ button.addEventListener('click', function(){
     xhr.send('selected=' + encodeURIComponent(selected));
 });
 
-function form(a){
+function formc(a){
     var comp1 = document.getElementById('Compare1');
     var comp2 = document.getElementById('Compare2');
     click2();
