@@ -11205,7 +11205,10 @@ h3, .h3 {
 
 .listt {
   list-style-type: none; /* 목록 기호 제거 */
-  padding: 0; /* 내부 간격 제거 */
+  padding: 5px; /* 내부 간격 제거 */
+  list-style-type: circle;
+  font-family: Arial, "Lucida Sans", sans-serif;
+  margin-bottom: 5px;
 }
 
 .listt li {
@@ -11213,4 +11216,5 @@ h3, .h3 {
   margin: 5px 0; /* 아이템 간격 설정 */
   padding: 10px; /* 내부 간격 설정 */
   border-radius: 5px; /* 테두리 모서리 둥글게 설정 */
+  
 }
