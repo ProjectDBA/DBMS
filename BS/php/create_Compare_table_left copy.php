@@ -22,10 +22,13 @@ if($result->num_rows > 0){
             <tr>
                 <td> </td>
                 <td> <h2 class='Phonename'>Performance</h2></td>
+                <td>
                 <form action='#' method='post'>
-                    <td>", include 'create_dropdownbox.php';
-        echo"       </td>
+                    ", include 'create_dropdownbox.php';
+        echo"
                 </form>
+                </td>
+                
             </tr>
             <td class='relation' rowspan='7'>Telephone</td>
             <tr>
