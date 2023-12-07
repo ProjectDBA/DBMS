@@ -10914,7 +10914,7 @@ footer.footer {
   font-family: Arial, sans-serif;
   font-size: 20px;
   font-weight: 450;
-  width: 1000px;
+  width: 380px;
   height: 100px;
 }
 
@@ -10970,7 +10970,7 @@ table, th, td {
 .datavalue{
   text-align: center;
   font-size: 20px;
-  width: 1000px;
+  width: 500px;
   height: 100px;
 }
 
