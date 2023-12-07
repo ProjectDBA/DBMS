@@ -96,7 +96,10 @@
                                                 <tr>
                                                     <form action='#' method="post">
                                                         <td>
-                                                            <?php include "php/create_dropdownbox.php"; ?>
+                                                            <?php
+                                                                include "php/create_dropdownbox.php"; 
+                                                                $conn->close();
+                                                            ?>
                                                         </td>
                                                     </form>
                                                 </tr>
