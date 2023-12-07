@@ -10,6 +10,8 @@ const page2 = document.getElementById('page2');
 const page3 = document.getElementById('page3');
 const button = document.getElementById('button');
 const inputbox = document.getElementById('inputbox');
+const combutton = document.getElementById('combutton');
+const comselect = document.getElementsByClassName('pdropbox');
 
 function click1() {
     mainpage.style.display = 'none';
@@ -35,6 +37,23 @@ button.addEventListener('click', function(){
     xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
     xhr.send('selected=' + encodeURIComponent(selected));
 });
+
+combutton.addEventListener('click', function(){
+    click2();
+    var selected = comselect.value;
+
+    var xhr = new XMLHttpRequest();
+    xhr.onreadystatechange = function() {
+        if (xhr.readyState == 4 && xhr.status == 200) {
+            page1.innerHTML= xhr.responseText;
+            console.log('Process:', xhr.responseText);
+        }
+    };
+
+    xhr.open('POST', './php/create_Perform_table.php', true);
+    xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+    xhr.send('selected=' + encodeURIComponent(selected));
+})
 
 function click2() {
     mainpage.style.display = 'none';
