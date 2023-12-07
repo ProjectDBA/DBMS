@@ -21,9 +21,9 @@ if($result->num_rows > 0){
 		<table class='Phonetable' id='ViewPerformance'>
             <tr>
                 <td>
-                    <form>fff
+                    <form>
                         ", include 'create_dropdownbox.php';
-        echo"sdf
+        echo"
                     </form>
                 </td>
                 
