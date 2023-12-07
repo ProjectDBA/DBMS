@@ -173,7 +173,7 @@ address {
   line-height: inherit;
 }
 
-ol,
+/*ol,
 ul {
   padding-left: 2rem;
 }
@@ -190,7 +190,7 @@ ul ul,
 ol ul,
 ul ol {
   margin-bottom: 0;
-}
+}*/
 
 dt {
   font-weight: 700;
