@@ -77,9 +77,6 @@
                         <div class="phonelist" id="phonelist">
                             <?php include "php/create_list.php"; ?>    
                         </div>
-                        <div class='bntscroll' id='bntscroll'>
-                            <p>button</p>
-                        </div>
                         <div class="perform">
                             <div class="page" id="mainpage">
                                 This is MainPage
@@ -99,9 +96,9 @@
                                     </div>
                                 </div>
                                 <?php include "php/create_Perform_table.php" ?>
-                                <div class='bntscroll' id='bntscroll'>
-                                        <p>button</p>
-                                </div>
+                            </div>
+                            <div class='bntscroll' id='bntscroll'>
+                            <p>button</p>
                             </div>
                             <div class="page" id="page2">
                                 <h1>Compare</h1>

@@ -11286,12 +11286,15 @@ h3, .h3 {
 
 .bntscroll{
   border-width: 2px;
+  height: 400px;
+  width:120px;
+  top: 20px;
   border-style: solid;
   border-color: #e9ecef;
-  list-style-type: circle;
   font-size: 20px;
   font-family: Arial, "Lucida Sans", sans-serif;
   padding: 10px;
-  margin-bottom: 5px;
+  margin: 20px;
   border-radius: 15px;
+  position: sticky;
 }
