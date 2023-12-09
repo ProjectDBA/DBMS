@@ -11150,7 +11150,6 @@ h3, .h3 {
     font-size: 1.75rem;
   }
 }
-
 .Compare_all{
   justify-content: center;
   float: left;
@@ -11177,8 +11176,11 @@ h3, .h3 {
 
 
 /*phonelist*/
-.unsignedlist{
+.phonelist{
   display: none;
+}
+
+.unsignedlist{
   border-width: 2px;
   border-style: solid;
   border-color: #e9ecef;
@@ -11231,6 +11233,7 @@ h3, .h3 {
   -webkit-backdrop-filter: blur(1.5px);
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
+
 }
 
 #modal .modal-window {
