@@ -142,7 +142,7 @@ function modalOff() {
 const btnModal = document.getElementById("btn-modal");
 
 function openmod(link){
-    var modpage = getElementById('mod-text');
+    var modpage = getElementById('modtext');
 
     var xhr = new XMLHttpRequest();
     xhr.onreadystatechange = function() {

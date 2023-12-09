@@ -85,7 +85,7 @@
                                 <div id="cont">
                                     <button id="btn-modal" onclick='openmod("3_5mm.php")'>모달 창 열기 버튼</button>
                                 </div>
-                                <div id='mod-text'>
+                                <div id='modtext'>
 
                                 </div>
                                 <?php include "php/create_Perform_table.php" ?>
