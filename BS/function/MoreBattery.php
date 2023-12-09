@@ -6,21 +6,27 @@ $selectedValue = isset($_POST['selected']) ? $_POST['selected'] : '';
 
 $sql = "
 SELECT T.Tel_Type
-FROM Telephone T JOIN Sound S
-ON T.Tel_Type = S.Tel_Type
-WHERE S.3_5mm_Jack = 'Y';
+FROM Telephone T JOIN Battery B
+ON T.Tel_Type = B.Tel_Type
+WHERE B.Size > (
+    SELECT B.Size
+    FROM Telephone T JOIN Battery B
+    ON T.Tel_Type = B.Tel_Type
+    WHERE T.Tel_Type = '$selectedValue')
+ORDER BY B.Size
+LIMIT 5;
 ";
 
 $result = $conn->query($sql);
 
 if($result->num_rows > 0){
 	while($row = $result->fetch_assoc()){
-    echo "<p>", $row["Tel_Type"], "</p>";
+    echo $row["Tel_Type"], "  ";
 	}
-
 }else{
 	echo "0 Results";
 }
 
 $conn->close();
 ?>
+

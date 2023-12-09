@@ -82,6 +82,7 @@
                                 This is MainPage
                             </div>
                             <div class="page" id="page1">
+                                <?php include 'php/create_Scroll_Menu.php'; ?>
                                 <div id="cont">
                                     <button id="btn-modal" onclick='openmod("3_5mm.php")'>Open Modal</button>
                                 </div>

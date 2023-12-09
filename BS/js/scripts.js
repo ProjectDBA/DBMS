@@ -143,7 +143,21 @@ const btnModal = document.getElementById("btn-modal");
 
 function openmod(link){
     var modpage = document.getElementById('modcontent');
-    var selected = '';
+    var title = modal.getElementById('title');
+    var phonename = document.getElementById('ViewPerformance').getElementById('Phonename');
+    var selected = phonename.value;
+
+    if(link = '3_5mm.php'){
+        title.value = '3_5mm';
+    }else if(link = 'CurrentChipSet.php'){
+        title.value = 'CurrentChipSet';
+    }else if(link = 'isQuad.php'){
+        title.value = 'isQuad';
+    }else if(link = 'LessWeight.php'){
+        title.value = 'LessWeight';
+    }else if(link = 'MoreBattery.php'){
+        title.value = 'MoreBattery';
+    }
 
     var xhr = new XMLHttpRequest();
     xhr.onreadystatechange = function() {

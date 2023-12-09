@@ -22,7 +22,7 @@ if($result->num_rows > 0){
             <tr>
                 <td> </td>
                 <td> <h2 class='Phonename'>Performance</h2></td>
-                <td> <h2 class='Phonename'>", $row["Tel_Type"], "</h2></td>
+                <td> <h2 class='Phonename' id='Phonename'>", $row["Tel_Type"], "</h2></td>
             </tr>
             <td class='relation' rowspan='7'>Telephone</td>
             <tr>
