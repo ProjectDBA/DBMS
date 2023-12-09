@@ -162,7 +162,7 @@ function openmod(link){
 
 const closeBtn = document.getElementById("close-area");
 closeBtn.addEventListener("click", function() {
-    modalOff()
+    modalOff();
 });
 
 modal.addEventListener("click", function(event) {
@@ -170,7 +170,7 @@ modal.addEventListener("click", function(event) {
     if(evTarget.classList.contains("modal-overlay")) {
         modalOff();
     }
-});
+}); 
 
 window.addEventListener("keyup", function(event) {
     if(isModalOn() && event.key === "Escape") {
