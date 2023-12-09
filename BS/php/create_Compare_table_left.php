@@ -26,7 +26,8 @@ if($result->num_rows > 0){
                 </td>
                 <td>
                     <form id='form1'>
-                        ", include 'create_dropdownbox1.php';
+                        ";
+        include 'create_dropdownbox1.php';
         echo"
                     </form>
                 </td>

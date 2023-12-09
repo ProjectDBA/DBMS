@@ -14,39 +14,39 @@ WHERE T.Tel_Type = '$selectedValue';
 ";
 
 $result = $conn->query($sql);
-
-if($result->num_rows > 0){
-	while ($row = $result->fetch_assoc()) {
-		echo "
-		<table class='Phonetable' id='ViewPerformance'>
-            <tr>
-                <td>
-                    <form id='form2'>
-                        ", include 'create_dropdownbox2.php';
-        echo"
-                    </form>
-                </td>
-            </tr> 
-            <tr>
-				<td class='datavalue' id='Telimg'><img src='", $row["Picture"], "' alt='Image'></td>
-			</tr>
-            <tr>
-				<td class='datavalue' id='TelephonePriceData'>", $row["Price"], "$</td>
-			</tr>
-			<tr>
-				<td class='datavalue' id='TelephoneGeekbenchPerformanceData'>", $row["GeekbenchPerformance"], "</td>
-			</tr>
-			<tr>
-				<td class='datavalue' id='TelephoneManufacturerNameData'>", $row["Manufacturer_Name"], "</td>
-			</tr>
-			<tr>
-				<td class='datavalue' id='TelephoneReleasedData'>", $row["Released"], "</td>
-			</tr>
-			<tr>
-				<td class='datavalue' id='TelephoneAnnouncedData'>", $row["Announced"], "</td>
-			</tr>";
-	}
-}else{
+//
+if ($result->num_rows > 0) {
+    while ($row = $result->fetch_assoc()) {
+        echo "<table class='Phonetable' id='ViewPerformance'>
+                <tr>
+                    <td>
+                        <form id='form2'> 
+                            ";
+        include 'create_dropdownbox2.php';
+        echo "
+                        </form>
+                    </td>
+                </tr>
+                <tr>
+                    <td class='datavalue' id='Telimg'><img src='" . $row["Picture"] . "' alt='Image'></td>
+                </tr>
+                <tr>
+                    <td class='datavalue' id='TelephonePriceData'>" . $row["Price"] . "$</td>
+                </tr>
+                <tr>
+                    <td class='datavalue' id='TelephoneGeekbenchPerformanceData'>" . $row["GeekbenchPerformance"] . "</td>
+                </tr>
+                <tr>
+                    <td class='datavalue' id='TelephoneManufacturerNameData'>" . $row["Manufacturer_Name"] . "</td>
+                </tr>
+                <tr>
+                    <td class='datavalue' id='TelephoneReleasedData'>" . $row["Released"] . "</td>
+                </tr>
+                <tr>
+                    <td class='datavalue' id='TelephoneAnnouncedData'>" . $row["Announced"] . "</td>
+                </tr>";
+    }
+} else {
     echo "0 Results";
 }
 
