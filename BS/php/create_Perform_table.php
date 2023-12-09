@@ -3,8 +3,6 @@ include 'idconfig_project.php';
 
 mysqli_select_db($conn, $dbname) or die('DB selection failed');
 
-include 'create_Modal.php';
-
 $selectedValue = isset($_POST['selected']) ? $_POST['selected'] : '- Select -';
 
 $sql = "
@@ -350,5 +348,7 @@ if($result->num_rows > 0){
 }
 
 echo "</table>";
+
+include 'create_Modal.php';
 
 ?>
