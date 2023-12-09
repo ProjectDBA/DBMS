@@ -140,6 +140,23 @@ function modalOff() {
 }
 
 const btnModal = document.getElementById("btn-modal");
+
+function openmod(link){
+    var modpage = getElementById('mod-text');
+
+    var xhr = new XMLHttpRequest();
+    xhr.onreadystatechange = function() {
+        if (xhr.readyState == 4 && xhr.status == 200) {
+            modpage.innerHTML= xhr.responseText;
+            console.log('Process:', xhr.responseText);
+        }
+    };
+
+    xhr.open('POST', './function/' + link, true);
+    xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+    xhr.send('selected=' + encodeURIComponent(selected));
+}
+
 btnModal.addEventListener("click", e => {
     modalOn()
 });
