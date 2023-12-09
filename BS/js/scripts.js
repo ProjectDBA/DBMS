@@ -172,12 +172,11 @@ function openmod(link){
     modalOn()
 }
 
-const closeBtn = document.getElementById("close-area");
-closeBtn.addEventListener("click", e => {
+document.getElementById("close-area").addEventListener("click", e => {
     modalOff()
 });
 
-modal.addEventListener("click", e => {
+document.querySelector('#modal.modal-overlay').addEventListener("click", e => {
     const evTarget = e.target
     if(evTarget.classList.contains("modal-overlay")) {
         modalOff();
