@@ -11325,7 +11325,9 @@ h3, .h3 {
 
 .Comphone{
   color: #fff;
-  font-size: 50px;
+  font-size: 30px;
+  text-align: center;
+  display: inline;
 }
 
 #main-ing{
