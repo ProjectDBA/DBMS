@@ -5,6 +5,7 @@ const menu3 = document.getElementById('sub-menu3');
 
 const list = document.getElementById('phonelist');
 const Clist = document.getElementById('Companylist');
+const btnScroll = document.getElementById('bntscroll');
 const mainpage = document.getElementById('mainpage');
 const page1 = document.getElementById('page1');
 const page2 = document.getElementById('page2');
@@ -21,6 +22,7 @@ function click1() {
     page1.style.display = 'flex';
     page2.style.display = 'none';
     page3.style.display = 'none';
+    btnScroll.style.display ='flex';
 }
 
 function click2() {
@@ -30,6 +32,7 @@ function click2() {
     page1.style.display = 'none';
     page2.style.display = 'flex';
     page3.style.display = 'none';
+    btnScroll.style.display ='none';
 }
 
 function click3() {
@@ -39,6 +42,7 @@ function click3() {
     page1.style.display = 'none';
     page2.style.display = 'none';
     page3.style.display = 'flex';
+    btnScroll.style.display ='none';
 }
 
 button.addEventListener('click', function(){
