@@ -186,9 +186,9 @@ window.addEventListener('scroll', function() {
     var scrollTop = window.scrollY || window.pageYOffset;
     var modalHeight = modal.clientHeight;
     var windowHeight = window.innerHeight;
-  
-    if (modalHeight < windowHeight) {
-      var topPosition = (windowHeight - modalHeight) / 2 + scrollTop;
-      modal.style.top = topPosition + 'px';
-    }
-  });
+    
+        if (modalHeight < windowHeight) {
+            var topPosition = (windowHeight - modalHeight) / 2 + scrollTop;
+            modal.style.top = topPosition + 'px';
+        }
+    });
