@@ -1,4 +1,4 @@
-// JavaScript
+// JavaScript �ڵ�
 const menu1 = document.getElementById('sub-menu1');
 const menu2 = document.getElementById('sub-menu2');
 const menu3 = document.getElementById('sub-menu3');
@@ -32,7 +32,7 @@ function click2() {
     page1.style.display = 'none';
     page2.style.display = 'flex';
     page3.style.display = 'none';
-    btnScroll.style.display ='none';
+    btnScroll.style.display ='flex';
 }
 
 function click3() {
