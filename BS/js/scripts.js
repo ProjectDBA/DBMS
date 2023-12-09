@@ -161,9 +161,7 @@ function openmod(link){
 }
 
 const closeBtn = document.getElementById("close-area");
-closeBtn.addEventListener("click", e => {
-    modalOff()
-});
+closeBtn.addEventListener("click", modalOff());
 
 modal.addEventListener("click", e => {
     const evTarget = e.target
@@ -183,9 +181,9 @@ window.addEventListener('scroll', function() {
     var scrollTop = window.scrollY || window.pageYOffset;
     var modalHeight = modal.clientHeight;
     var windowHeight = window.innerHeight;
-  
+    
     if (modalHeight < windowHeight) {
-      var topPosition = (windowHeight - modalHeight) / 2 + scrollTop;
-      modal.style.top = topPosition + 'px';
+        var topPosition = (windowHeight - modalHeight) / 2 + scrollTop;
+        modal.style.top = topPosition + 'px';
     }
-  });
+    });
