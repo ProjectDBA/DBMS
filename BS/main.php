@@ -77,6 +77,9 @@
                         <div class="phonelist" id="phonelist">
                             <?php include "php/create_list.php"; ?>    
                         </div>
+                        <div class='bntscroll' id='bntscroll'>
+                            <p>button</p>
+                        </div>
                         <div class="perform">
                             <div class="page" id="mainpage">
                                 This is MainPage
