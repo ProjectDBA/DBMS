@@ -180,7 +180,7 @@ window.addEventListener("keyup", e => {
 
 /*modal scroll*/
 var initialTopPosition = (window.innerHeight - modal.clientHeight) / 2;
-modal.style.top = initialTopPosition + 'px';
+//modal.style.top = initialTopPosition + 'px';
 
 window.addEventListener('scroll', function() {
     var scrollTop = window.scrollY || window.pageYOffset;
