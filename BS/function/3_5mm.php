@@ -19,7 +19,7 @@ if($result->num_rows > 0){
 				<div class='title'>
 					<h2>Modal</h2>
 				</div>
-				<div class='close-area'>X</div>
+				<div class='close-area' id='close-area'>X</div>
 				<div class='content'>";
 
 	while($row = $result->fetch_assoc()){

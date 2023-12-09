@@ -143,6 +143,7 @@ const btnModal = document.getElementById("btn-modal");
 
 function openmod(link){
     var modpage = document.getElementById('modtext');
+    var selected = '';
 
     var xhr = new XMLHttpRequest();
     xhr.onreadystatechange = function() {
@@ -159,7 +160,7 @@ function openmod(link){
     modalOn()
 }
 
-const closeBtn = document.getElementsByClassName("close-area");
+const closeBtn = document.getElementById("close-area");
 closeBtn.addEventListener("click", e => {
     modalOff()
 });
