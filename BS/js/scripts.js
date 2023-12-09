@@ -159,7 +159,7 @@ function openmod(link){
     modalOn()
 }
 
-const closeBtn = modal.getElementsByClassName("close-area");
+const closeBtn = document.getElementsByClassName("close-area");
 closeBtn.addEventListener("click", e => {
     modalOff()
 });
