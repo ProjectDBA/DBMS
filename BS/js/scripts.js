@@ -213,11 +213,11 @@ window.addEventListener("keyup", e => {
 
 window.addEventListener('scroll', function() {
     var scrollTop = window.scrollY || window.pageYOffset;
-    var modalHeight = modal.clientHeight;
+    var modalHeight = document.querySelector('#modal.modal-overlay').clientHeight;
     var windowHeight = window.innerHeight;
     
         if (modalHeight < windowHeight) {
             var topPosition = (windowHeight - modalHeight) / 2 + scrollTop;
-            modal.style.top = topPosition + 'px';
+            document.querySelector('#modal.modal-overlay').style.top = topPosition + 'px';
         }
     });
