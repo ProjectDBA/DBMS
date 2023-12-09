@@ -32,7 +32,7 @@ function click2() {
     page1.style.display = 'none';
     page2.style.display = 'flex';
     page3.style.display = 'none';
-    btnScroll.style.display ='flex';
+    btnScroll.style.display ='none';
 }
 
 function click3() {
