@@ -170,16 +170,17 @@ function openmod(link){
     modalOn()
 }
 
-document.getElementById("close-area").addEventListener("click", e => {
-    modalOff()
-});
 
-document.querySelector('#modal.modal-overlay').addEventListener("click", e => {
+function modalOffClick(){
+    modalOff();
+}
+
+function overlaymodalOffClick(e){
     const evTarget = e.target
     if(evTarget.classList.contains("modal-overlay")) {
         modalOff();
     }
-});
+}
 
 window.addEventListener("keyup", e => {
     if(isModalOn() && e.key === "Escape") {
