@@ -147,15 +147,15 @@ function openmod(link){
     var phonename = document.querySelector('#ViewPerformance #Phonename');
     var selected = phonename.value;
 
-    if(link = '3_5mm.php'){
+    if(link === '3_5mm.php'){
         title.value = '3_5mm';
-    }else if(link = 'CurrentChipSet.php'){
+    }else if(link === 'CurrentChipSet.php'){
         title.value = 'CurrentChipSet';
-    }else if(link = 'isQuad.php'){
+    }else if(link === 'isQuad.php'){
         title.value = 'isQuad';
-    }else if(link = 'LessWeight.php'){
+    }else if(link === 'LessWeight.php'){
         title.value = 'LessWeight';
-    }else if(link = 'MoreBattery.php'){
+    }else if(link === 'MoreBattery.php'){
         title.value = 'MoreBattery';
     }
 
