@@ -1,4 +1,4 @@
-<?php include './php/idconfig_project.php'; 
+<?php include '../php/idconfig_project.php'; 
 
 mysqli_select_db($conn, $dbname) or die('DB selection failed');
 
