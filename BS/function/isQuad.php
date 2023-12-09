@@ -8,7 +8,7 @@ $sql = "
 SELECT T.Tel_Type
 FROM Telephone T JOIN Camera C
 on T.Tel_Type = C.Tel_Type
-WHERE C.M_Quard <> NULL;
+WHERE C.M_Quard;
 ";
 
 $result = $conn->query($sql);
