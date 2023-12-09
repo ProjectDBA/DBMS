@@ -10973,6 +10973,14 @@ table, th, td {
   width: 500px;
   height: 100px;
 }
+.attriCPU{
+  width: 380px;
+  height: 130px;
+}
+.datavalueCPU{
+  width: 380px;
+  height: 130px;
+}
 
 @import 'https://fonts.googleapis.com/css?family=Open+Sans:600,700';
 
