@@ -71,7 +71,7 @@ if($result->num_rows > 0){
             <td class='datavalue' id='PlatformChipsetData'>", $row["Chipset"], "</td>
         </tr>
         <tr>
-            <td class='datavalue' id='PlatformCPUData'>", $row["CPU"], "</td>
+            <td class='datavalueCPU' id='PlatformCPUData'>", $row["CPU"], "</td>
         </tr>
         <tr>
             <td class='datavalue' id='PlatformGPUData'>", $row["GPU"], "</td>
