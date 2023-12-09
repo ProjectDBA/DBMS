@@ -125,18 +125,16 @@ function gettext(event) {
     xhr.send('selected=' + encodeURIComponent(selected));
 };
 
-var modal = document.querySelector('#modal.modal-overlay');
-
 function modalOn() {
-    modal.style.display = "flex"
+    document.querySelector('#modal.modal-overlay').style.display = "flex"
 }
 
 function isModalOn() {
-    return modal.style.display === "flex"
+    return document.querySelector('#modal.modal-overlay').style.display === "flex"
 }
 
 function modalOff() {
-    modal.style.display = "none"
+    document.querySelector('#modal.modal-overlay').style.display = "none"
 }
 
 const btnModal = document.getElementById("btn-modal");
