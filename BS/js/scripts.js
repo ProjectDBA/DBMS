@@ -161,19 +161,31 @@ function openmod(link){
 }
 
 const closeBtn = document.getElementById("close-area");
-closeBtn.addEventListener("click", function() {
-    modalOff();
+closeBtn.addEventListener("click", e => {
+    modalOff()
 });
 
-modal.addEventListener("click", function(event) {
-    const evTarget = event.target
+modal.addEventListener("click", e => {
+    const evTarget = e.target
     if(evTarget.classList.contains("modal-overlay")) {
         modalOff();
     }
-}); 
+});
 
-window.addEventListener("keyup", function(event) {
-    if(isModalOn() && event.key === "Escape") {
+window.addEventListener("keyup", e => {
+    if(isModalOn() && e.key === "Escape") {
         modalOff();
     }
 });
+
+/*modal scroll*/
+window.addEventListener('scroll', function() {
+    var scrollTop = window.scrollY || window.pageYOffset;
+    var modalHeight = modal.clientHeight;
+    var windowHeight = window.innerHeight;
+  
+    if (modalHeight < windowHeight) {
+      var topPosition = (windowHeight - modalHeight) / 2 + scrollTop;
+      modal.style.top = topPosition + 'px';
+    }
+  });
