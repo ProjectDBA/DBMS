@@ -91,12 +91,14 @@
                                             <h2>Modal</h2>
                                         </div>
                                         <div class='close-area' id='close-area'>X</div>
-                                        <div class='modcontent' id='modcontent'>
-                                            
-                                        </div>
+                                        <div class='modcontent' id='modcontent'></div>
                                     </div>
+
                                 </div>
                                 <?php include "php/create_Perform_table.php" ?>
+                                <div class='bntscroll' id='bntscroll' style="overflow-y: scroll; height:200px;">
+                                    <p>button</p>
+                                </div>
                             </div>
                             <div class="page" id="page2">
                                 <h1>Compare</h1>
