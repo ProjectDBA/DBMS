@@ -26,7 +26,7 @@ if($result->num_rows > 0){
         echo"
                     </form>
                 </td>
-            </tr>
+            </tr> 
             <tr>
 				<td class='datavalue' id='Telimg'><img src='", $row["Picture"], "' alt='Image'></td>
 			</tr>
