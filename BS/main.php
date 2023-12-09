@@ -87,9 +87,6 @@
                             <div class="page" id="page1">
                                 <?php include "php/create_Perform_table.php" ?>
                             </div>
-                            <div class='bntscroll' id='bntscroll'>
-                            <?php include "php/create_Scroll_Menu.php"?>
-                            </div>
                             <div class="page" id="page2">
                                 <h1>Compare</h1>
                                     <div class="Compare_all" id="Compare_all">
@@ -102,6 +99,9 @@
                                     </div>
                             </div>
                             <div class="page" id="page3">
+                            </div>
+                            <div class='bntscroll' id='bntscroll'>
+                                <?php include "php/create_Scroll_Menu.php"?>
                             </div>
                         </div>
                 </div>
