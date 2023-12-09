@@ -82,7 +82,7 @@
                         </div>
                         <div class="perform">
                             <div class="page" id="mainpage">
-                                <img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fimg.appstory.co.kr%2F%40files%2Fmonthly.appstory.co.kr%2Fthum%2FBdatafile%2FBoard%2Fdir_128%2F12850.jpg&tbnid=u1XnMqmOdGmAgM&vet=12ahUKEwjm6s7DiYKDAxU3ilYBHXq4DH0QMygZegUIARCrAQ..i&imgrefurl=https%3A%2F%2Fnews.appstory.co.kr%2Fhowto12850&docid=hkeEM189hhPaWM&w=640&h=375&q=%ED%9C%B4%EB%8C%80%ED%8F%B0%20%EC%82%AC%EC%A7%84&ved=2ahUKEwjm6s7DiYKDAxU3ilYBHXq4DH0QMygZegUIARCrAQ" alt='image'>
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFr2jfKTPQ0S4Mbdl0_m19_rE6xetEZIj8lD6p_lkVWBgOwDCXaDbusvFQ0AuIJjj_6Uw&usqp=CAU" alt='image'>
                             </div>
                             <div class="page" id="page1">
                                 <?php include "php/create_Perform_table.php" ?>
