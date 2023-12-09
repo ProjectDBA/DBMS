@@ -155,11 +155,9 @@ function openmod(link){
     xhr.open('POST', './function/' + link, true);
     xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
     xhr.send('selected=' + encodeURIComponent(selected));
-}
 
-btnModal.addEventListener("click", e => {
     modalOn()
-});
+}
 
 const closeBtn = modal.querySelector(".close-area");
 closeBtn.addEventListener("click", e => {
