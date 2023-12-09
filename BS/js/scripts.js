@@ -41,7 +41,7 @@ function click3() {
     Clist.style.display = 'flex';
     page1.style.display = 'none';
     page2.style.display = 'none';
-    page3.style.display = 'flex';
+    page3.style.display = 'inline';
     btnScroll.style.display ='none';
 }
 
