@@ -82,7 +82,7 @@
                         </div>
                         <div class="perform">
                             <div class="page" id="mainpage">
-                                <img style='align-contents: center; height:400px; width: 900px;' src="https://png.pngtree.com/thumb_back/fw800/background/20230526/pngtree-large-magnifying-cell-phone-with-purple-liquids-image_2636595.jpg" alt='image'>
+                                <img style='display: flex; justify-contents: center; height:400px; width: 900px;' src="https://png.pngtree.com/thumb_back/fw800/background/20230526/pngtree-large-magnifying-cell-phone-with-purple-liquids-image_2636595.jpg" alt='image'>
                             </div>
                             <div class="page" id="page1">
                                 <?php include "php/create_Perform_table.php" ?>
