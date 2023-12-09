@@ -17,7 +17,7 @@ if($result->num_rows > 0){
 	echo "<div id='modal' class='modal-overlay'>
 			<div class='modal-window'>
 				<div class='title'>
-					<h2>И№До</h2>
+					<h2>Modal</h2>
 				</div>
 				<div class='close-area'>X</div>
 				<div class='content'>";
