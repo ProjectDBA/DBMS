@@ -143,7 +143,7 @@ const btnModal = document.getElementById("btn-modal");
 
 function openmod(link){
     var modpage = document.getElementById('modcontent');
-    var title = modal.getElementById('title');
+    var title = document.getElementById('modal').getElementById('title');
     var phonename = document.getElementById('ViewPerformance').getElementById('Phonename');
     var selected = phonename.value;
 
