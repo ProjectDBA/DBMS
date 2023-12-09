@@ -144,7 +144,7 @@ function getComtext(event) {
         }
     };
 
-    xhr.open('POST', './php/create_Perform_table.php', true);
+    xhr.open('POST', './php/create_Company_table.php', true);
     xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
     xhr.send('selected=' + encodeURIComponent(selected));
 };
