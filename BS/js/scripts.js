@@ -137,8 +137,6 @@ function modalOff() {
     document.querySelector('#modal.modal-overlay').style.display = "none"
 }
 
-const btnModal = document.getElementById("btn-modal");
-
 function openmod(link){
     var modpage = document.getElementById('modcontent');
     var title = document.querySelector('#modal #title');
