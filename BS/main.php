@@ -83,7 +83,7 @@
                             </div>
                             <div class="page" id="page1">
                                 <div id="cont">
-                                    <button id="btn-modal" onclick='openmod("3_5mm.php")'>모달 창 열기 버튼</button>
+                                    <button id="btn-modal" onclick='openmod("3_5mm.php")'>Open Modal</button>
                                 </div>
                                 <div id='modal' class='modal-overlay'>
                                     <div class='modal-window'>
