@@ -11273,3 +11273,12 @@ h3, .h3 {
   color: white;
 }
 
+/*button scroll*/
+.bntscroll{
+  position: sticky;
+  top: 20px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #e9ecef;
+  border-radius: 10px;
+}
