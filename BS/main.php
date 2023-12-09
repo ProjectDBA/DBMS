@@ -82,7 +82,7 @@
                         </div>
                         <div class="perform">
                             <div class="page" id="mainpage">
-                                <img id='main-img' src="https://png.pngtree.com/thumb_back/fw800/background/20230526/pngtree-large-magnifying-cell-phone-with-purple-liquids-image_2636595.jpg" alt='image'>
+                                <img id='main-img' src="https://t1.daumcdn.net/cfile/tistory/99D8FF355E0F77C822" alt='image'>
                             </div>
                             <div class="page" id="page1">
                                 <?php include "php/create_Perform_table.php" ?>
