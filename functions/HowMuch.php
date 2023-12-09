@@ -10,7 +10,8 @@ SELECT Tel_Type, Price
 FROM Telephone
 WHERE Price > '$MinValue'
 AND Price < '$MaxValue'
-ORDER BY T.Price DESC;
+ORDER BY T.Price DESC
+LIMIT 10;
 ";
 
 $result = $conn->query($sql);
