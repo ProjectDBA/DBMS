@@ -82,19 +82,6 @@
                                 This is MainPage
                             </div>
                             <div class="page" id="page1">
-                                <?php include 'php/create_Scroll_Menu.php'; ?>
-                                <div id="cont">
-                                    <button id="btn-modal" onclick='openmod("3_5mm.php")'>Open Modal</button>
-                                </div>
-                                <div id='modal' class='modal-overlay'>
-                                    <div class='modal-window'>
-                                        <div class='title'>
-                                            <h2>Modal</h2>
-                                        </div>
-                                        <div class='close-area' id='close-area'>X</div>
-                                        <div class='modcontent' id='modcontent'></div>
-                                    </div>
-                                </div>
                                 <?php include "php/create_Perform_table.php" ?>
                             </div>
                             <div class='bntscroll' id='bntscroll'>
