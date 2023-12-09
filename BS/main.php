@@ -91,7 +91,7 @@
                                             <h2>Modal</h2>
                                         </div>
                                         <div class='close-area' id='close-area'>X</div>
-                                        <div class='modcontent'>
+                                        <div class='modcontent' id='modcontent'>
                                             
                                         </div>
                                     </div>
