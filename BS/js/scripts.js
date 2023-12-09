@@ -145,7 +145,7 @@ function openmod(link){
     var modpage = document.getElementById('modcontent');
     var title = document.querySelector('#modal #title');
     var phonename = document.querySelector('#ViewPerformance #Phonename');
-    var selected = phonename.value;
+    var selected = phonename.innerText;
 
     if(link === '3_5mm.php'){
         title.innerText = '3_5mm';
