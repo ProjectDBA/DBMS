@@ -170,7 +170,6 @@ function openmod(link){
     modalOn()
 }
 
-
 function modalOffClick(){
     modalOff();
 }
