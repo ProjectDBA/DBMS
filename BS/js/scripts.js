@@ -44,6 +44,7 @@ function click3() {
     page3.style.display = 'flex';
     page3.style.flexWrap = 'wrap';
     page3.style.flexDirection = 'row';
+    page3.style.justifyContent = 'space-between';
     btnScroll.style.display ='none';
 }
 
