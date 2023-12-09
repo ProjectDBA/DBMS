@@ -6,7 +6,7 @@ $selectedValue = isset($_POST['selected']) ? $_POST['selected'] : '';
 
 $sql = "
 SELECT T.Tel_Type
-FROM Telephone T JOIN camera C
+FROM Telephone T JOIN Camera C
 on T.Tel_Type = C.Tel_Type
 WHERE C.M_Quard <> NULL;
 ";
