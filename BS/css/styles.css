@@ -10955,6 +10955,7 @@ table, th, td {
   display: flex;
   border: none;
   text-align: center;
+  align-items: center;
 }
 
 .Phonename{
@@ -11326,3 +11327,9 @@ h3, .h3 {
   color: #fff;
   font-size: 50px;
 }
+
+#main-ing{
+  height: 400px;
+  width: 900px;
+}
+
