@@ -10975,14 +10975,14 @@ table, th, td {
 }
 .attriCPU{
   width: 380px;
-  height: 130px;
+  height: 150px;
   font-family: Arial, sans-serif;
   font-size: 20px;
   font-weight: 450;
 }
 .datavalueCPU{
   width: 380px;
-  height: 130px;
+  height: 150px;
   text-align: center;
   font-size: 20px;
 }
