@@ -11,7 +11,7 @@ echo"
 <div id='modal' class='modal-overlay'>
     <div class='modal-window'>
         <div class='title'>
-            <h3 id='title'></h3>
+            <h4 id='title'></h4>
         </div>
         <div class='close-area' id='close-area'>X</div>
         <div class='modcontent' id='modcontent'></div>
