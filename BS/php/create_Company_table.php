@@ -17,7 +17,7 @@ $result = $conn->query($sql);
 
 if($result->num_rows > 0){
 	while ($row = $result->fetch_assoc()) {
-		echo "<span class='Comphone'>", $row["Tel_Type"],"</span>";
+		echo "<p class='Comphone'>", $row["Tel_Type"],"</p>";
 	}
 }else{
 	echo "0 Results";
