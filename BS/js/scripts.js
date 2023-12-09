@@ -4,6 +4,7 @@ const menu2 = document.getElementById('sub-menu2');
 const menu3 = document.getElementById('sub-menu3');
 
 const list = document.getElementById('phonelist');
+const Clist = document.getElementById('Companylist');
 const mainpage = document.getElementById('mainpage');
 const page1 = document.getElementById('page1');
 const page2 = document.getElementById('page2');
@@ -16,9 +17,28 @@ const comselect = document.getElementsByClassName('pdropbox');
 function click1() {
     mainpage.style.display = 'none';
     list.style.display = 'flex';
+    Clist.style.display = 'none';
     page1.style.display = 'flex';
     page2.style.display = 'none';
     page3.style.display = 'none';
+}
+
+function click2() {
+    mainpage.style.display = 'none';
+    list.style.display = 'none';
+    Clist.style.display = 'none';
+    page1.style.display = 'none';
+    page2.style.display = 'flex';
+    page3.style.display = 'none';
+}
+
+function click3() {
+    mainpage.style.display = 'none';
+    list.style.display = 'none';
+    Clist.style.display = 'flex';
+    page1.style.display = 'none';
+    page2.style.display = 'none';
+    page3.style.display = 'flex';
 }
 
 button.addEventListener('click', function(){
@@ -92,22 +112,6 @@ combutton.addEventListener('click', function(){
     xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
     xhr.send('selected=' + encodeURIComponent(selected));
 })
-
-function click2() {
-    mainpage.style.display = 'none';
-    list.style.display = 'none';
-    page1.style.display = 'none';
-    page2.style.display = 'flex';
-    page3.style.display = 'none';
-}
-
-function click3() {
-    mainpage.style.display = 'none';
-    list.style.display = 'none';
-    page1.style.display = 'none';
-    page2.style.display = 'none';
-    page3.style.display = 'flex';
-}
 
 function gettext(event) {
     var selected = event.innerText;
