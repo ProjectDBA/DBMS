@@ -161,19 +161,19 @@ function openmod(link){
 }
 
 const closeBtn = document.getElementById("close-area");
-closeBtn.addEventListener("click", e => {
+closeBtn.addEventListener("click", function() {
     modalOff()
 });
 
-modal.addEventListener("click", e => {
-    const evTarget = e.target
+modal.addEventListener("click", function(event) {
+    const evTarget = event.target
     if(evTarget.classList.contains("modal-overlay")) {
         modalOff();
     }
 });
 
-window.addEventListener("keyup", e => {
-    if(isModalOn() && e.key === "Escape") {
+window.addEventListener("keyup", function(event) {
+    if(isModalOn() && event.key === "Escape") {
         modalOff();
     }
 });
