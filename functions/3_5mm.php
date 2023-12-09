@@ -2,8 +2,6 @@
 
 mysqli_select_db($conn, $dbname) or die('DB selection failed');
 
-$selectedValue = isset($_POST['selected']) ? $_POST['selected'] : '';
-
 $sql = "
 SELECT T.Tel_Type
 FROM Telephone T JOIN Sound S
@@ -21,7 +19,7 @@ if($result->num_rows > 0){
 				</div>
 				<div class='close-area'>X</div>
 				<div class='content'>";
-				
+
 	while($row = $result->fetch_assoc()){
     echo    		"<p>", $row["Tel_Type"], "</p>";
 	}
