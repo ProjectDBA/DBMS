@@ -96,9 +96,9 @@
 
                                 </div>
                                 <?php include "php/create_Perform_table.php" ?>
-                                <div class='bntscroll' id='bntscroll' style="overflow-y: scroll; height:200px;">
+                                <section class='bntscroll' id='bntscroll'>
                                     <p>button</p>
-                                </div>
+                                </section>
                             </div>
                             <div class="page" id="page2">
                                 <h1>Compare</h1>
