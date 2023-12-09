@@ -125,6 +125,22 @@ function gettext(event) {
     xhr.send('selected=' + encodeURIComponent(selected));
 };
 
+function getComtext(event) {
+    var selected = event.innerText;
+
+    var xhr = new XMLHttpRequest();
+    xhr.onreadystatechange = function() {
+        if (xhr.readyState == 4 && xhr.status == 200) {
+            page1.innerHTML= xhr.responseText;
+            console.log('Process:', xhr.responseText);
+        }
+    };
+
+    xhr.open('POST', './php/create_Perform_table.php', true);
+    xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+    xhr.send('selected=' + encodeURIComponent(selected));
+};
+
 function modalOn() {
     document.querySelector('#modal.modal-overlay').style.display = "flex"
 }

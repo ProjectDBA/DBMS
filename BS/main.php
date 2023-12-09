@@ -77,6 +77,9 @@
                         <div class="phonelist" id="phonelist">
                             <?php include "php/create_list.php"; ?>    
                         </div>
+                        <div class="phonelist" id="Companylist">
+                            <?php include "php/create_Company_list.php"; ?>    
+                        </div>
                         <div class="perform">
                             <div class="page" id="mainpage">
                                 This is MainPage
@@ -99,7 +102,6 @@
                                     </div>
                             </div>
                             <div class="page" id="page3">
-                                <h1>P3</h1>
                             </div>
                         </div>
                 </div>
