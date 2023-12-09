@@ -125,7 +125,7 @@ function gettext(event) {
     xhr.send('selected=' + encodeURIComponent(selected));
 };
 
-const modal = document.getElementById("modal");
+var modal = document.getElementById("modal");
 
 function modalOn() {
     modal.style.display = "flex"

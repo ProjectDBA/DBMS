@@ -5,6 +5,8 @@ mysqli_select_db($conn, $dbname) or die('DB selection failed');
 
 $selectedValue = isset($_POST['selected']) ? $_POST['selected'] : '- Select -';
 
+include 'create_Modal.php';
+
 $sql = "
 SELECT T.Tel_Type, T.Picture, T.Price, T.GeekbenchPerformance, M.Manufacturer_Name, T.Announced, T.Released
 FROM Telephone T
@@ -348,7 +350,5 @@ if($result->num_rows > 0){
 }
 
 echo "</table>";
-
-include 'create_Modal.php';
 
 ?>
