@@ -148,15 +148,15 @@ function openmod(link){
     var selected = phonename.value;
 
     if(link === '3_5mm.php'){
-        title.value = '3_5mm';
+        title.innerText = '3_5mm';
     }else if(link === 'CurrentChipSet.php'){
-        title.value = 'CurrentChipSet';
+        title.innerText = 'CurrentChipSet';
     }else if(link === 'isQuad.php'){
-        title.value = 'isQuad';
+        title.innerText = 'isQuad';
     }else if(link === 'LessWeight.php'){
-        title.value = 'LessWeight';
+        title.innerText = 'LessWeight';
     }else if(link === 'MoreBattery.php'){
-        title.value = 'MoreBattery';
+        title.innerText = 'MoreBattery';
     }
 
     var xhr = new XMLHttpRequest();
