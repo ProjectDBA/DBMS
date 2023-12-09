@@ -99,7 +99,7 @@
                                     </div>
                             </div>
                             <div class="page" id="page3">
-                                <?php include 'php/create_Company_table.php' ?>
+                                
                             </div>
                             <div class='bntscroll' id='bntscroll'>
                                 <?php include "php/create_Scroll_Menu.php"?>
