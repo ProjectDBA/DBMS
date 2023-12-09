@@ -10976,10 +10976,15 @@ table, th, td {
 .attriCPU{
   width: 380px;
   height: 130px;
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 450;
 }
 .datavalueCPU{
   width: 380px;
   height: 130px;
+  text-align: center;
+  font-size: 20px;
 }
 
 @import 'https://fonts.googleapis.com/css?family=Open+Sans:600,700';
