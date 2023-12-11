@@ -5,15 +5,13 @@ mysqli_select_db($conn, $dbname) or die('DB selection failed');
 $selectedValue = isset($_POST['selected']) ? $_POST['selected'] : '- Select -';
 
 $sql = "
-SELECT T.Tel_Type
-From Telephone T JOIN Body B
-ON T.Tel_Type = B.Tel_Type
+SELECT Tel_Type
+From Body B
 WHERE weight < (
-    SELECT B.weight
-    FROM Telephone T JOIN Body B
-    ON T.Tel_Type = B.Tel_Type
-    WHERE T.Tel_Type = '$selectedValue')
-ORDER BY B.weight DESC
+    SELECT weight
+    FROM Body B
+    WHERE Tel_Type = '$selectedValue')
+ORDER BY weight DESC
 LIMIT 5;
 ";
 
