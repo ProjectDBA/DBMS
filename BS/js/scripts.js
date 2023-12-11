@@ -173,7 +173,8 @@ function openmod(link){
     if(link === '3_5mm.php'){
         title.innerText = '3_5mm';
     }else if(link === 'CurrentChipSet.php'){
-        title.innerText = 'CurrentChipSet';
+        var cc = document.querySelector('#PlatformChipsetData').innerText;
+        title.innerText = cc;
     }else if(link === 'isQuad.php'){
         title.innerText = 'isQuad';
     }else if(link === 'LessWeight.php'){

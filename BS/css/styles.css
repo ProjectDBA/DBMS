@@ -585,7 +585,7 @@ progress {
   color: #6c757d;
 }
 .blockquote-footer::before {
-  content: "??ë¶??";
+  content: "??ï¿½??";
 }
 
 .img-fluid {
@@ -11340,3 +11340,11 @@ h3, .h3 {
   width: 900px;
 }
 
+.fuc {
+  border-top: 1px solid white;
+  padding-top: 10px;
+}
+
+h4#title{
+  text-align: center;
+}
