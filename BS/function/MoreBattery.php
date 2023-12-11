@@ -21,7 +21,7 @@ $result = $conn->query($sql);
 
 if($result->num_rows > 0){
 	while($row = $result->fetch_assoc()){
-    echo "<p class='fuc'>", $row["Tel_Type"], " - ", $row["Size"], "Amh</p>";
+    echo "<p class='fuc'>", $row["Tel_Type"], " - ", $row["Size"], "mAh</p>";
 	}
 }else{
 	echo "0 Results";
