@@ -29,7 +29,7 @@
                     <div class="col-xl-6">
                         <div class="text-center text-white">
                             <h1 class="mb-5">Serch Phone!</h1>
-                            <form class="form-subscribe" id="contactForm">
+                            <form class="form-subscribe" id="contactForm" onsubmit='return false'>
                                 <div class="row">
                                     <div class="col">
                                         <input class="form-control form-control-lg" id="inputbox" type="text" list='dlist' placeholder="Phone name" />
